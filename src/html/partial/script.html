@@ -1,0 +1,10 @@
+	<!-- ================== BEGIN core-js ================== -->
+	<script src="assets/js/vendor.min.js"></script>
+	<script src="assets/js/app.min.js"></script>
+	<!-- ================== END core-js ================== -->
+	@@if (context.script && script.length > 0) {
+	<!-- ================== BEGIN page-js ================== -->@@for (var i = 0; i < script.length; i++) {
+	<script src="`+script[i]+`"></script>}
+	<!-- ================== END page-js ================== -->}
+</body>
+</html>

@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html class="bg-cover-2" lang="en"@@if (context.htmlAttribute) { @@htmlAttribute}>
+<head>
+	<meta charset="utf-8" />
+	<title>DUCTILE BEAR DEVELOPMENTS | @@title</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<meta name="description" content="" />
+	<meta name="author" content="" />
+	
+	<!-- ================== BEGIN core-css ================== -->
+	<link href="assets/css/vendor.min.css" rel="stylesheet" />
+	<link href="assets/css/app.min.css" rel="stylesheet" />
+	<!-- ================== END core-css ================== -->
+	@@if (context.css && css.length > 0) {
+	<!-- ================== BEGIN page-css ================== -->@@for (var i = 0; i < css.length; i++) {
+	<link href="`+css[i]+`" rel="stylesheet" />}
+	<!-- ================== END page-css ================== -->
+}
+</head>
+<body@@if (context.bodyAttr) { @@bodyAttr}>

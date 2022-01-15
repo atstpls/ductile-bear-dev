@@ -1,0 +1,110 @@
+@@include('./partial/head.html', {
+	"title": "Compose", 
+	"css": [
+		"assets/plugins/tag-it/css/jquery.tagit.css",
+		"assets/plugins/summernote/dist/summernote-lite.css",
+]})
+	<!-- BEGIN #app -->
+	<div id="app" class="app app-content-full-height">
+		@@include('./partial/header.html')
+		
+		@@include('./partial/sidebar.html', {"emailClass": "active", "composeClass": "active"})
+		
+		<!-- BEGIN #content -->
+		<div id="content" class="app-content p-3">
+			<!-- BEGIN card -->
+			<div class="card h-100">
+				<!-- BEGIN mailbox -->
+				<div class="mailbox">
+					<!-- BEGIN mailbox-toolbar -->
+					<div class="mailbox-toolbar">
+						<div class="mailbox-toolbar-item"><span class="mailbox-toolbar-text">New Message</span></div>
+						<div class="mailbox-toolbar-item"><a href="#" class="mailbox-toolbar-link active">Send</a></div>
+						<div class="mailbox-toolbar-item"><a href="#" class="mailbox-toolbar-link">Attachment</a></div>
+						<div class="mailbox-toolbar-item"><a href="email_inbox.html" class="mailbox-toolbar-link">Discard</a></div>
+						<div class="mailbox-toolbar-item dropdown">
+							<a href="#" class="mailbox-toolbar-link" data-bs-toggle="dropdown"><i class="fa fa-ellipsis-h"></i></a>
+							<div class="dropdown-menu ms-n1">
+								<a href="#" class="dropdown-item">Save draft</a>
+								<a href="#" class="dropdown-item">Show From</a>
+								<a href="#" class="dropdown-item">Check names</a>
+								<a href="#" class="dropdown-item">Set importance</a>
+								<a href="#" class="dropdown-item">Switch to plain text</a>
+								<a href="#" class="dropdown-item">Check for accessibility issues</a>
+							</div>
+						</div>
+						<div class="mailbox-toolbar-item ms-auto"><a href="#" class="mailbox-toolbar-link"><i class="fa fa-redo fa-fw fs-12px me-1"></i> Undo</a></div>
+						<div class="mailbox-toolbar-item"><a href="email_inbox.html" class="mailbox-toolbar-link"><i class="fa fa-times fa-fw"></i> Cancel</a></div>
+					</div>
+					<!-- END mailbox-toolbar -->
+					<!-- BEGIN mailbox-body -->
+					<div class="mailbox-body">
+						<div class="mailbox-content">
+							<!-- BEGIN scrollbar -->
+							<div data-scrollbar="true" data-height="100%">
+								<div class="mailbox-form">
+									<form action="#" method="POST" name="email_form">
+										<div class="mailbox-form-header">
+											<div class="row mb-2">
+												<label class="col-form-label w-100px px-2 fw-500 text-lg-end">To:</label>
+												<div class="col-lg">
+													<ul id="email-to" class="form-control tagit">
+														<li>support@seantheme.com</li>
+													</ul>
+												</div>
+											</div>
+											<div class="row mb-2">
+												<label class="col-form-label w-100px px-2 fw-500 text-lg-end">Cc:</label>
+												<div class="col-lg">
+													<ul id="email-cc" class="form-control tagit">
+													</ul>
+												</div>
+											</div>
+											<div class="row mb-2">
+												<label class="col-form-label w-100px px-2 fw-500 text-lg-end">Bcc:</label>
+												<div class="col-lg">
+													<ul id="email-bcc" class="form-control tagit">
+													</ul>
+												</div>
+											</div>
+											<div class="row mb-0">
+												<label class="col-form-label w-100px px-2 fw-500 text-lg-end">Subject:</label>
+												<div class="col-lg">
+													<input type="text" class="form-control" placeholder="Email subject" />
+												</div>
+											</div>
+										</div>
+										<textarea name="text" class="summernote form-control" title="Contents"></textarea>
+									</form>
+								</div>
+							</div>
+							<!-- END scrollbar -->
+						</div>
+					</div>
+					<!-- END mailbox-body -->
+				</div>
+				<!-- END mailbox -->
+			
+				<!-- BEGIN card-arrow -->
+				<div class="card-arrow">
+					<div class="card-arrow-top-left"></div>
+					<div class="card-arrow-top-right"></div>
+					<div class="card-arrow-bottom-left"></div>
+					<div class="card-arrow-bottom-right"></div>
+				</div>
+				<!-- END card-arrow -->
+			</div>
+			<!-- END card -->
+		</div>
+		<!-- END #content -->
+		
+		@@include('./partial/scroll-top-btn.html')
+	</div>
+	<!-- END #app -->
+	
+@@include('./partial/script.html', {"script": [
+	"assets/plugins/jquery-migrate/dist/jquery-migrate.min.js",
+	"assets/plugins/tag-it/js/tag-it.min.js",
+	"assets/plugins/summernote/dist/summernote-lite.min.js",
+	"assets/js/demo/email-compose.demo.js"
+]})

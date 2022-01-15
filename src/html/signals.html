@@ -1,0 +1,578 @@
+@@include('./partial/head.html', {
+	"title": "Settings", 
+	"bodyAttr": "data-bs-spy='scroll' data-bs-target='#sidebar-bootstrap' data-bs-offset='200'", 
+	"css": [
+]})
+	<!-- BEGIN #app -->
+	<div id="app" class="app">
+		@@include('./partial/header.html')
+		
+		@@include('./partial/sidebar.html', {"settingsClass": "active"})
+		
+		<!-- BEGIN #content -->
+		<div id="content" class="app-content">
+			<!-- BEGIN container -->
+			<div class="container">
+				<!-- BEGIN row -->
+				<div class="row justify-content-center">
+					<!-- BEGIN col-10 -->
+					<div class="col-xl-10">
+						<!-- BEGIN row -->
+						<div class="row">
+							<!-- BEGIN col-9 -->
+							<div class="col-xl-9">
+								<!-- BEGIN #general -->
+								<div id="knowledge" class="mb-5">
+									<h4><i class="far fa-user fa-fw text-theme"></i> Weekly </h4>
+									<p>Read, watch, learn</p>
+									<div class="card">
+										<div class="list-group list-group-flush">
+											<div class="list-group-item d-flex align-items-center">
+												<div class="flex-1 text-break">
+													<div>
+														<i class="fa fa-circle fs-8px fa-fw text-success me-1"></i> 
+														<span class="text-white">
+														MA crossing above EMA 
+														</span>
+													</div>													
+													<div class="text-white text-opacity-50">
+														2 Higher Lows and 2 Higher Highs, then engage 
+													</div>
+												</div>
+
+												<div class="w-100px">
+													<a href="#modalEdit" data-bs-toggle="modal" class="btn btn-outline-theme w-100px">Go</a>
+												</div>
+
+											</div>
+											<div class="list-group-item d-flex align-items-center">
+												<div class="flex-1 text-break">
+													<div><span class="text-white">
+														Leveraging Debt
+													</span></div>													
+													<div class="text-white text-opacity-50">
+														<i class="fa fa-circle fs-8px fa-fw text-success me-1"></i> 
+														Borrow UST when the collateral coin is down
+													</div>
+													<div class="text-white text-opacity-50">
+														<i class="fa fa-circle fs-8px fa-fw text-success me-1"></i> 
+														Payback UST when collateral coin is up
+													</div>												
+												</div>
+
+												<div>
+													<a href="#modalEdit" data-bs-toggle="modal" class="btn btn-outline-theme w-100px">Go</a>
+												</div>
+											</div>
+
+											<div class="list-group-item d-flex align-items-center">
+												<div class="flex-1 text-break">
+													<div>Timing Bots</div>
+													<div class="text-white text-opacity-50">
+														<i class="fa fa-circle fs-8px fa-fw text-success me-1"></i> 
+														Start whales before a drop
+													</div>
+													<div class="text-white text-opacity-50">
+														<i class="fa fa-circle fs-8px fa-fw text-success me-1"></i> 
+														Start vultures before a pop
+													</div>
+												</div>
+												<div>
+													<a href="#modalEdit" data-bs-toggle="modal" class="btn btn-outline-theme w-100px">Go</a>
+												</div>
+											</div>
+
+											<div class="list-group-item d-flex align-items-center">
+												<div class="flex-1 text-break">
+													<div>Credential Hygiene</div>
+													<div class="text-white text-opacity-50">
+														<i class="fa fa-circle fs-8px fa-fw text-success me-1"></i> 
+														Implement 2 Factor Authentication 
+													</div>
+													<div class="text-white text-opacity-50">
+														<i class="fa fa-circle fs-8px fa-fw text-success me-1"></i> 
+														Understand general web security
+													</div>
+												</div>
+												<div>
+													<a href="#modalEdit" data-bs-toggle="modal" class="btn btn-outline-theme w-100px">Go</a>
+												</div>
+											</div>
+
+											<div class="list-group-item d-flex align-items-center">
+												<div class="flex-1 text-break">
+													<div>Market Actors</div>
+													<div class="text-white text-opacity-50">
+														<i class="fa fa-circle fs-8px fa-fw text-success me-1"></i> 
+														Factor in actor knowledge in target market
+													</div>
+													<div class="text-white text-opacity-50">
+														<i class="fa fa-circle fs-8px fa-fw text-success me-1"></i> 
+														Factor in actor behavior in target market
+													</div>												</div>
+												<div>
+													<a href="#modalEdit" data-bs-toggle="modal" class="btn btn-outline-theme w-100px">Go</a>
+												</div>
+											</div>
+										</div>
+										<div class="card-arrow">
+											<div class="card-arrow-top-left"></div>
+											<div class="card-arrow-top-right"></div>
+											<div class="card-arrow-bottom-left"></div>
+											<div class="card-arrow-bottom-right"></div>
+										</div>
+									</div>
+								</div>
+								<!-- END #knowledge -->
+								
+								<!-- BEGIN #skills -->
+								<div id="skills" class="mb-5">
+									<h4><i class="far fa-bell fa-fw text-theme"></i>Skills</h4>
+									<p>Practice and apply knowledge</p>
+									<div class="card">
+										<div class="list-group list-group-flush">
+											<div class="list-group-item d-flex align-items-center">
+												<div class="flex-1 text-break">
+													<div>Quickdraw</div>
+													<div class="text-white text-opacity-50">
+														<i class="fa fa-circle fs-8px fa-fw text-success me-1"></i> 
+														See coin of interest, obtain wallet, buy/trade/stake
+													</div>
+													<div class="text-white text-opacity-50">
+														<i class="fa fa-circle fs-8px fa-fw text-success me-1"></i> 
+														See coin of interest, retrieve docs/info, roadmaps, timeline 
+													</div>
+												</div>
+												<div>
+													<a href="#modalEdit" data-bs-toggle="modal" class="btn btn-outline-theme w-100px">Go</a>
+												</div>
+											</div>
+											<div class="list-group-item d-flex align-items-center">
+												<div class="flex-1 text-break">
+													<div>Transfer Methods</div>
+													<div class="text-white text-opacity-50">
+														<i class="fa fa-circle fs-8px fa-fw text-success me-1"></i> 
+														Cash to crypto
+													</div>
+													<div class="text-white text-opacity-50">
+														<i class="fa fa-circle fs-8px fa-fw text-success me-1"></i> 
+														Crypto to Cash 
+													</div>
+												</div>
+												<div>
+													<a href="#modalEdit" data-bs-toggle="modal" class="btn btn-outline-theme w-100px">Go</a>
+												</div>
+											</div>
+											<div class="list-group-item d-flex align-items-center">
+												<div class="flex-1 text-break">
+													<div>Tags</div>
+													<div class="text-white text-opacity-50 d-flex align-items-center">
+														<i class="fa fa-circle fs-8px fa-fw me-1"></i> Disabled
+													</div>
+												</div>
+												<div>
+													<a href="#modalEdit" data-bs-toggle="modal" class="btn btn-outline-theme w-100px">Go</a>
+												</div>
+											</div>
+											<div class="list-group-item d-flex align-items-center">
+												<div class="flex-1 text-break">
+													<div>Reminders</div>
+													<div class="text-white text-opacity-50 d-flex align-items-center">
+														<i class="fa fa-circle fs-8px fa-fw text-success me-1"></i> Enabled (Push, Email, SMS)
+													</div>
+												</div>
+												<div>
+													<a href="#modalEdit" data-bs-toggle="modal" class="btn btn-outline-theme w-100px">Go</a>
+												</div>
+											</div>
+											<div class="list-group-item d-flex align-items-center">
+												<div class="flex-1 text-break">
+													<div>New orders</div>
+													<div class="text-white text-opacity-50 d-flex align-items-center">
+														<i class="fa fa-circle fs-8px fa-fw text-success me-1"></i> Enabled (Push, Email, SMS)
+													</div>
+												</div>
+												<div>
+													<a href="#modalEdit" data-bs-toggle="modal" class="btn btn-outline-theme w-100px">Go</a>
+												</div>
+											</div>
+										</div>
+										<div class="card-arrow">
+											<div class="card-arrow-top-left"></div>
+											<div class="card-arrow-top-right"></div>
+											<div class="card-arrow-bottom-left"></div>
+											<div class="card-arrow-bottom-right"></div>
+										</div>
+									</div>
+								</div>
+								<!-- END #skills -->
+
+								<!-- BEGIN #tactics -->
+								<div id="tactics" class="mb-5">
+									<h4><i class="far fa-copyright fa-fw text-theme"></i> Tactics</h4>
+									<p> Use knowledge and skills at the best time and in the most advantageous way </p>
+									<div class="card">
+										<div class="list-group list-group-flush">
+											<div class="list-group-item d-flex align-items-center">
+												<div class="flex-1 text-break">
+													<div><span class="text-white">
+														Stake up and sell
+													</span></div>													
+													<div class="text-white text-opacity-50">
+														<i class="fa fa-circle fs-8px fa-fw text-success me-1"></i> 
+														Stake coins as they increase in value, then sell at the top 
+													</div>
+												</div>
+												<div>
+													<a href="#modalEdit" data-bs-toggle="modal" class="btn btn-outline-theme w-100px">Go</a>
+												</div>
+											</div>
+											<div class="list-group-item d-flex align-items-center">
+												<div class="flex-1 text-break">
+													<div><span class="text-white">
+														Borrow USD don't Lend
+													</span></div>													
+													<div class="text-white text-opacity-50">
+														<i class="fa fa-circle fs-8px fa-fw text-success me-1"></i> 
+														USD doesn't appreciate in value, paid-back USD have less value than lent-out USD													</div>
+													<div class="text-white text-opacity-50">
+														<i class="fa fa-circle fs-8px fa-fw text-success me-1"></i> 
+														Savings, pensions, bonds are all forms of lending 
+													</div>
+													<div class="text-white text-opacity-50">
+														<i class="fa fa-circle fs-8px fa-fw text-success me-1"></i> 
+														FED is number one USD borrower and will ensure USD borrowers always win
+													</div>
+												</div>
+												<div>
+													<a href="#modalEdit" data-bs-toggle="modal" class="btn btn-outline-theme w-100px">Go</a>
+												</div>
+											</div>
+											<div class="list-group-item d-flex align-items-center">
+												<div class="flex-1 text-break">
+													<div><span class="text-white">
+														Make down and draw
+													</span></div>													
+													<div class="text-white text-opacity-50">
+														<i class="fa fa-circle fs-8px fa-fw text-success me-1"></i> 
+														Provide liquidity (Moneymake) as coins decrease in value, then draw out the coins at the bottom. 
+													</div>
+												</div>
+												<div>
+													<a href="#modalEdit" data-bs-toggle="modal" class="btn btn-outline-theme w-100px">Go</a>
+												</div>
+											</div>
+										<div class="list-group list-group-flush">
+											<div class="list-group-item d-flex align-items-center">
+												<div class="flex-1 text-break">
+													<div><span class="text-white">
+														Borrow before an uptrend (ANCHOR)
+													</span></div>													
+													<div class="text-white text-opacity-50">
+														<i class="fa fa-circle fs-8px fa-fw text-success me-1"></i> 
+														Borrow UST and deposit bLuna for collateral, its price goes up and your LTV goes down  
+													</div>
+												</div>
+												<div>
+													<a href="#modalEdit" data-bs-toggle="modal" class="btn btn-outline-theme w-100px">Go</a>
+												</div>
+											</div>
+											<div class="list-group-item d-flex align-items-center">
+												<div class="flex-1 text-break">
+													<div><span class="text-white">
+														Payback before a downtrend (ANCHOR)
+													</span></div>													
+													<div class="text-white text-opacity-50">
+														<i class="fa fa-circle fs-8px fa-fw text-success me-1"></i> 
+														Payback UST and withdraw bLuna so you can sell before it drops 
+													</div>
+												</div>
+												<div>
+													<a href="#modalEdit" data-bs-toggle="modal" class="btn btn-outline-theme w-100px">Go</a>
+												</div>
+											</div>
+											<div class="list-group-item d-flex align-items-center">
+												<div class="flex-1 text-break">
+													<div><span class="text-white">
+														Market Optics
+													</span></div>													
+													<div class="text-white text-opacity-50 d-flex align-items-center">
+														Staking chart and making chart on every page top corner
+													</div>
+												</div>
+												<div>
+													<a href="#modalEdit" data-bs-toggle="modal" class="btn btn-outline-theme w-100px">Go</a>
+												</div>
+											</div>
+											<div class="list-group-item d-flex align-items-center">
+												<div class="flex-1 text-break">
+													<div><span class="text-white">
+														Evaluate every move in multiple time contexts 
+													</span></div>													
+													<div class="text-white text-opacity-50 d-flex align-items-center">
+														<i class="fa fa-circle fs-8px fa-fw text-success me-1"></i> 
+														Look at 1h volume, 4h volume, 24h volume, 7d volume--never just look at one time slice
+													</div>
+												</div>
+												<div>
+													<a href="#modalEdit" data-bs-toggle="modal" class="btn btn-outline-theme w-100px">Go</a>
+												</div>
+											</div>
+											<div class="list-group-item d-flex align-items-center">
+												<div class="flex-1 text-break">
+													<div><span class="text-white">
+														Wallet Optics
+													</span></div>													
+													<div class="text-white text-opacity-50 d-flex align-items-center">
+														<i class="fa fa-circle fs-8px fa-fw text-success me-1"></i> 
+														Staking and Making operations: whats locked, what's available
+													</div>
+												</div>
+												<div>
+													<a href="#modalEdit" data-bs-toggle="modal" class="btn btn-outline-theme w-100px">Go</a>
+												</div>
+											</div>
+											<div class="list-group-item d-flex align-items-center">
+												<div class="flex-1 text-break">
+													<div><span class="text-white">
+														Set your stops
+													</span></div>
+													<div class="text-white text-opacity-50">
+														<i class="fa fa-circle fs-8px fa-fw text-success me-1"></i> 
+														Don't lose what you have gained
+													</div>
+													<div class="text-white text-opacity-50">
+														<i class="fa fa-circle fs-8px fa-fw text-success me-1"></i> 
+														Use multiple stops to ensure completion
+													</div>
+												</div>
+												<div>
+													<a href="#modalEdit" data-bs-toggle="modal" class="btn btn-outline-theme w-100px">Go</a>
+												</div>
+											</div>
+											<div class="list-group-item d-flex align-items-center">
+												<div class="flex-1 text-break">
+													<div><span class="text-white">
+														Swings > Trends > Entries > Profit
+													</span></div>
+													<div class="text-white text-opacity-50">
+														<i class="fa fa-circle fs-8px fa-fw text-success me-1"></i> 
+														Swings show trends which reveal entries
+													</div>
+													<div class="text-white text-opacity-50">
+														<i class="fa fa-circle fs-8px fa-fw text-success me-1"></i> 
+														Entries determine profits 
+													</div>
+												</div>
+												<div>
+													<a href="#modalEdit" data-bs-toggle="modal" class="btn btn-outline-theme w-100px">Go</a>
+												</div>
+											</div>
+										</div>
+										<div class="list-group-item d-flex align-items-center">
+												<div class="flex-1 text-break">
+													<div><span class="text-white">
+														Trade for assets that are appreciating in value 
+													</span></div>
+													<div class="text-white text-opacity-50">
+														<i class="fa fa-circle fs-8px fa-fw text-success me-1"></i> 
+														Trade for BTC pairs when BTC is rising
+													</div>
+													<div class="text-white text-opacity-50">
+														<i class="fa fa-circle fs-8px fa-fw text-success me-1"></i> 
+														Trade for Stable coins when coins are falling
+													</div>
+												</div>
+												<div>
+													<a href="#modalEdit" data-bs-toggle="modal" class="btn btn-outline-theme w-100px">Go</a>
+												</div>
+											</div>
+										<div class="card-arrow">
+											<div class="card-arrow-top-left"></div>
+											<div class="card-arrow-top-right"></div>
+											<div class="card-arrow-bottom-left"></div>
+											<div class="card-arrow-bottom-right"></div>
+										</div>
+									</div>
+								</div>
+								<!-- END #tactics -->
+
+								<!-- BEGIN #campaigns -->
+								<div id="campaigns" class="mb-5">
+									<h4><i class="far fa-copyright fa-fw text-theme"></i> 
+										Campaigns
+									</h4>
+									<p>Limit the account visibility and the security settings for your website.</p>
+									<div class="card">
+										<div class="list-group list-group-flush">
+											<div class="list-group-item d-flex align-items-center">
+												<div class="flex-1 text-break">
+													<div><span class="text-white">
+														Market Optics
+													</span></div>													
+													<div class="text-white text-opacity-50 d-flex align-items-center">
+														Staking chart and making chart on every page top corner
+													</div>
+												</div>
+												<div>
+													<a href="#modalEdit" data-bs-toggle="modal" class="btn btn-outline-theme w-100px">Go</a>
+												</div>
+											</div>
+											<div class="list-group-item d-flex align-items-center">
+												<div class="flex-1 text-break">
+													<div><span class="text-white">
+														Wallet Optics
+													</span></div>													
+													<div class="text-white text-opacity-50 d-flex align-items-center">
+														<i class="fa fa-circle fs-8px fa-fw text-success me-1"></i> 
+														Staking and Making operations: whats locked, what's available
+													</div>
+												</div>
+												<div>
+													<a href="#modalEdit" data-bs-toggle="modal" class="btn btn-outline-theme w-100px">Go</a>
+												</div>
+											</div>
+											<div class="list-group-item d-flex align-items-center">
+												<div class="flex-1 text-break">
+													<div><span class="text-white">
+														Set your stops
+													</span></div>
+													<div class="text-white text-opacity-50">
+														<i class="fa fa-circle fs-8px fa-fw text-success me-1"></i> 
+														Don't lose what you have gained
+													</div>
+													<div class="text-white text-opacity-50">
+														<i class="fa fa-circle fs-8px fa-fw text-success me-1"></i> 
+														Use multiple stops to ensure completion
+													</div>
+												</div>
+												<div>
+													<a href="#modalEdit" data-bs-toggle="modal" class="btn btn-outline-theme w-100px">Go</a>
+												</div>
+											</div>
+											<div class="list-group-item d-flex align-items-center">
+												<div class="flex-1 text-break">
+													<div><span class="text-white">
+														Swings > Trends > Entries > Profit
+													</span></div>
+													<div class="text-white text-opacity-50">
+														<i class="fa fa-circle fs-8px fa-fw text-success me-1"></i> 
+														Swings show trends which reveal entries
+													</div>
+													<div class="text-white text-opacity-50">
+														<i class="fa fa-circle fs-8px fa-fw text-success me-1"></i> 
+														Entries determine profits 
+													</div>
+												</div>
+												<div>
+													<a href="#modalEdit" data-bs-toggle="modal" class="btn btn-outline-theme w-100px">Go</a>
+												</div>
+											</div>
+										</div>
+										<div class="list-group-item d-flex align-items-center">
+												<div class="flex-1 text-break">
+													<div><span class="text-white">
+														Trade for assets that are appreciating in value 
+													</span></div>
+													<div class="text-white text-opacity-50">
+														<i class="fa fa-circle fs-8px fa-fw text-success me-1"></i> 
+														Trade for BTC pairs when BTC is rising
+													</div>
+													<div class="text-white text-opacity-50">
+														<i class="fa fa-circle fs-8px fa-fw text-success me-1"></i> 
+														Trade for Stable coins when coins are falling
+													</div>
+												</div>
+												<div>
+													<a href="#modalEdit" data-bs-toggle="modal" class="btn btn-outline-theme w-100px">Go</a>
+												</div>
+											</div>
+										<div class="card-arrow">
+											<div class="card-arrow-top-left"></div>
+											<div class="card-arrow-top-right"></div>
+											<div class="card-arrow-bottom-left"></div>
+											<div class="card-arrow-bottom-right"></div>
+										</div>
+									</div>
+								</div>
+								
+								<!-- END #campaigns -->
+								
+							</div>
+							<!-- END col-9-->
+							<!-- BEGIN col-3 -->
+							<div class="col-xl-3">
+								<!-- BEGIN #sidebar-bootstrap -->
+								<nav id="sidebar-bootstrap" class="navbar navbar-sticky d-none d-xl-block">
+									<nav class="nav">
+										<a class="nav-link" href="#knowledge" data-bs-toggle="scroll-to">Knowledge</a>
+										<a class="nav-link" href="#skills" data-bs-toggle="scroll-to">Skills</a>
+										<a class="nav-link" href="#tactics" data-bs-toggle="scroll-to">Tactics</a>
+										<a class="nav-link" href="#campaigns" data-bs-toggle="scroll-to">Campaigns</a>
+									</nav>
+								</nav>
+								<!-- END #sidebar-bootstrap -->
+							</div>
+							<!-- END col-3 -->
+						</div>
+						<!-- END row -->
+					</div>
+					<!-- END col-10 -->
+				</div>
+				<!-- END row -->
+			</div>
+			<!-- END container -->
+		</div>
+		<!-- END #content -->
+		
+		<!-- BEGIN #modalEdit -->
+		<div class="modal fade" id="modalEdit">
+			<div class="modal-dialog">
+				<div class="modal-content">
+					<div class="modal-header">
+						<h5 class="modal-title">Edit name</h5>
+						<button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+					</div>
+					<div class="modal-body">
+						<div class="mb-3">
+							<label class="form-label">Name</label>
+							<div class="row row-space-10">
+								<div class="col-4">
+									<input class="form-control" placeholder="First" value="Sean" />
+								</div>
+								<div class="col-4">
+									<input class="form-control" placeholder="Middle" value="" />
+								</div>
+								<div class="col-4">
+									<input class="form-control" placeholder="Last" value="Ngu" />
+								</div>
+							</div>
+						</div>
+						<div class="alert alert-muted">
+							<b>Please note:</b> 
+							If you change your name, you can't change it again for 60 days. 
+							Don't add any unusual capitalization, punctuation, characters or random words. 
+							<a href="#" class="alert-link">Learn more.</a>
+						</div>
+						<div class="mb-3">
+							<label class="form-label">Other Names</label>
+							<div>
+								<a href="#" class="btn btn-outline-default"><i class="fa fa-plus fa-fw"></i> Add other names</a>
+							</div>
+						</div>
+					</div>
+					<div class="modal-footer">
+						<button type="button" class="btn btn-outline-default" data-bs-dismiss="modal">Close</button>
+						<button type="button" class="btn btn-outline-theme">Save changes</button>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- END #modalEdit -->
+		
+		@@include('./partial/scroll-top-btn.html')
+	</div>
+	<!-- END #app -->
+	
+@@include('./partial/script.html', {"script": [
+]})

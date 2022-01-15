@@ -1,0 +1,82 @@
+@@include('./partial/head.html', {"title": "Wallets", "css": [
+	'assets/plugins/jvectormap-next/jquery-jvectormap.css'
+]})
+	<!-- BEGIN #app -->
+	<div id="app" class="app">
+		@@include('./partial/header.html')
+		
+		@@include('./partial/sidebar.html', {"homeClass": "active"})
+		
+		<!-- BEGIN #content -->
+		<div id="content" class="app-content">
+			<!-- BEGIN row -->
+			<div class="row">
+				<!-- BEGIN col-3 -->
+				<div class="col-xl-12 col-lg-24">
+					<!-- BEGIN card -->
+					<div class="card mb-3">
+						<!-- BEGIN card-body -->
+						<div class="card-body">
+							<!-- BEGIN title -->
+							<div class="d-flex fw-bold large-lg mb-3" style="text-align: center" >
+								<img src="assets/img/avatars/terra.png" alt="" height=48 width=/>
+								<div class="flex-grow-1 text-white"  !important ><h3>TERRA</h3></div>
+								<a href="#" data-toggle="card-expand" class="text-white text-opacity-20 text-decoration-none"><i class="bi bi-fullscreen"></i></a>
+							</div>
+							<!-- END title -->
+
+							<!-- BEGIN stat-sm -->
+							<div class="small text-white text-opacity-50 text-truncate">
+								<!-- <i class="fa fa-chevron-up fa-fw me-1"></i>  -->
+								<div class="col-lg-6 mb-3 mb-lg-0" id="scoreDiv">
+									<table id="terra-table" style='font-size:120%' class="w-600 medium m-3 table table-borderless text-large text-white text-opacity-60">
+										<thead>
+											<tr class="text-white text-opacity-75">
+												<th class="w-50">TOKENS</th>
+												<th class="w-50">BALANCE</th>
+												<th class="w-50">PRICE</th>
+												<th style="width: 120% !important" class="w-50">TOTAL</th>
+												<th style="width: 120% !important" class="w-50">24H VOLUME</th>
+												<th style="width: 120% !important" class="w-50">7D VOLUME</th>
+											</tr>
+										</thead>
+										<tbody>
+											
+										</tbody>
+									</table>
+								</div>
+								<br />
+								<i class="far fa-user fa-fw me-1"></i> 45.5% new visitors<br />
+								<i class="far fa-times-circle fa-fw me-1"></i> 3.25% bounce rate
+							</div>
+							<!-- END stat-sm -->
+						</div>
+						<!-- END card-body -->
+						
+						<!-- BEGIN card-arrow -->
+						<div class="card-arrow">
+							<div class="card-arrow-top-left"></div>
+							<div class="card-arrow-top-right"></div>
+							<div class="card-arrow-bottom-left"></div>
+							<div class="card-arrow-bottom-right"></div>
+						</div>
+						<!-- END card-arrow -->
+					</div>
+					<!-- END card -->
+				</div>
+				<!-- END col-3 -->
+			</div>
+			<!-- END row -->
+		</div>
+		<!-- END #content -->
+		@@include('./partial/scroll-top-btn.html')
+	</div>
+	<!-- END #app -->
+	
+@@include('./partial/script.html', {"script": [
+	'assets/plugins/jvectormap-next/jquery-jvectormap.min.js',
+	'assets/plugins/jvectormap-next/jquery-jvectormap-world-mill.js',
+	'assets/js/demo/dashboard.demo.js', 
+	'assets/js/priceGetter.js'
+
+]})

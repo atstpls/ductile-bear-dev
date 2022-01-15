@@ -1,0 +1,4266 @@
+  [
+    {
+      "contractAddress": "0x6226e00bcac68b0fe55583b90a1d727c14fab77f",
+      "avatar": "/static/mock-images/avatars/mtv.png",
+      "symbol": "MTV",
+      "platform": "none",
+      "name": "MultiVAC",
+      "cover": "xxx"
+    },
+    {
+      "contractAddress": "0x0f5d2fb29fb7d3cfee444a200298f468908cc942",
+      "avatar": "/static/mock-images/avatars/mana.png",
+      "symbol": "MANA",
+      "platform": "none",
+      "name": "MANA",
+      "cover": "xxx"
+    },
+    {
+      "contractAddress": "0x9f8f72aa9304c8b593d555f12ef6589cc3a579a2",
+      "avatar": "/static/mock-images/avatars/mkr.png",
+      "symbol": "MKR",
+      "platform": "none",
+      "name": "MKR",
+      "cover": "xxx"
+    },
+    {
+      "contractAddress": "0x9d86b1b2554ec410eccffbf111a6994910111340",
+      "avatar": "/static/mock-images/avatars/open.png",
+      "symbol": "OPEN",
+      "platform": "none",
+      "name": "OPEN",
+      "cover": "xxx"
+    },
+    {
+      "contractAddress": "0x8e870d67f660d95d5be530380d0ec0bd388289e1",
+      "avatar": "/static/mock-images/avatars/pax.png",
+      "symbol": "PAX",
+      "platform": "none",
+      "name": "PAX",
+      "cover": "xxx"
+    },
+    {
+      "contractAddress": "0xe477292f1b3268687a29376116b0ed27a9c76170",
+      "avatar": "/static/mock-images/avatars/play.png",
+      "symbol": "PLAY",
+      "platform": "none",
+      "name": "PLAY",
+      "cover": "xxx"
+    },
+    {
+      "contractAddress": "0x595832f8fc6bf59c85c527fec3740a1b7a361269",
+      "avatar": "/static/mock-images/avatars/powr.png",
+      "symbol": "POWR",
+      "platform": "none",
+      "name": "POWR",
+      "cover": "xxx"
+    },
+    {
+      "contractAddress": "0xd4fa1460f537bb9085d22c7bccb5dd450ef28e3a",
+      "avatar": "/static/mock-images/avatars/ppt.png",
+      "symbol": "PPT",
+      "platform": "none",
+      "name": "PPT",
+      "cover": "xxx"
+    },
+    {
+      "contractAddress": "0x2ef52ed7de8c5ce03a4ef0efbe9b7450f2d7edc9",
+      "avatar": "/static/mock-images/avatars/rev.png",
+      "symbol": "REV",
+      "platform": "none",
+      "name": "REV",
+      "cover": "xxx"
+    },
+    {
+      "contractAddress": "0x8f8221afbb33998d8584a2b05749ba73c37a938a",
+      "avatar": "/static/mock-images/avatars/req.png",
+      "symbol": "REQ",
+      "platform": "none",
+      "name": "REQ",
+      "cover": "xxx"
+    },
+    {
+      "contractAddress": "0x744d70fdbe2ba4cf95131626614a1763df805b9e",
+      "avatar": "/static/mock-images/avatars/snt.png",
+      "symbol": "SNT",
+      "platform": "none",
+      "name": "SNT",
+      "cover": "xxx"
+    },
+    {
+      "contractAddress": "0xc011a73ee8576fb46f5e1c5751ca3b9fe0af2a6f",
+      "avatar": "/static/mock-images/avatars/snx.png",
+      "symbol": "SNX",
+      "platform": "none",
+      "name": "SNX",
+      "cover": "xxx"
+    },
+    {
+      "contractAddress": "0x5c3a228510d246b78a3765c20221cbf3082b44a4",
+      "avatar": "/static/mock-images/avatars/stq.png",
+      "symbol": "STQ",
+      "platform": "none",
+      "name": "STQ",
+      "cover": "xxx"
+    },
+    {
+      "contractAddress": "0x467bccd9d29f223bce8043b84e8c8b282827790f",
+      "avatar": "/static/mock-images/avatars/tel.png",
+      "symbol": "TEL",
+      "platform": "none",
+      "name": "TEL",
+      "cover": "xxx"
+    },
+    {
+      "contractAddress": "0x485d17a6f1b8780392d53d64751824253011a260",
+      "avatar": "/static/mock-images/avatars/time.png",
+      "symbol": "TIME",
+      "platform": "none",
+      "name": "TIME",
+      "cover": "xxx"
+    },
+    {
+      "contractAddress": "0xaa7a9ca87d3694b5755f213b5d04094b8d0f0a6f",
+      "avatar": "/static/mock-images/avatars/trac.png",
+      "symbol": "TRAC",
+      "platform": "none",
+      "name": "TRAC",
+      "cover": "xxx"
+    },
+    {
+      "contractAddress": "0x0000000000085d4780b73119b644ae5ecd22b376",
+      "avatar": "/static/mock-images/avatars/tusd.png",
+      "symbol": "TUSD",
+      "platform": "none",
+      "name": "TUSD",
+      "cover": "xxx"
+    },
+    {
+      "contractAddress": "0xdc9ac3c20d1ed0b540df9b1fedc10039df13f99c",
+      "avatar": "/static/mock-images/avatars/utk.png",
+      "symbol": "UTK",
+      "platform": "none",
+      "name": "UTK",
+      "cover": "xxx"
+    },
+    {
+      "contractAddress": "0x1563d521ba309e2ad9f4affd6f4de9759e8d4f21",
+      "avatar": "/static/mock-images/avatars/vnx.png",
+      "symbol": "VNX",
+      "platform": "none",
+      "name": "VNX",
+      "cover": "xxx"
+    },
+    {
+      "contractAddress": "xxx",
+      "avatar": "/static/mock-images/avatars/1earth.png",
+      "symbol": "1EARTH",
+      "platform": "none",
+      "name": "1EARTH",
+      "cover": "xxx"
+    },
+    {
+      "contractAddress": "xxx",
+      "avatar": "/static/mock-images/avatars/1inch.png",
+      "symbol": "1INCH",
+      "platform": "none",
+      "name": "1INCH",
+      "cover": "xxx"
+    },
+    {
+      "contractAddress": "xxx",
+      "avatar": "/static/mock-images/avatars/2crz.png",
+      "symbol": "2CRZ",
+      "platform": "none",
+      "name": "2CRZ",
+      "cover": "xxx"
+    },
+    {
+      "contractAddress": "xxx",
+      "avatar": "/static/mock-images/avatars/4h10ali.jpeg",
+      "symbol": "4H10ALI",
+      "platform": "none",
+      "name": "4H10ALI",
+      "cover": "xxx"
+    },
+    {
+      "contractAddress": "xxx",
+      "avatar": "/static/mock-images/avatars/abbc.png",
+      "symbol": "ABBC",
+      "platform": "none",
+      "name": "ABBC",
+      "cover": "xxx"
+    },
+    {
+      "contractAddress": "xxx",
+      "avatar": "/static/mock-images/avatars/acat.png",
+      "symbol": "ACAT",
+      "platform": "none",
+      "name": "ACAT",
+      "cover": "xxx"
+    },
+    {
+      "contractAddress": "xxx",
+      "avatar": "/static/mock-images/avatars/ace.png",
+      "symbol": "ACE",
+      "platform": "none",
+      "name": "ACE",
+      "cover": "xxx"
+    },
+    {
+      "contractAddress": "xxx",
+      "avatar": "/static/mock-images/avatars/act.png",
+      "symbol": "ACT",
+      "platform": "none",
+      "name": "ACT",
+      "cover": "xxx"
+    },
+    {
+      "contractAddress": "xxx",
+      "avatar": "/static/mock-images/avatars/ada.png",
+      "symbol": "ADA",
+      "platform": "none",
+      "name": "ADA",
+      "cover": "xxx"
+    },
+    {
+      "contractAddress": "xxx",
+      "avatar": "/static/mock-images/avatars/adx.png",
+      "symbol": "ADX",
+      "platform": "none",
+      "name": "ADX",
+      "cover": "xxx"
+    },
+    {
+      "contractAddress": "xxx",
+      "avatar": "/static/mock-images/avatars/agix.png",
+      "symbol": "AGIX",
+      "platform": "none",
+      "name": "AGIX",
+      "cover": "xxx"
+    },
+    {
+      "contractAddress": "xxx",
+      "avatar": "/static/mock-images/avatars/agld.png",
+      "symbol": "AGLD",
+      "platform": "none",
+      "name": "AGLD",
+      "cover": "xxx"
+    },
+    {
+      "contractAddress": "xxx",
+      "avatar": "/static/mock-images/avatars/ai.png",
+      "symbol": "AI",
+      "platform": "none",
+      "name": "AI",
+      "cover": "xxx"
+    },
+    {
+      "contractAddress": "xxx",
+      "avatar": "/static/mock-images/avatars/aion.png",
+      "symbol": "AION",
+      "platform": "none",
+      "name": "AION",
+      "cover": "xxx"
+    },
+    {
+      "contractAddress": "xxx",
+      "avatar": "/static/mock-images/avatars/aioz.png",
+      "symbol": "AIOZ",
+      "platform": "none",
+      "name": "AIOZ",
+      "cover": "xxx"
+    },
+    {
+      "contractAddress": "xxx",
+      "avatar": "/static/mock-images/avatars/albt.png",
+      "symbol": "ALBT",
+      "platform": "none",
+      "name": "ALBT",
+      "cover": "xxx"
+    },
+    {
+      "contractAddress": "xxx",
+      "avatar": "/static/mock-images/avatars/algo.png",
+      "symbol": "ALGO",
+      "platform": "none",
+      "name": "ALGO",
+      "cover": "xxx"
+    },
+    {
+      "contractAddress": "xxx",
+      "avatar": "/static/mock-images/avatars/alice.png",
+      "symbol": "ALICE",
+      "platform": "none",
+      "name": "ALICE",
+      "cover": "xxx"
+    },
+    {
+      "contractAddress": "xxx",
+      "avatar": "/static/mock-images/avatars/all-chain-light.png",
+      "symbol": "ALL-CHAIN-LIGHT",
+      "platform": "none",
+      "name": "ALL-CHAIN-LIGHT",
+      "cover": "xxx"
+    },
+    {
+      "contractAddress": "xxx",
+      "avatar": "/static/mock-images/avatars/alpa.png",
+      "symbol": "ALPA",
+      "platform": "none",
+      "name": "ALPA",
+      "cover": "xxx"
+    },
+    {
+      "contractAddress": "xxx",
+      "avatar": "/static/mock-images/avatars/alpaca.png",
+      "symbol": "ALPACA",
+      "platform": "none",
+      "name": "ALPACA",
+      "cover": "xxx"
+    },
+    {
+      "contractAddress": "xxx",
+      "avatar": "/static/mock-images/avatars/alpha.png",
+      "symbol": "ALPHA",
+      "platform": "none",
+      "name": "ALPHA",
+      "cover": "xxx"
+    },
+    {
+      "contractAddress": "xxx",
+      "avatar": "/static/mock-images/avatars/amb.png",
+      "symbol": "AMB",
+      "platform": "none",
+      "name": "AMB",
+      "cover": "xxx"
+    },
+    {
+      "contractAddress": "xxx",
+      "avatar": "/static/mock-images/avatars/anchor.gif",
+      "symbol": "ANCHOR",
+      "platform": "none",
+      "name": "ANCHOR",
+      "cover": "xxx"
+    },
+    {
+      "contractAddress": "xxx",
+      "avatar": "/static/mock-images/avatars/anchor.png",
+      "symbol": "ANCHOR",
+      "platform": "none",
+      "name": "ANCHOR",
+      "cover": "xxx"
+    },
+    {
+      "contractAddress": "xxx",
+      "avatar": "/static/mock-images/avatars/ant.png",
+      "symbol": "ANT",
+      "platform": "none",
+      "name": "ANT",
+      "cover": "xxx"
+    },
+    {
+      "contractAddress": "xxx",
+      "avatar": "/static/mock-images/avatars/ape-header.png",
+      "symbol": "APE-HEADER",
+      "platform": "none",
+      "name": "APE-HEADER",
+      "cover": "xxx"
+    },
+    {
+      "contractAddress": "xxx",
+      "avatar": "/static/mock-images/avatars/ape.png",
+      "symbol": "APE",
+      "platform": "none",
+      "name": "APE",
+      "cover": "xxx"
+    },
+    {
+      "contractAddress": "xxx",
+      "avatar": "/static/mock-images/avatars/api3.png",
+      "symbol": "API3",
+      "platform": "none",
+      "name": "API3",
+      "cover": "xxx"
+    },
+    {
+      "contractAddress": "xxx",
+      "avatar": "/static/mock-images/avatars/apollodao.jpeg",
+      "symbol": "APOLLODAO",
+      "platform": "none",
+      "name": "APOLLODAO",
+      "cover": "xxx"
+    },
+    {
+      "contractAddress": "xxx",
+      "avatar": "/static/mock-images/avatars/ar.png",
+      "symbol": "AR",
+      "platform": "none",
+      "name": "AR",
+      "cover": "xxx"
+    },
+    {
+      "contractAddress": "xxx",
+      "avatar": "/static/mock-images/avatars/arbitrum.png",
+      "symbol": "ARBITRUM",
+      "platform": "none",
+      "name": "ARBITRUM",
+      "cover": "xxx"
+    },
+    {
+      "contractAddress": "xxx",
+      "avatar": "/static/mock-images/avatars/ark.png",
+      "symbol": "ARK",
+      "platform": "none",
+      "name": "ARK",
+      "cover": "xxx"
+    },
+    {
+      "contractAddress": "xxx",
+      "avatar": "/static/mock-images/avatars/arrr.png",
+      "symbol": "ARRR",
+      "platform": "none",
+      "name": "ARRR",
+      "cover": "xxx"
+    },
+    {
+      "contractAddress": "xxx",
+      "avatar": "/static/mock-images/avatars/artemis.png",
+      "symbol": "ARTEMIS",
+      "platform": "none",
+      "name": "ARTEMIS",
+      "cover": "xxx"
+    },
+    {
+      "contractAddress": "xxx",
+      "avatar": "/static/mock-images/avatars/asd.png",
+      "symbol": "ASD",
+      "platform": "none",
+      "name": "ASD",
+      "cover": "xxx"
+    },
+    {
+      "contractAddress": "xxx",
+      "avatar": "/static/mock-images/avatars/astroport.svg",
+      "symbol": "ASTROPORT",
+      "platform": "none",
+      "name": "ASTROPORT",
+      "cover": "xxx"
+    },
+    {
+      "contractAddress": "xxx",
+      "avatar": "/static/mock-images/avatars/ata.png",
+      "symbol": "ATA",
+      "platform": "none",
+      "name": "ATA",
+      "cover": "xxx"
+    },
+    {
+      "contractAddress": "xxx",
+      "avatar": "/static/mock-images/avatars/atom.png",
+      "symbol": "ATOM",
+      "platform": "none",
+      "name": "ATOM",
+      "cover": "xxx"
+    },
+    {
+      "contractAddress": "xxx",
+      "avatar": "/static/mock-images/avatars/audio.png",
+      "symbol": "AUDIO",
+      "platform": "none",
+      "name": "AUDIO",
+      "cover": "xxx"
+    },
+    {
+      "contractAddress": "xxx",
+      "avatar": "/static/mock-images/avatars/ava.png",
+      "symbol": "AVA",
+      "platform": "none",
+      "name": "AVA",
+      "cover": "xxx"
+    },
+    {
+      "contractAddress": "xxx",
+      "avatar": "/static/mock-images/avatars/avalanche.jpg",
+      "symbol": "AVALANCHE",
+      "platform": "none",
+      "name": "AVALANCHE",
+      "cover": "xxx"
+    },
+    {
+      "contractAddress": "xxx",
+      "avatar": "/static/mock-images/avatars/avalanche.png",
+      "symbol": "AVALANCHE",
+      "platform": "none",
+      "name": "AVALANCHE",
+      "cover": "xxx"
+    },
+    {
+      "contractAddress": "xxx",
+      "avatar": "/static/mock-images/avatars/avatar-cao-yu.png",
+      "symbol": "AVATAR-CAO-YU",
+      "platform": "none",
+      "name": "AVATAR-CAO-YU",
+      "cover": "xxx"
+    },
+    {
+      "contractAddress": "xxx",
+      "avatar": "/static/mock-images/avatars/avax.png",
+      "symbol": "AVAX",
+      "platform": "none",
+      "name": "AVAX",
+      "cover": "xxx"
+    },
+    {
+      "contractAddress": "xxx",
+      "avatar": "/static/mock-images/avatars/axc.png",
+      "symbol": "AXC",
+      "platform": "none",
+      "name": "AXC",
+      "cover": "xxx"
+    },
+    {
+      "contractAddress": "xxx",
+      "avatar": "/static/mock-images/avatars/axe.png",
+      "symbol": "AXE",
+      "platform": "none",
+      "name": "AXE",
+      "cover": "xxx"
+    },
+    {
+      "contractAddress": "xxx",
+      "avatar": "/static/mock-images/avatars/axs.jpg",
+      "symbol": "AXS",
+      "platform": "none",
+      "name": "AXS",
+      "cover": "xxx"
+    },
+    {
+      "contractAddress": "xxx",
+      "avatar": "/static/mock-images/avatars/axs.png",
+      "symbol": "AXS",
+      "platform": "none",
+      "name": "AXS",
+      "cover": "xxx"
+    },
+    {
+      "contractAddress": "xxx",
+      "avatar": "/static/mock-images/avatars/babyswap.svg",
+      "symbol": "BABYSWAP",
+      "platform": "none",
+      "name": "BABYSWAP",
+      "cover": "xxx"
+    },
+    {
+      "contractAddress": "xxx",
+      "avatar": "/static/mock-images/avatars/background-dark.png",
+      "symbol": "BACKGROUND-DARK",
+      "platform": "none",
+      "name": "BACKGROUND-DARK",
+      "cover": "xxx"
+    },
+    {
+      "contractAddress": "xxx",
+      "avatar": "/static/mock-images/avatars/background.jpg",
+      "symbol": "BACKGROUND",
+      "platform": "none",
+      "name": "BACKGROUND",
+      "cover": "xxx"
+    },
+    {
+      "contractAddress": "xxx",
+      "avatar": "/static/mock-images/avatars/badger.png",
+      "symbol": "BADGER",
+      "platform": "none",
+      "name": "BADGER",
+      "cover": "xxx"
+    },
+    {
+      "contractAddress": "xxx",
+      "avatar": "/static/mock-images/avatars/bake.png",
+      "symbol": "BAKE",
+      "platform": "none",
+      "name": "BAKE",
+      "cover": "xxx"
+    },
+    {
+      "contractAddress": "xxx",
+      "avatar": "/static/mock-images/avatars/bal.png",
+      "symbol": "BAL",
+      "platform": "none",
+      "name": "BAL",
+      "cover": "xxx"
+    },
+    {
+      "contractAddress": "xxx",
+      "avatar": "/static/mock-images/avatars/band.png",
+      "symbol": "BAND",
+      "platform": "none",
+      "name": "BAND",
+      "cover": "xxx"
+    },
+    {
+      "contractAddress": "xxx",
+      "avatar": "/static/mock-images/avatars/bcd.png",
+      "symbol": "BCD",
+      "platform": "none",
+      "name": "BCD",
+      "cover": "xxx"
+    },
+    {
+      "contractAddress": "xxx",
+      "avatar": "/static/mock-images/avatars/bch.png",
+      "symbol": "BCH",
+      "platform": "none",
+      "name": "BCH",
+      "cover": "xxx"
+    },
+    {
+      "contractAddress": "xxx",
+      "avatar": "/static/mock-images/avatars/bcha.png",
+      "symbol": "BCHA",
+      "platform": "none",
+      "name": "BCHA",
+      "cover": "xxx"
+    },
+    {
+      "contractAddress": "xxx",
+      "avatar": "/static/mock-images/avatars/bcmh.png",
+      "symbol": "BCMH",
+      "platform": "none",
+      "name": "BCMH",
+      "cover": "xxx"
+    },
+    {
+      "contractAddress": "xxx",
+      "avatar": "/static/mock-images/avatars/bear2.png",
+      "symbol": "BEAR2",
+      "platform": "none",
+      "name": "BEAR2",
+      "cover": "xxx"
+    },
+    {
+      "contractAddress": "xxx",
+      "avatar": "/static/mock-images/avatars/binance.png",
+      "symbol": "BINANCE",
+      "platform": "none",
+      "name": "BINANCE",
+      "cover": "xxx"
+    },
+    {
+      "contractAddress": "xxx",
+      "avatar": "/static/mock-images/avatars/blockchain.png",
+      "symbol": "BLOCKCHAIN",
+      "platform": "none",
+      "name": "BLOCKCHAIN",
+      "cover": "xxx"
+    },
+    {
+      "contractAddress": "xxx",
+      "avatar": "/static/mock-images/avatars/blocktopia-black.png",
+      "symbol": "BLOCKTOPIA-BLACK",
+      "platform": "none",
+      "name": "BLOCKTOPIA-BLACK",
+      "cover": "xxx"
+    },
+    {
+      "contractAddress": "xxx",
+      "avatar": "/static/mock-images/avatars/blok.png",
+      "symbol": "BLOK",
+      "platform": "none",
+      "name": "BLOK",
+      "cover": "xxx"
+    },
+    {
+      "contractAddress": "xxx",
+      "avatar": "/static/mock-images/avatars/blook.png",
+      "symbol": "BLOOK",
+      "platform": "none",
+      "name": "BLOOK",
+      "cover": "xxx"
+    },
+    {
+      "contractAddress": "xxx",
+      "avatar": "/static/mock-images/avatars/bnb.png",
+      "symbol": "BNB",
+      "platform": "none",
+      "name": "BNB",
+      "cover": "xxx"
+    },
+    {
+      "contractAddress": "xxx",
+      "avatar": "/static/mock-images/avatars/bnt.png",
+      "symbol": "BNT",
+      "platform": "none",
+      "name": "BNT",
+      "cover": "xxx"
+    },
+    {
+      "contractAddress": "xxx",
+      "avatar": "/static/mock-images/avatars/boa.png",
+      "symbol": "BOA",
+      "platform": "none",
+      "name": "BOA",
+      "cover": "xxx"
+    },
+    {
+      "contractAddress": "xxx",
+      "avatar": "/static/mock-images/avatars/boba.png",
+      "symbol": "BOBA",
+      "platform": "none",
+      "name": "BOBA",
+      "cover": "xxx"
+    },
+    {
+      "contractAddress": "xxx",
+      "avatar": "/static/mock-images/avatars/bond.png",
+      "symbol": "BOND",
+      "platform": "none",
+      "name": "BOND",
+      "cover": "xxx"
+    },
+    {
+      "contractAddress": "xxx",
+      "avatar": "/static/mock-images/avatars/boson.png",
+      "symbol": "BOSON",
+      "platform": "none",
+      "name": "BOSON",
+      "cover": "xxx"
+    },
+    {
+      "contractAddress": "xxx",
+      "avatar": "/static/mock-images/avatars/brg.png",
+      "symbol": "BRG",
+      "platform": "none",
+      "name": "BRG",
+      "cover": "xxx"
+    },
+    {
+      "contractAddress": "xxx",
+      "avatar": "/static/mock-images/avatars/bsc.jpg",
+      "symbol": "BSC",
+      "platform": "none",
+      "name": "BSC",
+      "cover": "xxx"
+    },
+    {
+      "contractAddress": "xxx",
+      "avatar": "/static/mock-images/avatars/bsc.png",
+      "symbol": "BSC",
+      "platform": "none",
+      "name": "BSC",
+      "cover": "xxx"
+    },
+    {
+      "contractAddress": "xxx",
+      "avatar": "/static/mock-images/avatars/bsv.png",
+      "symbol": "BSV",
+      "platform": "none",
+      "name": "BSV",
+      "cover": "xxx"
+    },
+    {
+      "contractAddress": "xxx",
+      "avatar": "/static/mock-images/avatars/btc.jpeg",
+      "symbol": "BTC",
+      "platform": "none",
+      "name": "BTC",
+      "cover": "xxx"
+    },
+    {
+      "contractAddress": "xxx",
+      "avatar": "/static/mock-images/avatars/btc.png",
+      "symbol": "BTC",
+      "platform": "none",
+      "name": "BTC",
+      "cover": "xxx"
+    },
+    {
+      "contractAddress": "xxx",
+      "avatar": "/static/mock-images/avatars/btcp.png",
+      "symbol": "BTCP",
+      "platform": "none",
+      "name": "BTCP",
+      "cover": "xxx"
+    },
+    {
+      "contractAddress": "xxx",
+      "avatar": "/static/mock-images/avatars/btm.png",
+      "symbol": "BTM",
+      "platform": "none",
+      "name": "BTM",
+      "cover": "xxx"
+    },
+    {
+      "contractAddress": "xxx",
+      "avatar": "/static/mock-images/avatars/btt.png",
+      "symbol": "BTT",
+      "platform": "none",
+      "name": "BTT",
+      "cover": "xxx"
+    },
+    {
+      "contractAddress": "xxx",
+      "avatar": "/static/mock-images/avatars/bu.png",
+      "symbol": "BU",
+      "platform": "none",
+      "name": "BU",
+      "cover": "xxx"
+    },
+    {
+      "contractAddress": "xxx",
+      "avatar": "/static/mock-images/avatars/bull.png",
+      "symbol": "BULL",
+      "platform": "none",
+      "name": "BULL",
+      "cover": "xxx"
+    },
+    {
+      "contractAddress": "xxx",
+      "avatar": "/static/mock-images/avatars/bull3.png",
+      "symbol": "BULL3",
+      "platform": "none",
+      "name": "BULL3",
+      "cover": "xxx"
+    },
+    {
+      "contractAddress": "xxx",
+      "avatar": "/static/mock-images/avatars/burger.png",
+      "symbol": "BURGER",
+      "platform": "none",
+      "name": "BURGER",
+      "cover": "xxx"
+    },
+    {
+      "contractAddress": "xxx",
+      "avatar": "/static/mock-images/avatars/burp.png",
+      "symbol": "BURP",
+      "platform": "none",
+      "name": "BURP",
+      "cover": "xxx"
+    },
+    {
+      "contractAddress": "xxx",
+      "avatar": "/static/mock-images/avatars/bux.png",
+      "symbol": "BUX",
+      "platform": "none",
+      "name": "BUX",
+      "cover": "xxx"
+    },
+    {
+      "contractAddress": "xxx",
+      "avatar": "/static/mock-images/avatars/cake.png",
+      "symbol": "CAKE",
+      "platform": "none",
+      "name": "CAKE",
+      "cover": "xxx"
+    },
+    {
+      "contractAddress": "xxx",
+      "avatar": "/static/mock-images/avatars/carr.png",
+      "symbol": "CARR",
+      "platform": "none",
+      "name": "CARR",
+      "cover": "xxx"
+    },
+    {
+      "contractAddress": "xxx",
+      "avatar": "/static/mock-images/avatars/cas.png",
+      "symbol": "CAS",
+      "platform": "none",
+      "name": "CAS",
+      "cover": "xxx"
+    },
+    {
+      "contractAddress": "xxx",
+      "avatar": "/static/mock-images/avatars/Caspian.png",
+      "symbol": "CASPIAN",
+      "platform": "none",
+      "name": "CASPIAN",
+      "cover": "xxx"
+    },
+    {
+      "contractAddress": "xxx",
+      "avatar": "/static/mock-images/avatars/celo.png",
+      "symbol": "CELO",
+      "platform": "none",
+      "name": "CELO",
+      "cover": "xxx"
+    },
+    {
+      "contractAddress": "xxx",
+      "avatar": "/static/mock-images/avatars/cere.png",
+      "symbol": "CERE",
+      "platform": "none",
+      "name": "CERE",
+      "cover": "xxx"
+    },
+    {
+      "contractAddress": "xxx",
+      "avatar": "/static/mock-images/avatars/ceur.png",
+      "symbol": "CEUR",
+      "platform": "none",
+      "name": "CEUR",
+      "cover": "xxx"
+    },
+    {
+      "contractAddress": "xxx",
+      "avatar": "/static/mock-images/avatars/cfg.png",
+      "symbol": "CFG",
+      "platform": "none",
+      "name": "CFG",
+      "cover": "xxx"
+    },
+    {
+      "contractAddress": "xxx",
+      "avatar": "/static/mock-images/avatars/cgg.png",
+      "symbol": "CGG",
+      "platform": "none",
+      "name": "CGG",
+      "cover": "xxx"
+    },
+    {
+      "contractAddress": "xxx",
+      "avatar": "/static/mock-images/avatars/chz.png",
+      "symbol": "CHZ",
+      "platform": "none",
+      "name": "CHZ",
+      "cover": "xxx"
+    },
+    {
+      "contractAddress": "xxx",
+      "avatar": "/static/mock-images/avatars/clv.png",
+      "symbol": "CLV",
+      "platform": "none",
+      "name": "CLV",
+      "cover": "xxx"
+    },
+    {
+      "contractAddress": "xxx",
+      "avatar": "/static/mock-images/avatars/coinbureau.png",
+      "symbol": "COINBUREAU",
+      "platform": "none",
+      "name": "COINBUREAU",
+      "cover": "xxx"
+    },
+    {
+      "contractAddress": "xxx",
+      "avatar": "/static/mock-images/avatars/cos.png",
+      "symbol": "COS",
+      "platform": "none",
+      "name": "COS",
+      "cover": "xxx"
+    },
+    {
+      "contractAddress": "xxx",
+      "avatar": "/static/mock-images/avatars/cosasverdes.png",
+      "symbol": "COSASVERDES",
+      "platform": "none",
+      "name": "COSASVERDES",
+      "cover": "xxx"
+    },
+    {
+      "contractAddress": "xxx",
+      "avatar": "/static/mock-images/avatars/cosmos.png",
+      "symbol": "COSMOS",
+      "platform": "none",
+      "name": "COSMOS",
+      "cover": "xxx"
+    },
+    {
+      "contractAddress": "xxx",
+      "avatar": "/static/mock-images/avatars/coti.png",
+      "symbol": "COTI",
+      "platform": "none",
+      "name": "COTI",
+      "cover": "xxx"
+    },
+    {
+      "contractAddress": "xxx",
+      "avatar": "/static/mock-images/avatars/cpc.png",
+      "symbol": "CPC",
+      "platform": "none",
+      "name": "CPC",
+      "cover": "xxx"
+    },
+    {
+      "contractAddress": "xxx",
+      "avatar": "/static/mock-images/avatars/cream.png",
+      "symbol": "CREAM",
+      "platform": "none",
+      "name": "CREAM",
+      "cover": "xxx"
+    },
+    {
+      "contractAddress": "xxx",
+      "avatar": "/static/mock-images/avatars/cronos.png",
+      "symbol": "CRONOS",
+      "platform": "none",
+      "name": "CRONOS",
+      "cover": "xxx"
+    },
+    {
+      "contractAddress": "xxx",
+      "avatar": "/static/mock-images/avatars/cs.png",
+      "symbol": "CS",
+      "platform": "none",
+      "name": "CS",
+      "cover": "xxx"
+    },
+    {
+      "contractAddress": "xxx",
+      "avatar": "/static/mock-images/avatars/cti.png",
+      "symbol": "CTI",
+      "platform": "none",
+      "name": "CTI",
+      "cover": "xxx"
+    },
+    {
+      "contractAddress": "xxx",
+      "avatar": "/static/mock-images/avatars/ctsi.png",
+      "symbol": "CTSI",
+      "platform": "none",
+      "name": "CTSI",
+      "cover": "xxx"
+    },
+    {
+      "contractAddress": "xxx",
+      "avatar": "/static/mock-images/avatars/cudos.png",
+      "symbol": "CUDOS",
+      "platform": "none",
+      "name": "CUDOS",
+      "cover": "xxx"
+    },
+    {
+      "contractAddress": "xxx",
+      "avatar": "/static/mock-images/avatars/cusd.png",
+      "symbol": "CUSD",
+      "platform": "none",
+      "name": "CUSD",
+      "cover": "xxx"
+    },
+    {
+      "contractAddress": "xxx",
+      "avatar": "/static/mock-images/avatars/danaher.png",
+      "symbol": "DANAHER",
+      "platform": "none",
+      "name": "DANAHER",
+      "cover": "xxx"
+    },
+    {
+      "contractAddress": "xxx",
+      "avatar": "/static/mock-images/avatars/dao.png",
+      "symbol": "DAO",
+      "platform": "none",
+      "name": "DAO",
+      "cover": "xxx"
+    },
+    {
+      "contractAddress": "xxx",
+      "avatar": "/static/mock-images/avatars/dappx.png",
+      "symbol": "DAPPX",
+      "platform": "none",
+      "name": "DAPPX",
+      "cover": "xxx"
+    },
+    {
+      "contractAddress": "xxx",
+      "avatar": "/static/mock-images/avatars/dash.png",
+      "symbol": "DASH",
+      "platform": "none",
+      "name": "DASH",
+      "cover": "xxx"
+    },
+    {
+      "contractAddress": "xxx",
+      "avatar": "/static/mock-images/avatars/data.png",
+      "symbol": "DATA",
+      "platform": "none",
+      "name": "DATA",
+      "cover": "xxx"
+    },
+    {
+      "contractAddress": "xxx",
+      "avatar": "/static/mock-images/avatars/db.png",
+      "symbol": "DB",
+      "platform": "none",
+      "name": "DB",
+      "cover": "xxx"
+    },
+    {
+      "contractAddress": "xxx",
+      "avatar": "/static/mock-images/avatars/dbc.png",
+      "symbol": "DBC",
+      "platform": "none",
+      "name": "DBC",
+      "cover": "xxx"
+    },
+    {
+      "contractAddress": "xxx",
+      "avatar": "/static/mock-images/avatars/dcr.png",
+      "symbol": "DCR",
+      "platform": "none",
+      "name": "DCR",
+      "cover": "xxx"
+    },
+    {
+      "contractAddress": "xxx",
+      "avatar": "/static/mock-images/avatars/dexe.png",
+      "symbol": "DEXE",
+      "platform": "none",
+      "name": "DEXE",
+      "cover": "xxx"
+    },
+    {
+      "contractAddress": "xxx",
+      "avatar": "/static/mock-images/avatars/dfyn.png",
+      "symbol": "DFYN",
+      "platform": "none",
+      "name": "DFYN",
+      "cover": "xxx"
+    },
+    {
+      "contractAddress": "xxx",
+      "avatar": "/static/mock-images/avatars/dgb.png",
+      "symbol": "DGB",
+      "platform": "none",
+      "name": "DGB",
+      "cover": "xxx"
+    },
+    {
+      "contractAddress": "xxx",
+      "avatar": "/static/mock-images/avatars/dino.png",
+      "symbol": "DINO",
+      "platform": "none",
+      "name": "DINO",
+      "cover": "xxx"
+    },
+    {
+      "contractAddress": "xxx",
+      "avatar": "/static/mock-images/avatars/dlta.png",
+      "symbol": "DLTA",
+      "platform": "none",
+      "name": "DLTA",
+      "cover": "xxx"
+    },
+    {
+      "contractAddress": "xxx",
+      "avatar": "/static/mock-images/avatars/dmtr.png",
+      "symbol": "DMTR",
+      "platform": "none",
+      "name": "DMTR",
+      "cover": "xxx"
+    },
+    {
+      "contractAddress": "xxx",
+      "avatar": "/static/mock-images/avatars/dock.png",
+      "symbol": "DOCK",
+      "platform": "none",
+      "name": "DOCK",
+      "cover": "xxx"
+    },
+    {
+      "contractAddress": "xxx",
+      "avatar": "/static/mock-images/avatars/dodo.png",
+      "symbol": "DODO",
+      "platform": "none",
+      "name": "DODO",
+      "cover": "xxx"
+    },
+    {
+      "contractAddress": "xxx",
+      "avatar": "/static/mock-images/avatars/doge.png",
+      "symbol": "DOGE",
+      "platform": "none",
+      "name": "DOGE",
+      "cover": "xxx"
+    },
+    {
+      "contractAddress": "xxx",
+      "avatar": "/static/mock-images/avatars/dogge.png",
+      "symbol": "DOGGE",
+      "platform": "none",
+      "name": "DOGGE",
+      "cover": "xxx"
+    },
+    {
+      "contractAddress": "xxx",
+      "avatar": "/static/mock-images/avatars/don.png",
+      "symbol": "DON",
+      "platform": "none",
+      "name": "DON",
+      "cover": "xxx"
+    },
+    {
+      "contractAddress": "xxx",
+      "avatar": "/static/mock-images/avatars/dora.png",
+      "symbol": "DORA",
+      "platform": "none",
+      "name": "DORA",
+      "cover": "xxx"
+    },
+    {
+      "contractAddress": "xxx",
+      "avatar": "/static/mock-images/avatars/dot.png",
+      "symbol": "DOT",
+      "platform": "none",
+      "name": "DOT",
+      "cover": "xxx"
+    },
+    {
+      "contractAddress": "xxx",
+      "avatar": "/static/mock-images/avatars/dpet.png",
+      "symbol": "DPET",
+      "platform": "none",
+      "name": "DPET",
+      "cover": "xxx"
+    },
+    {
+      "contractAddress": "xxx",
+      "avatar": "/static/mock-images/avatars/dph.jpg",
+      "symbol": "DPH",
+      "platform": "none",
+      "name": "DPH",
+      "cover": "xxx"
+    },
+    {
+      "contractAddress": "xxx",
+      "avatar": "/static/mock-images/avatars/dpi.png",
+      "symbol": "DPI",
+      "platform": "none",
+      "name": "DPI",
+      "cover": "xxx"
+    },
+    {
+      "contractAddress": "xxx",
+      "avatar": "/static/mock-images/avatars/dreams.png",
+      "symbol": "DREAMS",
+      "platform": "none",
+      "name": "DREAMS",
+      "cover": "xxx"
+    },
+    {
+      "contractAddress": "xxx",
+      "avatar": "/static/mock-images/avatars/dsla.png",
+      "symbol": "DSLA",
+      "platform": "none",
+      "name": "DSLA",
+      "cover": "xxx"
+    },
+    {
+      "contractAddress": "xxx",
+      "avatar": "/static/mock-images/avatars/dvpn.png",
+      "symbol": "DVPN",
+      "platform": "none",
+      "name": "DVPN",
+      "cover": "xxx"
+    },
+    {
+      "contractAddress": "xxx",
+      "avatar": "/static/mock-images/avatars/dydx.png",
+      "symbol": "DYDX",
+      "platform": "none",
+      "name": "DYDX",
+      "cover": "xxx"
+    },
+    {
+      "contractAddress": "xxx",
+      "avatar": "/static/mock-images/avatars/dyp.png",
+      "symbol": "DYP",
+      "platform": "none",
+      "name": "DYP",
+      "cover": "xxx"
+    },
+    {
+      "contractAddress": "xxx",
+      "avatar": "/static/mock-images/avatars/edg.png",
+      "symbol": "EDG",
+      "platform": "none",
+      "name": "EDG",
+      "cover": "xxx"
+    },
+    {
+      "contractAddress": "xxx",
+      "avatar": "/static/mock-images/avatars/ela.png",
+      "symbol": "ELA",
+      "platform": "none",
+      "name": "ELA",
+      "cover": "xxx"
+    },
+    {
+      "contractAddress": "xxx",
+      "avatar": "/static/mock-images/avatars/elrond.png",
+      "symbol": "ELROND",
+      "platform": "none",
+      "name": "ELROND",
+      "cover": "xxx"
+    },
+    {
+      "contractAddress": "xxx",
+      "avatar": "/static/mock-images/avatars/Energi.png",
+      "symbol": "ENERGI",
+      "platform": "none",
+      "name": "ENERGI",
+      "cover": "xxx"
+    },
+    {
+      "contractAddress": "xxx",
+      "avatar": "/static/mock-images/avatars/ens.png",
+      "symbol": "ENS",
+      "platform": "none",
+      "name": "ENS",
+      "cover": "xxx"
+    },
+    {
+      "contractAddress": "xxx",
+      "avatar": "/static/mock-images/avatars/eos.png",
+      "symbol": "EOS",
+      "platform": "none",
+      "name": "EOS",
+      "cover": "xxx"
+    },
+    {
+      "contractAddress": "xxx",
+      "avatar": "/static/mock-images/avatars/eps.png",
+      "symbol": "EPS",
+      "platform": "none",
+      "name": "EPS",
+      "cover": "xxx"
+    },
+    {
+      "contractAddress": "xxx",
+      "avatar": "/static/mock-images/avatars/equal.png",
+      "symbol": "EQUAL",
+      "platform": "none",
+      "name": "EQUAL",
+      "cover": "xxx"
+    },
+    {
+      "contractAddress": "xxx",
+      "avatar": "/static/mock-images/avatars/eqz.png",
+      "symbol": "EQZ",
+      "platform": "none",
+      "name": "EQZ",
+      "cover": "xxx"
+    },
+    {
+      "contractAddress": "xxx",
+      "avatar": "/static/mock-images/avatars/erg.png",
+      "symbol": "ERG",
+      "platform": "none",
+      "name": "ERG",
+      "cover": "xxx"
+    },
+    {
+      "contractAddress": "xxx",
+      "avatar": "/static/mock-images/avatars/ern.png",
+      "symbol": "ERN",
+      "platform": "none",
+      "name": "ERN",
+      "cover": "xxx"
+    },
+    {
+      "contractAddress": "xxx",
+      "avatar": "/static/mock-images/avatars/ersdl.png",
+      "symbol": "ERSDL",
+      "platform": "none",
+      "name": "ERSDL",
+      "cover": "xxx"
+    },
+    {
+      "contractAddress": "xxx",
+      "avatar": "/static/mock-images/avatars/etc.png",
+      "symbol": "ETC",
+      "platform": "none",
+      "name": "ETC",
+      "cover": "xxx"
+    },
+    {
+      "contractAddress": "xxx",
+      "avatar": "/static/mock-images/avatars/etf.png",
+      "symbol": "ETF",
+      "platform": "none",
+      "name": "ETF",
+      "cover": "xxx"
+    },
+    {
+      "contractAddress": "xxx",
+      "avatar": "/static/mock-images/avatars/eth.jpg",
+      "symbol": "ETH",
+      "platform": "none",
+      "name": "ETH",
+      "cover": "xxx"
+    },
+    {
+      "contractAddress": "xxx",
+      "avatar": "/static/mock-images/avatars/eth.png",
+      "symbol": "ETH",
+      "platform": "none",
+      "name": "ETH",
+      "cover": "xxx"
+    },
+    {
+      "contractAddress": "xxx",
+      "avatar": "/static/mock-images/avatars/ethereum.jpg",
+      "symbol": "ETHEREUM",
+      "platform": "none",
+      "name": "ETHEREUM",
+      "cover": "xxx"
+    },
+    {
+      "contractAddress": "xxx",
+      "avatar": "/static/mock-images/avatars/ethereum.png",
+      "symbol": "ETHEREUM",
+      "platform": "none",
+      "name": "ETHEREUM",
+      "cover": "xxx"
+    },
+    {
+      "contractAddress": "xxx",
+      "avatar": "/static/mock-images/avatars/etho.png",
+      "symbol": "ETHO",
+      "platform": "none",
+      "name": "ETHO",
+      "cover": "xxx"
+    },
+    {
+      "contractAddress": "xxx",
+      "avatar": "/static/mock-images/avatars/etn.png",
+      "symbol": "ETN",
+      "platform": "none",
+      "name": "ETN",
+      "cover": "xxx"
+    },
+    {
+      "contractAddress": "xxx",
+      "avatar": "/static/mock-images/avatars/ewt.png",
+      "symbol": "EWT",
+      "platform": "none",
+      "name": "EWT",
+      "cover": "xxx"
+    },
+    {
+      "contractAddress": "xxx",
+      "avatar": "/static/mock-images/avatars/exrd.png",
+      "symbol": "EXRD",
+      "platform": "none",
+      "name": "EXRD",
+      "cover": "xxx"
+    },
+    {
+      "contractAddress": "xxx",
+      "avatar": "/static/mock-images/avatars/fantom.jpg",
+      "symbol": "FANTOM",
+      "platform": "none",
+      "name": "FANTOM",
+      "cover": "xxx"
+    },
+    {
+      "contractAddress": "xxx",
+      "avatar": "/static/mock-images/avatars/fantom.png",
+      "symbol": "FANTOM",
+      "platform": "none",
+      "name": "FANTOM",
+      "cover": "xxx"
+    },
+    {
+      "contractAddress": "xxx",
+      "avatar": "/static/mock-images/avatars/fear.png",
+      "symbol": "FEAR",
+      "platform": "none",
+      "name": "FEAR",
+      "cover": "xxx"
+    },
+    {
+      "contractAddress": "xxx",
+      "avatar": "/static/mock-images/avatars/Fetch.ai.png",
+      "symbol": "FETCH",
+      "platform": "none",
+      "name": "FETCH",
+      "cover": "xxx"
+    },
+    {
+      "contractAddress": "xxx",
+      "avatar": "/static/mock-images/avatars/fil.png",
+      "symbol": "FIL",
+      "platform": "none",
+      "name": "FIL",
+      "cover": "xxx"
+    },
+    {
+      "contractAddress": "xxx",
+      "avatar": "/static/mock-images/avatars/finder2.png",
+      "symbol": "FINDER2",
+      "platform": "none",
+      "name": "FINDER2",
+      "cover": "xxx"
+    },
+    {
+      "contractAddress": "xxx",
+      "avatar": "/static/mock-images/avatars/flame.png",
+      "symbol": "FLAME",
+      "platform": "none",
+      "name": "FLAME",
+      "cover": "xxx"
+    },
+    {
+      "contractAddress": "xxx",
+      "avatar": "/static/mock-images/avatars/flow.png",
+      "symbol": "FLOW",
+      "platform": "none",
+      "name": "FLOW",
+      "cover": "xxx"
+    },
+    {
+      "contractAddress": "xxx",
+      "avatar": "/static/mock-images/avatars/flux.png",
+      "symbol": "FLUX",
+      "platform": "none",
+      "name": "FLUX",
+      "cover": "xxx"
+    },
+    {
+      "contractAddress": "xxx",
+      "avatar": "/static/mock-images/avatars/forth.png",
+      "symbol": "FORTH",
+      "platform": "none",
+      "name": "FORTH",
+      "cover": "xxx"
+    },
+    {
+      "contractAddress": "xxx",
+      "avatar": "/static/mock-images/avatars/francium.png",
+      "symbol": "FRANCIUM",
+      "platform": "none",
+      "name": "FRANCIUM",
+      "cover": "xxx"
+    },
+    {
+      "contractAddress": "xxx",
+      "avatar": "/static/mock-images/avatars/ftg.png",
+      "symbol": "FTG",
+      "platform": "none",
+      "name": "FTG",
+      "cover": "xxx"
+    },
+    {
+      "contractAddress": "xxx",
+      "avatar": "/static/mock-images/avatars/ftt.png",
+      "symbol": "FTT",
+      "platform": "none",
+      "name": "FTT",
+      "cover": "xxx"
+    },
+    {
+      "contractAddress": "xxx",
+      "avatar": "/static/mock-images/avatars/fujidao.png",
+      "symbol": "FUJIDAO",
+      "platform": "none",
+      "name": "FUJIDAO",
+      "cover": "xxx"
+    },
+    {
+      "contractAddress": "xxx",
+      "avatar": "/static/mock-images/avatars/galaxygoggledao.png",
+      "symbol": "GALAXYGOGGLEDAO",
+      "platform": "none",
+      "name": "GALAXYGOGGLEDAO",
+      "cover": "xxx"
+    },
+    {
+      "contractAddress": "xxx",
+      "avatar": "/static/mock-images/avatars/gas.png",
+      "symbol": "GAS",
+      "platform": "none",
+      "name": "GAS",
+      "cover": "xxx"
+    },
+    {
+      "contractAddress": "xxx",
+      "avatar": "/static/mock-images/avatars/ghst.png",
+      "symbol": "GHST",
+      "platform": "none",
+      "name": "GHST",
+      "cover": "xxx"
+    },
+    {
+      "contractAddress": "xxx",
+      "avatar": "/static/mock-images/avatars/ghx.png",
+      "symbol": "GHX",
+      "platform": "none",
+      "name": "GHX",
+      "cover": "xxx"
+    },
+    {
+      "contractAddress": "xxx",
+      "avatar": "/static/mock-images/avatars/glacier.png",
+      "symbol": "GLACIER",
+      "platform": "none",
+      "name": "GLACIER",
+      "cover": "xxx"
+    },
+    {
+      "contractAddress": "xxx",
+      "avatar": "/static/mock-images/avatars/glacier2.png",
+      "symbol": "GLACIER2",
+      "platform": "none",
+      "name": "GLACIER2",
+      "cover": "xxx"
+    },
+    {
+      "contractAddress": "xxx",
+      "avatar": "/static/mock-images/avatars/glch.png",
+      "symbol": "GLCH",
+      "platform": "none",
+      "name": "GLCH",
+      "cover": "xxx"
+    },
+    {
+      "contractAddress": "xxx",
+      "avatar": "/static/mock-images/avatars/glm.png",
+      "symbol": "GLM",
+      "platform": "none",
+      "name": "GLM",
+      "cover": "xxx"
+    },
+    {
+      "contractAddress": "xxx",
+      "avatar": "/static/mock-images/avatars/glq.png",
+      "symbol": "GLQ",
+      "platform": "none",
+      "name": "GLQ",
+      "cover": "xxx"
+    },
+    {
+      "contractAddress": "xxx",
+      "avatar": "/static/mock-images/avatars/gmee.png",
+      "symbol": "GMEE",
+      "platform": "none",
+      "name": "GMEE",
+      "cover": "xxx"
+    },
+    {
+      "contractAddress": "xxx",
+      "avatar": "/static/mock-images/avatars/go.png",
+      "symbol": "GO",
+      "platform": "none",
+      "name": "GO",
+      "cover": "xxx"
+    },
+    {
+      "contractAddress": "xxx",
+      "avatar": "/static/mock-images/avatars/god.png",
+      "symbol": "GOD",
+      "platform": "none",
+      "name": "GOD",
+      "cover": "xxx"
+    },
+    {
+      "contractAddress": "xxx",
+      "avatar": "/static/mock-images/avatars/gods.png",
+      "symbol": "GODS",
+      "platform": "none",
+      "name": "GODS",
+      "cover": "xxx"
+    },
+    {
+      "contractAddress": "xxx",
+      "avatar": "/static/mock-images/avatars/gom2.png",
+      "symbol": "GOM2",
+      "platform": "none",
+      "name": "GOM2",
+      "cover": "xxx"
+    },
+    {
+      "contractAddress": "xxx",
+      "avatar": "/static/mock-images/avatars/govi.png",
+      "symbol": "GOVI",
+      "platform": "none",
+      "name": "GOVI",
+      "cover": "xxx"
+    },
+    {
+      "contractAddress": "xxx",
+      "avatar": "/static/mock-images/avatars/grin.png",
+      "symbol": "GRIN",
+      "platform": "none",
+      "name": "GRIN",
+      "cover": "xxx"
+    },
+    {
+      "contractAddress": "xxx",
+      "avatar": "/static/mock-images/avatars/grt.png",
+      "symbol": "GRT",
+      "platform": "none",
+      "name": "GRT",
+      "cover": "xxx"
+    },
+    {
+      "contractAddress": "xxx",
+      "avatar": "/static/mock-images/avatars/gspi.png",
+      "symbol": "GSPI",
+      "platform": "none",
+      "name": "GSPI",
+      "cover": "xxx"
+    },
+    {
+      "contractAddress": "xxx",
+      "avatar": "/static/mock-images/avatars/gtc.png",
+      "symbol": "GTC",
+      "platform": "none",
+      "name": "GTC",
+      "cover": "xxx"
+    },
+    {
+      "contractAddress": "xxx",
+      "avatar": "/static/mock-images/avatars/hai.png",
+      "symbol": "HAI",
+      "platform": "none",
+      "name": "HAI",
+      "cover": "xxx"
+    },
+    {
+      "contractAddress": "xxx",
+      "avatar": "/static/mock-images/avatars/hard.png",
+      "symbol": "HARD",
+      "platform": "none",
+      "name": "HARD",
+      "cover": "xxx"
+    },
+    {
+      "contractAddress": "xxx",
+      "avatar": "/static/mock-images/avatars/harmony.png",
+      "symbol": "HARMONY",
+      "platform": "none",
+      "name": "HARMONY",
+      "cover": "xxx"
+    },
+    {
+      "contractAddress": "xxx",
+      "avatar": "/static/mock-images/avatars/hectordao.png",
+      "symbol": "HECTORDAO",
+      "platform": "none",
+      "name": "HECTORDAO",
+      "cover": "xxx"
+    },
+    {
+      "contractAddress": "xxx",
+      "avatar": "/static/mock-images/avatars/hegic.png",
+      "symbol": "HEGIC",
+      "platform": "none",
+      "name": "HEGIC",
+      "cover": "xxx"
+    },
+    {
+      "contractAddress": "xxx",
+      "avatar": "/static/mock-images/avatars/hero.png",
+      "symbol": "HERO",
+      "platform": "none",
+      "name": "HERO",
+      "cover": "xxx"
+    },
+    {
+      "contractAddress": "xxx",
+      "avatar": "/static/mock-images/avatars/hord.png",
+      "symbol": "HORD",
+      "platform": "none",
+      "name": "HORD",
+      "cover": "xxx"
+    },
+    {
+      "contractAddress": "xxx",
+      "avatar": "/static/mock-images/avatars/horse.png",
+      "symbol": "HORSE",
+      "platform": "none",
+      "name": "HORSE",
+      "cover": "xxx"
+    },
+    {
+      "contractAddress": "xxx",
+      "avatar": "/static/mock-images/avatars/hotcross.png",
+      "symbol": "HOTCROSS",
+      "platform": "none",
+      "name": "HOTCROSS",
+      "cover": "xxx"
+    },
+    {
+      "contractAddress": "xxx",
+      "avatar": "/static/mock-images/avatars/hpb.png",
+      "symbol": "HPB",
+      "platform": "none",
+      "name": "HPB",
+      "cover": "xxx"
+    },
+    {
+      "contractAddress": "xxx",
+      "avatar": "/static/mock-images/avatars/ht.png",
+      "symbol": "HT",
+      "platform": "none",
+      "name": "HT",
+      "cover": "xxx"
+    },
+    {
+      "contractAddress": "xxx",
+      "avatar": "/static/mock-images/avatars/htr.png",
+      "symbol": "HTR",
+      "platform": "none",
+      "name": "HTR",
+      "cover": "xxx"
+    },
+    {
+      "contractAddress": "xxx",
+      "avatar": "/static/mock-images/avatars/hyve.png",
+      "symbol": "HYVE",
+      "platform": "none",
+      "name": "HYVE",
+      "cover": "xxx"
+    },
+    {
+      "contractAddress": "xxx",
+      "avatar": "/static/mock-images/avatars/icp.png",
+      "symbol": "ICP",
+      "platform": "none",
+      "name": "ICP",
+      "cover": "xxx"
+    },
+    {
+      "contractAddress": "xxx",
+      "avatar": "/static/mock-images/avatars/idea.png",
+      "symbol": "IDEA",
+      "platform": "none",
+      "name": "IDEA",
+      "cover": "xxx"
+    },
+    {
+      "contractAddress": "xxx",
+      "avatar": "/static/mock-images/avatars/ila.png",
+      "symbol": "ILA",
+      "platform": "none",
+      "name": "ILA",
+      "cover": "xxx"
+    },
+    {
+      "contractAddress": "xxx",
+      "avatar": "/static/mock-images/avatars/ilv.png",
+      "symbol": "ILV",
+      "platform": "none",
+      "name": "ILV",
+      "cover": "xxx"
+    },
+    {
+      "contractAddress": "xxx",
+      "avatar": "/static/mock-images/avatars/imx.png",
+      "symbol": "IMX",
+      "platform": "none",
+      "name": "IMX",
+      "cover": "xxx"
+    },
+    {
+      "contractAddress": "xxx",
+      "avatar": "/static/mock-images/avatars/inj.png",
+      "symbol": "INJ",
+      "platform": "none",
+      "name": "INJ",
+      "cover": "xxx"
+    },
+    {
+      "contractAddress": "xxx",
+      "avatar": "/static/mock-images/avatars/insurace.png",
+      "symbol": "INSURACE",
+      "platform": "none",
+      "name": "INSURACE",
+      "cover": "xxx"
+    },
+    {
+      "contractAddress": "xxx",
+      "avatar": "/static/mock-images/avatars/ioi.png",
+      "symbol": "IOI",
+      "platform": "none",
+      "name": "IOI",
+      "cover": "xxx"
+    },
+    {
+      "contractAddress": "xxx",
+      "avatar": "/static/mock-images/avatars/iost.png",
+      "symbol": "IOST",
+      "platform": "none",
+      "name": "IOST",
+      "cover": "xxx"
+    },
+    {
+      "contractAddress": "xxx",
+      "avatar": "/static/mock-images/avatars/iotx.png",
+      "symbol": "IOTX",
+      "platform": "none",
+      "name": "IOTX",
+      "cover": "xxx"
+    },
+    {
+      "contractAddress": "xxx",
+      "avatar": "/static/mock-images/avatars/isp.png",
+      "symbol": "ISP",
+      "platform": "none",
+      "name": "ISP",
+      "cover": "xxx"
+    },
+    {
+      "contractAddress": "xxx",
+      "avatar": "/static/mock-images/avatars/ixs.png",
+      "symbol": "IXS",
+      "platform": "none",
+      "name": "IXS",
+      "cover": "xxx"
+    },
+    {
+      "contractAddress": "xxx",
+      "avatar": "/static/mock-images/avatars/jst.png",
+      "symbol": "JST",
+      "platform": "none",
+      "name": "JST",
+      "cover": "xxx"
+    },
+    {
+      "contractAddress": "xxx",
+      "avatar": "/static/mock-images/avatars/jswap.png",
+      "symbol": "JSWAP",
+      "platform": "none",
+      "name": "JSWAP",
+      "cover": "xxx"
+    },
+    {
+      "contractAddress": "xxx",
+      "avatar": "/static/mock-images/avatars/jup.png",
+      "symbol": "JUP",
+      "platform": "none",
+      "name": "JUP",
+      "cover": "xxx"
+    },
+    {
+      "contractAddress": "xxx",
+      "avatar": "/static/mock-images/avatars/kai.png",
+      "symbol": "KAI",
+      "platform": "none",
+      "name": "KAI",
+      "cover": "xxx"
+    },
+    {
+      "contractAddress": "xxx",
+      "avatar": "/static/mock-images/avatars/kar.png",
+      "symbol": "KAR",
+      "platform": "none",
+      "name": "KAR",
+      "cover": "xxx"
+    },
+    {
+      "contractAddress": "xxx",
+      "avatar": "/static/mock-images/avatars/kash.png",
+      "symbol": "KASH",
+      "platform": "none",
+      "name": "KASH",
+      "cover": "xxx"
+    },
+    {
+      "contractAddress": "xxx",
+      "avatar": "/static/mock-images/avatars/kava.png",
+      "symbol": "KAVA",
+      "platform": "none",
+      "name": "KAVA",
+      "cover": "xxx"
+    },
+    {
+      "contractAddress": "xxx",
+      "avatar": "/static/mock-images/avatars/kda.png",
+      "symbol": "KDA",
+      "platform": "none",
+      "name": "KDA",
+      "cover": "xxx"
+    },
+    {
+      "contractAddress": "xxx",
+      "avatar": "/static/mock-images/avatars/keep.png",
+      "symbol": "KEEP",
+      "platform": "none",
+      "name": "KEEP",
+      "cover": "xxx"
+    },
+    {
+      "contractAddress": "xxx",
+      "avatar": "/static/mock-images/avatars/klv.png",
+      "symbol": "KLV",
+      "platform": "none",
+      "name": "KLV",
+      "cover": "xxx"
+    },
+    {
+      "contractAddress": "xxx",
+      "avatar": "/static/mock-images/avatars/kma.png",
+      "symbol": "KMA",
+      "platform": "none",
+      "name": "KMA",
+      "cover": "xxx"
+    },
+    {
+      "contractAddress": "xxx",
+      "avatar": "/static/mock-images/avatars/kmd.png",
+      "symbol": "KMD",
+      "platform": "none",
+      "name": "KMD",
+      "cover": "xxx"
+    },
+    {
+      "contractAddress": "xxx",
+      "avatar": "/static/mock-images/avatars/kok.png",
+      "symbol": "KOK",
+      "platform": "none",
+      "name": "KOK",
+      "cover": "xxx"
+    },
+    {
+      "contractAddress": "xxx",
+      "avatar": "/static/mock-images/avatars/kono.png",
+      "symbol": "KONO",
+      "platform": "none",
+      "name": "KONO",
+      "cover": "xxx"
+    },
+    {
+      "contractAddress": "xxx",
+      "avatar": "/static/mock-images/avatars/krl.png",
+      "symbol": "KRL",
+      "platform": "none",
+      "name": "KRL",
+      "cover": "xxx"
+    },
+    {
+      "contractAddress": "xxx",
+      "avatar": "/static/mock-images/avatars/ksm.png",
+      "symbol": "KSM",
+      "platform": "none",
+      "name": "KSM",
+      "cover": "xxx"
+    },
+    {
+      "contractAddress": "xxx",
+      "avatar": "/static/mock-images/avatars/kuji.svg",
+      "symbol": "KUJI",
+      "platform": "none",
+      "name": "KUJI",
+      "cover": "xxx"
+    },
+    {
+      "contractAddress": "xxx",
+      "avatar": "/static/mock-images/avatars/labs.png",
+      "symbol": "LABS",
+      "platform": "none",
+      "name": "LABS",
+      "cover": "xxx"
+    },
+    {
+      "contractAddress": "xxx",
+      "avatar": "/static/mock-images/avatars/larix.png",
+      "symbol": "LARIX",
+      "platform": "none",
+      "name": "LARIX",
+      "cover": "xxx"
+    },
+    {
+      "contractAddress": "xxx",
+      "avatar": "/static/mock-images/avatars/like.png",
+      "symbol": "LIKE",
+      "platform": "none",
+      "name": "LIKE",
+      "cover": "xxx"
+    },
+    {
+      "contractAddress": "xxx",
+      "avatar": "/static/mock-images/avatars/lit.png",
+      "symbol": "LIT",
+      "platform": "none",
+      "name": "LIT",
+      "cover": "xxx"
+    },
+    {
+      "contractAddress": "xxx",
+      "avatar": "/static/mock-images/avatars/lith.png",
+      "symbol": "LITH",
+      "platform": "none",
+      "name": "LITH",
+      "cover": "xxx"
+    },
+    {
+      "contractAddress": "xxx",
+      "avatar": "/static/mock-images/avatars/lnchx.png",
+      "symbol": "LNCHX",
+      "platform": "none",
+      "name": "LNCHX",
+      "cover": "xxx"
+    },
+    {
+      "contractAddress": "xxx",
+      "avatar": "/static/mock-images/avatars/logo.png",
+      "symbol": "LOGO",
+      "platform": "none",
+      "name": "LOGO",
+      "cover": "xxx"
+    },
+    {
+      "contractAddress": "xxx",
+      "avatar": "/static/mock-images/avatars/logo3.png",
+      "symbol": "LOGO3",
+      "platform": "none",
+      "name": "LOGO3",
+      "cover": "xxx"
+    },
+    {
+      "contractAddress": "xxx",
+      "avatar": "/static/mock-images/avatars/lon.png",
+      "symbol": "LON",
+      "platform": "none",
+      "name": "LON",
+      "cover": "xxx"
+    },
+    {
+      "contractAddress": "xxx",
+      "avatar": "/static/mock-images/avatars/loop.jpg",
+      "symbol": "LOOP",
+      "platform": "none",
+      "name": "LOOP",
+      "cover": "xxx"
+    },
+    {
+      "contractAddress": "xxx",
+      "avatar": "/static/mock-images/avatars/lpool.png",
+      "symbol": "LPOOL",
+      "platform": "none",
+      "name": "LPOOL",
+      "cover": "xxx"
+    },
+    {
+      "contractAddress": "xxx",
+      "avatar": "/static/mock-images/avatars/lpt.png",
+      "symbol": "LPT",
+      "platform": "none",
+      "name": "LPT",
+      "cover": "xxx"
+    },
+    {
+      "contractAddress": "xxx",
+      "avatar": "/static/mock-images/avatars/lrc.png",
+      "symbol": "LRC",
+      "platform": "none",
+      "name": "LRC",
+      "cover": "xxx"
+    },
+    {
+      "contractAddress": "xxx",
+      "avatar": "/static/mock-images/avatars/lsk.png",
+      "symbol": "LSK",
+      "platform": "none",
+      "name": "LSK",
+      "cover": "xxx"
+    },
+    {
+      "contractAddress": "xxx",
+      "avatar": "/static/mock-images/avatars/lss.png",
+      "symbol": "LSS",
+      "platform": "none",
+      "name": "LSS",
+      "cover": "xxx"
+    },
+    {
+      "contractAddress": "xxx",
+      "avatar": "/static/mock-images/avatars/ltc.png",
+      "symbol": "LTC",
+      "platform": "none",
+      "name": "LTC",
+      "cover": "xxx"
+    },
+    {
+      "contractAddress": "xxx",
+      "avatar": "/static/mock-images/avatars/ltx.png",
+      "symbol": "LTX",
+      "platform": "none",
+      "name": "LTX",
+      "cover": "xxx"
+    },
+    {
+      "contractAddress": "xxx",
+      "avatar": "/static/mock-images/avatars/lvn.png",
+      "symbol": "LVN",
+      "platform": "none",
+      "name": "LVN",
+      "cover": "xxx"
+    },
+    {
+      "contractAddress": "xxx",
+      "avatar": "/static/mock-images/avatars/madmeerkat.png",
+      "symbol": "MADMEERKAT",
+      "platform": "none",
+      "name": "MADMEERKAT",
+      "cover": "xxx"
+    },
+    {
+      "contractAddress": "xxx",
+      "avatar": "/static/mock-images/avatars/maha.png",
+      "symbol": "MAHA",
+      "platform": "none",
+      "name": "MAHA",
+      "cover": "xxx"
+    },
+    {
+      "contractAddress": "xxx",
+      "avatar": "/static/mock-images/avatars/maki.png",
+      "symbol": "MAKI",
+      "platform": "none",
+      "name": "MAKI",
+      "cover": "xxx"
+    },
+    {
+      "contractAddress": "xxx",
+      "avatar": "/static/mock-images/avatars/man.png",
+      "symbol": "MAN",
+      "platform": "none",
+      "name": "MAN",
+      "cover": "xxx"
+    },
+    {
+      "contractAddress": "xxx",
+      "avatar": "/static/mock-images/avatars/mars.png",
+      "symbol": "MARS",
+      "platform": "none",
+      "name": "MARS",
+      "cover": "xxx"
+    },
+    {
+      "contractAddress": "xxx",
+      "avatar": "/static/mock-images/avatars/marsh.png",
+      "symbol": "MARSH",
+      "platform": "none",
+      "name": "MARSH",
+      "cover": "xxx"
+    },
+    {
+      "contractAddress": "xxx",
+      "avatar": "/static/mock-images/avatars/mask.png",
+      "symbol": "MASK",
+      "platform": "none",
+      "name": "MASK",
+      "cover": "xxx"
+    },
+    {
+      "contractAddress": "xxx",
+      "avatar": "/static/mock-images/avatars/matic.png",
+      "symbol": "MATIC",
+      "platform": "none",
+      "name": "MATIC",
+      "cover": "xxx"
+    },
+    {
+      "contractAddress": "xxx",
+      "avatar": "/static/mock-images/avatars/mct.png",
+      "symbol": "MCT",
+      "platform": "none",
+      "name": "MCT",
+      "cover": "xxx"
+    },
+    {
+      "contractAddress": "xxx",
+      "avatar": "/static/mock-images/avatars/mem.png",
+      "symbol": "MEM",
+      "platform": "none",
+      "name": "MEM",
+      "cover": "xxx"
+    },
+    {
+      "contractAddress": "xxx",
+      "avatar": "/static/mock-images/avatars/mer.png",
+      "symbol": "MER",
+      "platform": "none",
+      "name": "MER",
+      "cover": "xxx"
+    },
+    {
+      "contractAddress": "xxx",
+      "avatar": "/static/mock-images/avatars/mft.png",
+      "symbol": "MFT",
+      "platform": "none",
+      "name": "MFT",
+      "cover": "xxx"
+    },
+    {
+      "contractAddress": "xxx",
+      "avatar": "/static/mock-images/avatars/mhc.png",
+      "symbol": "MHC",
+      "platform": "none",
+      "name": "MHC",
+      "cover": "xxx"
+    },
+    {
+      "contractAddress": "xxx",
+      "avatar": "/static/mock-images/avatars/miaw.jpg",
+      "symbol": "MIAW",
+      "platform": "none",
+      "name": "MIAW",
+      "cover": "xxx"
+    },
+    {
+      "contractAddress": "xxx",
+      "avatar": "/static/mock-images/avatars/midasdao.jpeg",
+      "symbol": "MIDASDAO",
+      "platform": "none",
+      "name": "MIDASDAO",
+      "cover": "xxx"
+    },
+    {
+      "contractAddress": "xxx",
+      "avatar": "/static/mock-images/avatars/minus.png",
+      "symbol": "MINUS",
+      "platform": "none",
+      "name": "MINUS",
+      "cover": "xxx"
+    },
+    {
+      "contractAddress": "xxx",
+      "avatar": "/static/mock-images/avatars/mitx.png",
+      "symbol": "MITX",
+      "platform": "none",
+      "name": "MITX",
+      "cover": "xxx"
+    },
+    {
+      "contractAddress": "xxx",
+      "avatar": "/static/mock-images/avatars/mln.png",
+      "symbol": "MLN",
+      "platform": "none",
+      "name": "MLN",
+      "cover": "xxx"
+    },
+    {
+      "contractAddress": "xxx",
+      "avatar": "/static/mock-images/avatars/mnst.png",
+      "symbol": "MNST",
+      "platform": "none",
+      "name": "MNST",
+      "cover": "xxx"
+    },
+    {
+      "contractAddress": "xxx",
+      "avatar": "/static/mock-images/avatars/monero.png",
+      "symbol": "MONERO",
+      "platform": "none",
+      "name": "MONERO",
+      "cover": "xxx"
+    },
+    {
+      "contractAddress": "xxx",
+      "avatar": "/static/mock-images/avatars/moni.png",
+      "symbol": "MONI",
+      "platform": "none",
+      "name": "MONI",
+      "cover": "xxx"
+    },
+    {
+      "contractAddress": "xxx",
+      "avatar": "/static/mock-images/avatars/movr.png",
+      "symbol": "MOVR",
+      "platform": "none",
+      "name": "MOVR",
+      "cover": "xxx"
+    },
+    {
+      "contractAddress": "xxx",
+      "avatar": "/static/mock-images/avatars/mswap.png",
+      "symbol": "MSWAP",
+      "platform": "none",
+      "name": "MSWAP",
+      "cover": "xxx"
+    },
+    {
+      "contractAddress": "xxx",
+      "avatar": "/static/mock-images/avatars/mtrg.png",
+      "symbol": "MTRG",
+      "platform": "none",
+      "name": "MTRG",
+      "cover": "xxx"
+    },
+    {
+      "contractAddress": "xxx",
+      "avatar": "/static/mock-images/avatars/multivac.jpg",
+      "symbol": "MULTIVAC",
+      "platform": "none",
+      "name": "MULTIVAC",
+      "cover": "xxx"
+    },
+    {
+      "contractAddress": "xxx",
+      "avatar": "/static/mock-images/avatars/mush.png",
+      "symbol": "MUSH",
+      "platform": "none",
+      "name": "MUSH",
+      "cover": "xxx"
+    },
+    {
+      "contractAddress": "xxx",
+      "avatar": "/static/mock-images/avatars/mxc.png",
+      "symbol": "MXC",
+      "platform": "none",
+      "name": "MXC",
+      "cover": "xxx"
+    },
+    {
+      "contractAddress": "xxx",
+      "avatar": "/static/mock-images/avatars/naka.png",
+      "symbol": "NAKA",
+      "platform": "none",
+      "name": "NAKA",
+      "cover": "xxx"
+    },
+    {
+      "contractAddress": "xxx",
+      "avatar": "/static/mock-images/avatars/ndau.png",
+      "symbol": "NDAU",
+      "platform": "none",
+      "name": "NDAU",
+      "cover": "xxx"
+    },
+    {
+      "contractAddress": "xxx",
+      "avatar": "/static/mock-images/avatars/near.png",
+      "symbol": "NEAR",
+      "platform": "none",
+      "name": "NEAR",
+      "cover": "xxx"
+    },
+    {
+      "contractAddress": "xxx",
+      "avatar": "/static/mock-images/avatars/nebl.png",
+      "symbol": "NEBL",
+      "platform": "none",
+      "name": "NEBL",
+      "cover": "xxx"
+    },
+    {
+      "contractAddress": "xxx",
+      "avatar": "/static/mock-images/avatars/neo.png",
+      "symbol": "NEO",
+      "platform": "none",
+      "name": "NEO",
+      "cover": "xxx"
+    },
+    {
+      "contractAddress": "xxx",
+      "avatar": "/static/mock-images/avatars/neth.svg",
+      "symbol": "NETH",
+      "platform": "none",
+      "name": "NETH",
+      "cover": "xxx"
+    },
+    {
+      "contractAddress": "xxx",
+      "avatar": "/static/mock-images/avatars/nexus.svg",
+      "symbol": "NEXUS",
+      "platform": "none",
+      "name": "NEXUS",
+      "cover": "xxx"
+    },
+    {
+      "contractAddress": "xxx",
+      "avatar": "/static/mock-images/avatars/nft.png",
+      "symbol": "NFT",
+      "platform": "none",
+      "name": "NFT",
+      "cover": "xxx"
+    },
+    {
+      "contractAddress": "xxx",
+      "avatar": "/static/mock-images/avatars/nftb.png",
+      "symbol": "NFTB",
+      "platform": "none",
+      "name": "NFTB",
+      "cover": "xxx"
+    },
+    {
+      "contractAddress": "xxx",
+      "avatar": "/static/mock-images/avatars/ngm.png",
+      "symbol": "NGM",
+      "platform": "none",
+      "name": "NGM",
+      "cover": "xxx"
+    },
+    {
+      "contractAddress": "xxx",
+      "avatar": "/static/mock-images/avatars/nif.png",
+      "symbol": "NIF",
+      "platform": "none",
+      "name": "NIF",
+      "cover": "xxx"
+    },
+    {
+      "contractAddress": "xxx",
+      "avatar": "/static/mock-images/avatars/nim.png",
+      "symbol": "NIM",
+      "platform": "none",
+      "name": "NIM",
+      "cover": "xxx"
+    },
+    {
+      "contractAddress": "xxx",
+      "avatar": "/static/mock-images/avatars/nkn.png",
+      "symbol": "NKN",
+      "platform": "none",
+      "name": "NKN",
+      "cover": "xxx"
+    },
+    {
+      "contractAddress": "xxx",
+      "avatar": "/static/mock-images/avatars/nluna.svg",
+      "symbol": "NLUNA",
+      "platform": "none",
+      "name": "NLUNA",
+      "cover": "xxx"
+    },
+    {
+      "contractAddress": "xxx",
+      "avatar": "/static/mock-images/avatars/nmr.png",
+      "symbol": "NMR",
+      "platform": "none",
+      "name": "NMR",
+      "cover": "xxx"
+    },
+    {
+      "contractAddress": "xxx",
+      "avatar": "/static/mock-images/avatars/nord.png",
+      "symbol": "NORD",
+      "platform": "none",
+      "name": "NORD",
+      "cover": "xxx"
+    },
+    {
+      "contractAddress": "xxx",
+      "avatar": "/static/mock-images/avatars/nrg.png",
+      "symbol": "NRG",
+      "platform": "none",
+      "name": "NRG",
+      "cover": "xxx"
+    },
+    {
+      "contractAddress": "xxx",
+      "avatar": "/static/mock-images/avatars/ntvrk.png",
+      "symbol": "NTVRK",
+      "platform": "none",
+      "name": "NTVRK",
+      "cover": "xxx"
+    },
+    {
+      "contractAddress": "xxx",
+      "avatar": "/static/mock-images/avatars/nu.png",
+      "symbol": "NU",
+      "platform": "none",
+      "name": "NU",
+      "cover": "xxx"
+    },
+    {
+      "contractAddress": "xxx",
+      "avatar": "/static/mock-images/avatars/nuls.png",
+      "symbol": "NULS",
+      "platform": "none",
+      "name": "NULS",
+      "cover": "xxx"
+    },
+    {
+      "contractAddress": "xxx",
+      "avatar": "/static/mock-images/avatars/num.png",
+      "symbol": "NUM",
+      "platform": "none",
+      "name": "NUM",
+      "cover": "xxx"
+    },
+    {
+      "contractAddress": "xxx",
+      "avatar": "/static/mock-images/avatars/nwc.png",
+      "symbol": "NWC",
+      "platform": "none",
+      "name": "NWC",
+      "cover": "xxx"
+    },
+    {
+      "contractAddress": "xxx",
+      "avatar": "/static/mock-images/avatars/oddz.png",
+      "symbol": "ODDZ",
+      "platform": "none",
+      "name": "ODDZ",
+      "cover": "xxx"
+    },
+    {
+      "contractAddress": "xxx",
+      "avatar": "/static/mock-images/avatars/ogn.png",
+      "symbol": "OGN",
+      "platform": "none",
+      "name": "OGN",
+      "cover": "xxx"
+    },
+    {
+      "contractAddress": "xxx",
+      "avatar": "/static/mock-images/avatars/olt.png",
+      "symbol": "OLT",
+      "platform": "none",
+      "name": "OLT",
+      "cover": "xxx"
+    },
+    {
+      "contractAddress": "xxx",
+      "avatar": "/static/mock-images/avatars/om.png",
+      "symbol": "OM",
+      "platform": "none",
+      "name": "OM",
+      "cover": "xxx"
+    },
+    {
+      "contractAddress": "xxx",
+      "avatar": "/static/mock-images/avatars/ong.png",
+      "symbol": "ONG",
+      "platform": "none",
+      "name": "ONG",
+      "cover": "xxx"
+    },
+    {
+      "contractAddress": "xxx",
+      "avatar": "/static/mock-images/avatars/onion.png",
+      "symbol": "ONION",
+      "platform": "none",
+      "name": "ONION",
+      "cover": "xxx"
+    },
+    {
+      "contractAddress": "xxx",
+      "avatar": "/static/mock-images/avatars/ont.png",
+      "symbol": "ONT",
+      "platform": "none",
+      "name": "ONT",
+      "cover": "xxx"
+    },
+    {
+      "contractAddress": "xxx",
+      "avatar": "/static/mock-images/avatars/ooe.png",
+      "symbol": "OOE",
+      "platform": "none",
+      "name": "OOE",
+      "cover": "xxx"
+    },
+    {
+      "contractAddress": "xxx",
+      "avatar": "/static/mock-images/avatars/ops.png",
+      "symbol": "OPS",
+      "platform": "none",
+      "name": "OPS",
+      "cover": "xxx"
+    },
+    {
+      "contractAddress": "xxx",
+      "avatar": "/static/mock-images/avatars/opt.png",
+      "symbol": "OPT",
+      "platform": "none",
+      "name": "OPT",
+      "cover": "xxx"
+    },
+    {
+      "contractAddress": "xxx",
+      "avatar": "/static/mock-images/avatars/opul.png",
+      "symbol": "OPUL",
+      "platform": "none",
+      "name": "OPUL",
+      "cover": "xxx"
+    },
+    {
+      "contractAddress": "xxx",
+      "avatar": "/static/mock-images/avatars/orai.png",
+      "symbol": "ORAI",
+      "platform": "none",
+      "name": "ORAI",
+      "cover": "xxx"
+    },
+    {
+      "contractAddress": "xxx",
+      "avatar": "/static/mock-images/avatars/orbs.png",
+      "symbol": "ORBS",
+      "platform": "none",
+      "name": "ORBS",
+      "cover": "xxx"
+    },
+    {
+      "contractAddress": "xxx",
+      "avatar": "/static/mock-images/avatars/orca.png",
+      "symbol": "ORCA",
+      "platform": "none",
+      "name": "ORCA",
+      "cover": "xxx"
+    },
+    {
+      "contractAddress": "xxx",
+      "avatar": "/static/mock-images/avatars/orion.webp",
+      "symbol": "ORION",
+      "platform": "none",
+      "name": "ORION",
+      "cover": "xxx"
+    },
+    {
+      "contractAddress": "xxx",
+      "avatar": "/static/mock-images/avatars/ousd.png",
+      "symbol": "OUSD",
+      "platform": "none",
+      "name": "OUSD",
+      "cover": "xxx"
+    },
+    {
+      "contractAddress": "xxx",
+      "avatar": "/static/mock-images/avatars/Oxen.png",
+      "symbol": "OXEN",
+      "platform": "none",
+      "name": "OXEN",
+      "cover": "xxx"
+    },
+    {
+      "contractAddress": "xxx",
+      "avatar": "/static/mock-images/avatars/oxt.png",
+      "symbol": "OXT",
+      "platform": "none",
+      "name": "OXT",
+      "cover": "xxx"
+    },
+    {
+      "contractAddress": "xxx",
+      "avatar": "/static/mock-images/avatars/pal.png",
+      "symbol": "PAL",
+      "platform": "none",
+      "name": "PAL",
+      "cover": "xxx"
+    },
+    {
+      "contractAddress": "xxx",
+      "avatar": "/static/mock-images/avatars/paxg.png",
+      "symbol": "PAXG",
+      "platform": "none",
+      "name": "PAXG",
+      "cover": "xxx"
+    },
+    {
+      "contractAddress": "xxx",
+      "avatar": "/static/mock-images/avatars/pbx.png",
+      "symbol": "PBX",
+      "platform": "none",
+      "name": "PBX",
+      "cover": "xxx"
+    },
+    {
+      "contractAddress": "xxx",
+      "avatar": "/static/mock-images/avatars/pcx.png",
+      "symbol": "PCX",
+      "platform": "none",
+      "name": "PCX",
+      "cover": "xxx"
+    },
+    {
+      "contractAddress": "xxx",
+      "avatar": "/static/mock-images/avatars/pdex.png",
+      "symbol": "PDEX",
+      "platform": "none",
+      "name": "PDEX",
+      "cover": "xxx"
+    },
+    {
+      "contractAddress": "xxx",
+      "avatar": "/static/mock-images/avatars/perp.png",
+      "symbol": "PERP",
+      "platform": "none",
+      "name": "PERP",
+      "cover": "xxx"
+    },
+    {
+      "contractAddress": "xxx",
+      "avatar": "/static/mock-images/avatars/pha.png",
+      "symbol": "PHA",
+      "platform": "none",
+      "name": "PHA",
+      "cover": "xxx"
+    },
+    {
+      "contractAddress": "xxx",
+      "avatar": "/static/mock-images/avatars/phnx.png",
+      "symbol": "PHNX",
+      "platform": "none",
+      "name": "PHNX",
+      "cover": "xxx"
+    },
+    {
+      "contractAddress": "xxx",
+      "avatar": "/static/mock-images/avatars/pivx.png",
+      "symbol": "PIVX",
+      "platform": "none",
+      "name": "PIVX",
+      "cover": "xxx"
+    },
+    {
+      "contractAddress": "xxx",
+      "avatar": "/static/mock-images/avatars/playbook.png",
+      "symbol": "PLAYBOOK",
+      "platform": "none",
+      "name": "PLAYBOOK",
+      "cover": "xxx"
+    },
+    {
+      "contractAddress": "xxx",
+      "avatar": "/static/mock-images/avatars/playbook2.png",
+      "symbol": "PLAYBOOK2",
+      "platform": "none",
+      "name": "PLAYBOOK2",
+      "cover": "xxx"
+    },
+    {
+      "contractAddress": "xxx",
+      "avatar": "/static/mock-images/avatars/playbook3.png",
+      "symbol": "PLAYBOOK3",
+      "platform": "none",
+      "name": "PLAYBOOK3",
+      "cover": "xxx"
+    },
+    {
+      "contractAddress": "xxx",
+      "avatar": "/static/mock-images/avatars/plu.png",
+      "symbol": "PLU",
+      "platform": "none",
+      "name": "PLU",
+      "cover": "xxx"
+    },
+    {
+      "contractAddress": "xxx",
+      "avatar": "/static/mock-images/avatars/plus.png",
+      "symbol": "PLUS",
+      "platform": "none",
+      "name": "PLUS",
+      "cover": "xxx"
+    },
+    {
+      "contractAddress": "xxx",
+      "avatar": "/static/mock-images/avatars/pmon.png",
+      "symbol": "PMON",
+      "platform": "none",
+      "name": "PMON",
+      "cover": "xxx"
+    },
+    {
+      "contractAddress": "xxx",
+      "avatar": "/static/mock-images/avatars/pnt.png",
+      "symbol": "PNT",
+      "platform": "none",
+      "name": "PNT",
+      "cover": "xxx"
+    },
+    {
+      "contractAddress": "xxx",
+      "avatar": "/static/mock-images/avatars/pol.png",
+      "symbol": "POL",
+      "platform": "none",
+      "name": "POL",
+      "cover": "xxx"
+    },
+    {
+      "contractAddress": "xxx",
+      "avatar": "/static/mock-images/avatars/polk.png",
+      "symbol": "POLK",
+      "platform": "none",
+      "name": "POLK",
+      "cover": "xxx"
+    },
+    {
+      "contractAddress": "xxx",
+      "avatar": "/static/mock-images/avatars/pols.png",
+      "symbol": "POLS",
+      "platform": "none",
+      "name": "POLS",
+      "cover": "xxx"
+    },
+    {
+      "contractAddress": "xxx",
+      "avatar": "/static/mock-images/avatars/polx.png",
+      "symbol": "POLX",
+      "platform": "none",
+      "name": "POLX",
+      "cover": "xxx"
+    },
+    {
+      "contractAddress": "xxx",
+      "avatar": "/static/mock-images/avatars/polygon.jpg",
+      "symbol": "POLYGON",
+      "platform": "none",
+      "name": "POLYGON",
+      "cover": "xxx"
+    },
+    {
+      "contractAddress": "xxx",
+      "avatar": "/static/mock-images/avatars/polygon.png",
+      "symbol": "POLYGON",
+      "platform": "none",
+      "name": "POLYGON",
+      "cover": "xxx"
+    },
+    {
+      "contractAddress": "xxx",
+      "avatar": "/static/mock-images/avatars/portfolio.png",
+      "symbol": "PORTFOLIO",
+      "platform": "none",
+      "name": "PORTFOLIO",
+      "cover": "xxx"
+    },
+    {
+      "contractAddress": "xxx",
+      "avatar": "/static/mock-images/avatars/props.png",
+      "symbol": "PROPS",
+      "platform": "none",
+      "name": "PROPS",
+      "cover": "xxx"
+    },
+    {
+      "contractAddress": "xxx",
+      "avatar": "/static/mock-images/avatars/prq.png",
+      "symbol": "PRQ",
+      "platform": "none",
+      "name": "PRQ",
+      "cover": "xxx"
+    },
+    {
+      "contractAddress": "xxx",
+      "avatar": "/static/mock-images/avatars/pundix.png",
+      "symbol": "PUNDIX",
+      "platform": "none",
+      "name": "PUNDIX",
+      "cover": "xxx"
+    },
+    {
+      "contractAddress": "xxx",
+      "avatar": "/static/mock-images/avatars/push.png",
+      "symbol": "PUSH",
+      "platform": "none",
+      "name": "PUSH",
+      "cover": "xxx"
+    },
+    {
+      "contractAddress": "xxx",
+      "avatar": "/static/mock-images/avatars/pylon.png",
+      "symbol": "PYLON",
+      "platform": "none",
+      "name": "PYLON",
+      "cover": "xxx"
+    },
+    {
+      "contractAddress": "xxx",
+      "avatar": "/static/mock-images/avatars/pyr.png",
+      "symbol": "PYR",
+      "platform": "none",
+      "name": "PYR",
+      "cover": "xxx"
+    },
+    {
+      "contractAddress": "xxx",
+      "avatar": "/static/mock-images/avatars/qi.png",
+      "symbol": "QI",
+      "platform": "none",
+      "name": "QI",
+      "cover": "xxx"
+    },
+    {
+      "contractAddress": "xxx",
+      "avatar": "/static/mock-images/avatars/qkc.png",
+      "symbol": "QKC",
+      "platform": "none",
+      "name": "QKC",
+      "cover": "xxx"
+    },
+    {
+      "contractAddress": "xxx",
+      "avatar": "/static/mock-images/avatars/qnt.png",
+      "symbol": "QNT",
+      "platform": "none",
+      "name": "QNT",
+      "cover": "xxx"
+    },
+    {
+      "contractAddress": "xxx",
+      "avatar": "/static/mock-images/avatars/qrdo.png",
+      "symbol": "QRDO",
+      "platform": "none",
+      "name": "QRDO",
+      "cover": "xxx"
+    },
+    {
+      "contractAddress": "xxx",
+      "avatar": "/static/mock-images/avatars/qtum.png",
+      "symbol": "QTUM",
+      "platform": "none",
+      "name": "QTUM",
+      "cover": "xxx"
+    },
+    {
+      "contractAddress": "xxx",
+      "avatar": "/static/mock-images/avatars/quick.png",
+      "symbol": "QUICK",
+      "platform": "none",
+      "name": "QUICK",
+      "cover": "xxx"
+    },
+    {
+      "contractAddress": "xxx",
+      "avatar": "/static/mock-images/avatars/ragnarokdao.jpeg",
+      "symbol": "RAGNAROKDAO",
+      "platform": "none",
+      "name": "RAGNAROKDAO",
+      "cover": "xxx"
+    },
+    {
+      "contractAddress": "xxx",
+      "avatar": "/static/mock-images/avatars/ray.png",
+      "symbol": "RAY",
+      "platform": "none",
+      "name": "RAY",
+      "cover": "xxx"
+    },
+    {
+      "contractAddress": "xxx",
+      "avatar": "/static/mock-images/avatars/rbtc.png",
+      "symbol": "RBTC",
+      "platform": "none",
+      "name": "RBTC",
+      "cover": "xxx"
+    },
+    {
+      "contractAddress": "xxx",
+      "avatar": "/static/mock-images/avatars/reef.png",
+      "symbol": "REEF",
+      "platform": "none",
+      "name": "REEF",
+      "cover": "xxx"
+    },
+    {
+      "contractAddress": "xxx",
+      "avatar": "/static/mock-images/avatars/ren.png",
+      "symbol": "REN",
+      "platform": "none",
+      "name": "REN",
+      "cover": "xxx"
+    },
+    {
+      "contractAddress": "xxx",
+      "avatar": "/static/mock-images/avatars/rep.png",
+      "symbol": "REP",
+      "platform": "none",
+      "name": "REP",
+      "cover": "xxx"
+    },
+    {
+      "contractAddress": "xxx",
+      "avatar": "/static/mock-images/avatars/retirement.png",
+      "symbol": "RETIREMENT",
+      "platform": "none",
+      "name": "RETIREMENT",
+      "cover": "xxx"
+    },
+    {
+      "contractAddress": "xxx",
+      "avatar": "/static/mock-images/avatars/revv.png",
+      "symbol": "REVV",
+      "platform": "none",
+      "name": "REVV",
+      "cover": "xxx"
+    },
+    {
+      "contractAddress": "xxx",
+      "avatar": "/static/mock-images/avatars/rfox.png",
+      "symbol": "RFOX",
+      "platform": "none",
+      "name": "RFOX",
+      "cover": "xxx"
+    },
+    {
+      "contractAddress": "xxx",
+      "avatar": "/static/mock-images/avatars/rif.png",
+      "symbol": "RIF",
+      "platform": "none",
+      "name": "RIF",
+      "cover": "xxx"
+    },
+    {
+      "contractAddress": "xxx",
+      "avatar": "/static/mock-images/avatars/rmrk.png",
+      "symbol": "RMRK",
+      "platform": "none",
+      "name": "RMRK",
+      "cover": "xxx"
+    },
+    {
+      "contractAddress": "xxx",
+      "avatar": "/static/mock-images/avatars/rndr.png",
+      "symbol": "RNDR",
+      "platform": "none",
+      "name": "RNDR",
+      "cover": "xxx"
+    },
+    {
+      "contractAddress": "xxx",
+      "avatar": "/static/mock-images/avatars/road.png",
+      "symbol": "ROAD",
+      "platform": "none",
+      "name": "ROAD",
+      "cover": "xxx"
+    },
+    {
+      "contractAddress": "xxx",
+      "avatar": "/static/mock-images/avatars/ronin.png",
+      "symbol": "RONIN",
+      "platform": "none",
+      "name": "RONIN",
+      "cover": "xxx"
+    },
+    {
+      "contractAddress": "xxx",
+      "avatar": "/static/mock-images/avatars/rose.png",
+      "symbol": "ROSE",
+      "platform": "none",
+      "name": "ROSE",
+      "cover": "xxx"
+    },
+    {
+      "contractAddress": "xxx",
+      "avatar": "/static/mock-images/avatars/rosn.png",
+      "symbol": "ROSN",
+      "platform": "none",
+      "name": "ROSN",
+      "cover": "xxx"
+    },
+    {
+      "contractAddress": "xxx",
+      "avatar": "/static/mock-images/avatars/route.png",
+      "symbol": "ROUTE",
+      "platform": "none",
+      "name": "ROUTE",
+      "cover": "xxx"
+    },
+    {
+      "contractAddress": "xxx",
+      "avatar": "/static/mock-images/avatars/RSK Infrastructure Framework.png",
+      "symbol": "RSK INFRASTRUCTURE FRAMEWORK",
+      "platform": "none",
+      "name": "RSK INFRASTRUCTURE FRAMEWORK",
+      "cover": "xxx"
+    },
+    {
+      "contractAddress": "xxx",
+      "avatar": "/static/mock-images/avatars/RSK Smart Bitcoin.png",
+      "symbol": "RSK SMART BITCOIN",
+      "platform": "none",
+      "name": "RSK SMART BITCOIN",
+      "cover": "xxx"
+    },
+    {
+      "contractAddress": "xxx",
+      "avatar": "/static/mock-images/avatars/rsr.png",
+      "symbol": "RSR",
+      "platform": "none",
+      "name": "RSR",
+      "cover": "xxx"
+    },
+    {
+      "contractAddress": "xxx",
+      "avatar": "/static/mock-images/avatars/rune.png",
+      "symbol": "RUNE",
+      "platform": "none",
+      "name": "RUNE",
+      "cover": "xxx"
+    },
+    {
+      "contractAddress": "xxx",
+      "avatar": "/static/mock-images/avatars/sand.png",
+      "symbol": "SAND",
+      "platform": "none",
+      "name": "SAND",
+      "cover": "xxx"
+    },
+    {
+      "contractAddress": "xxx",
+      "avatar": "/static/mock-images/avatars/sbr.png",
+      "symbol": "SBR",
+      "platform": "none",
+      "name": "SBR",
+      "cover": "xxx"
+    },
+    {
+      "contractAddress": "xxx",
+      "avatar": "/static/mock-images/avatars/script.png",
+      "symbol": "SCRIPT",
+      "platform": "none",
+      "name": "SCRIPT",
+      "cover": "xxx"
+    },
+    {
+      "contractAddress": "xxx",
+      "avatar": "/static/mock-images/avatars/sdao.png",
+      "symbol": "SDAO",
+      "platform": "none",
+      "name": "SDAO",
+      "cover": "xxx"
+    },
+    {
+      "contractAddress": "xxx",
+      "avatar": "/static/mock-images/avatars/sdn.png",
+      "symbol": "SDN",
+      "platform": "none",
+      "name": "SDN",
+      "cover": "xxx"
+    },
+    {
+      "contractAddress": "xxx",
+      "avatar": "/static/mock-images/avatars/sero.png",
+      "symbol": "SERO",
+      "platform": "none",
+      "name": "SERO",
+      "cover": "xxx"
+    },
+    {
+      "contractAddress": "xxx",
+      "avatar": "/static/mock-images/avatars/sfp.png",
+      "symbol": "SFP",
+      "platform": "none",
+      "name": "SFP",
+      "cover": "xxx"
+    },
+    {
+      "contractAddress": "xxx",
+      "avatar": "/static/mock-images/avatars/sfund.png",
+      "symbol": "SFUND",
+      "platform": "none",
+      "name": "SFUND",
+      "cover": "xxx"
+    },
+    {
+      "contractAddress": "xxx",
+      "avatar": "/static/mock-images/avatars/shft.png",
+      "symbol": "SHFT",
+      "platform": "none",
+      "name": "SHFT",
+      "cover": "xxx"
+    },
+    {
+      "contractAddress": "xxx",
+      "avatar": "/static/mock-images/avatars/shiba-doge.0f2ade2f.png",
+      "symbol": "SHIBA-DOGE",
+      "platform": "none",
+      "name": "SHIBA-DOGE",
+      "cover": "xxx"
+    },
+    {
+      "contractAddress": "xxx",
+      "avatar": "/static/mock-images/avatars/shill.png",
+      "symbol": "SHILL",
+      "platform": "none",
+      "name": "SHILL",
+      "cover": "xxx"
+    },
+    {
+      "contractAddress": "xxx",
+      "avatar": "/static/mock-images/avatars/shr.png",
+      "symbol": "SHR",
+      "platform": "none",
+      "name": "SHR",
+      "cover": "xxx"
+    },
+    {
+      "contractAddress": "xxx",
+      "avatar": "/static/mock-images/avatars/sienna.png",
+      "symbol": "SIENNA",
+      "platform": "none",
+      "name": "SIENNA",
+      "cover": "xxx"
+    },
+    {
+      "contractAddress": "xxx",
+      "avatar": "/static/mock-images/avatars/skl.png",
+      "symbol": "SKL",
+      "platform": "none",
+      "name": "SKL",
+      "cover": "xxx"
+    },
+    {
+      "contractAddress": "xxx",
+      "avatar": "/static/mock-images/avatars/sku.png",
+      "symbol": "SKU",
+      "platform": "none",
+      "name": "SKU",
+      "cover": "xxx"
+    },
+    {
+      "contractAddress": "xxx",
+      "avatar": "/static/mock-images/avatars/slim.png",
+      "symbol": "SLIM",
+      "platform": "none",
+      "name": "SLIM",
+      "cover": "xxx"
+    },
+    {
+      "contractAddress": "xxx",
+      "avatar": "/static/mock-images/avatars/slnd.png",
+      "symbol": "SLND",
+      "platform": "none",
+      "name": "SLND",
+      "cover": "xxx"
+    },
+    {
+      "contractAddress": "xxx",
+      "avatar": "/static/mock-images/avatars/smt.png",
+      "symbol": "SMT",
+      "platform": "none",
+      "name": "SMT",
+      "cover": "xxx"
+    },
+    {
+      "contractAddress": "xxx",
+      "avatar": "/static/mock-images/avatars/sol.png",
+      "symbol": "SOL",
+      "platform": "none",
+      "name": "SOL",
+      "cover": "xxx"
+    },
+    {
+      "contractAddress": "xxx",
+      "avatar": "/static/mock-images/avatars/solana.jpg",
+      "symbol": "SOLANA",
+      "platform": "none",
+      "name": "SOLANA",
+      "cover": "xxx"
+    },
+    {
+      "contractAddress": "xxx",
+      "avatar": "/static/mock-images/avatars/solana.png",
+      "symbol": "SOLANA",
+      "platform": "none",
+      "name": "SOLANA",
+      "cover": "xxx"
+    },
+    {
+      "contractAddress": "xxx",
+      "avatar": "/static/mock-images/avatars/spar.png",
+      "symbol": "SPAR",
+      "platform": "none",
+      "name": "SPAR",
+      "cover": "xxx"
+    },
+    {
+      "contractAddress": "xxx",
+      "avatar": "/static/mock-images/avatars/spec.jpg",
+      "symbol": "SPEC",
+      "platform": "none",
+      "name": "SPEC",
+      "cover": "xxx"
+    },
+    {
+      "contractAddress": "xxx",
+      "avatar": "/static/mock-images/avatars/sphri.png",
+      "symbol": "SPHRI",
+      "platform": "none",
+      "name": "SPHRI",
+      "cover": "xxx"
+    },
+    {
+      "contractAddress": "xxx",
+      "avatar": "/static/mock-images/avatars/spi.png",
+      "symbol": "SPI",
+      "platform": "none",
+      "name": "SPI",
+      "cover": "xxx"
+    },
+    {
+      "contractAddress": "xxx",
+      "avatar": "/static/mock-images/avatars/srk.png",
+      "symbol": "SRK",
+      "platform": "none",
+      "name": "SRK",
+      "cover": "xxx"
+    },
+    {
+      "contractAddress": "xxx",
+      "avatar": "/static/mock-images/avatars/srm.png",
+      "symbol": "SRM",
+      "platform": "none",
+      "name": "SRM",
+      "cover": "xxx"
+    },
+    {
+      "contractAddress": "xxx",
+      "avatar": "/static/mock-images/avatars/stader.jpeg",
+      "symbol": "STADER",
+      "platform": "none",
+      "name": "STADER",
+      "cover": "xxx"
+    },
+    {
+      "contractAddress": "xxx",
+      "avatar": "/static/mock-images/avatars/star.png",
+      "symbol": "STAR",
+      "platform": "none",
+      "name": "STAR",
+      "cover": "xxx"
+    },
+    {
+      "contractAddress": "xxx",
+      "avatar": "/static/mock-images/avatars/starterra.webp",
+      "symbol": "STARTERRA",
+      "platform": "none",
+      "name": "STARTERRA",
+      "cover": "xxx"
+    },
+    {
+      "contractAddress": "xxx",
+      "avatar": "/static/mock-images/avatars/stc.png",
+      "symbol": "STC",
+      "platform": "none",
+      "name": "STC",
+      "cover": "xxx"
+    },
+    {
+      "contractAddress": "xxx",
+      "avatar": "/static/mock-images/avatars/steem.png",
+      "symbol": "STEEM",
+      "platform": "none",
+      "name": "STEEM",
+      "cover": "xxx"
+    },
+    {
+      "contractAddress": "xxx",
+      "avatar": "/static/mock-images/avatars/stmx.png",
+      "symbol": "STMX",
+      "platform": "none",
+      "name": "STMX",
+      "cover": "xxx"
+    },
+    {
+      "contractAddress": "xxx",
+      "avatar": "/static/mock-images/avatars/storj.png",
+      "symbol": "STORJ",
+      "platform": "none",
+      "name": "STORJ",
+      "cover": "xxx"
+    },
+    {
+      "contractAddress": "xxx",
+      "avatar": "/static/mock-images/avatars/strk.png",
+      "symbol": "STRK",
+      "platform": "none",
+      "name": "STRK",
+      "cover": "xxx"
+    },
+    {
+      "contractAddress": "xxx",
+      "avatar": "/static/mock-images/avatars/strong.png",
+      "symbol": "STRONG",
+      "platform": "none",
+      "name": "STRONG",
+      "cover": "xxx"
+    },
+    {
+      "contractAddress": "xxx",
+      "avatar": "/static/mock-images/avatars/stx.png",
+      "symbol": "STX",
+      "platform": "none",
+      "name": "STX",
+      "cover": "xxx"
+    },
+    {
+      "contractAddress": "xxx",
+      "avatar": "/static/mock-images/avatars/suberra.png",
+      "symbol": "SUBERRA",
+      "platform": "none",
+      "name": "SUBERRA",
+      "cover": "xxx"
+    },
+    {
+      "contractAddress": "xxx",
+      "avatar": "/static/mock-images/avatars/sushi.png",
+      "symbol": "SUSHI",
+      "platform": "none",
+      "name": "SUSHI",
+      "cover": "xxx"
+    },
+    {
+      "contractAddress": "xxx",
+      "avatar": "/static/mock-images/avatars/swash.png",
+      "symbol": "SWASH",
+      "platform": "none",
+      "name": "SWASH",
+      "cover": "xxx"
+    },
+    {
+      "contractAddress": "xxx",
+      "avatar": "/static/mock-images/avatars/swingby.png",
+      "symbol": "SWINGBY",
+      "platform": "none",
+      "name": "SWINGBY",
+      "cover": "xxx"
+    },
+    {
+      "contractAddress": "xxx",
+      "avatar": "/static/mock-images/avatars/tara.png",
+      "symbol": "TARA",
+      "platform": "none",
+      "name": "TARA",
+      "cover": "xxx"
+    },
+    {
+      "contractAddress": "xxx",
+      "avatar": "/static/mock-images/avatars/target.png",
+      "symbol": "TARGET",
+      "platform": "none",
+      "name": "TARGET",
+      "cover": "xxx"
+    },
+    {
+      "contractAddress": "xxx",
+      "avatar": "/static/mock-images/avatars/target1.png",
+      "symbol": "TARGET1",
+      "platform": "none",
+      "name": "TARGET1",
+      "cover": "xxx"
+    },
+    {
+      "contractAddress": "xxx",
+      "avatar": "/static/mock-images/avatars/target2.png",
+      "symbol": "TARGET2",
+      "platform": "none",
+      "name": "TARGET2",
+      "cover": "xxx"
+    },
+    {
+      "contractAddress": "xxx",
+      "avatar": "/static/mock-images/avatars/target3.png",
+      "symbol": "TARGET3",
+      "platform": "none",
+      "name": "TARGET3",
+      "cover": "xxx"
+    },
+    {
+      "contractAddress": "xxx",
+      "avatar": "/static/mock-images/avatars/target4.png",
+      "symbol": "TARGET4",
+      "platform": "none",
+      "name": "TARGET4",
+      "cover": "xxx"
+    },
+    {
+      "contractAddress": "xxx",
+      "avatar": "/static/mock-images/avatars/tcp.png",
+      "symbol": "TCP",
+      "platform": "none",
+      "name": "TCP",
+      "cover": "xxx"
+    },
+    {
+      "contractAddress": "xxx",
+      "avatar": "/static/mock-images/avatars/terra-airdrop.svg",
+      "symbol": "TERRA-AIRDROP",
+      "platform": "none",
+      "name": "TERRA-AIRDROP",
+      "cover": "xxx"
+    },
+    {
+      "contractAddress": "xxx",
+      "avatar": "/static/mock-images/avatars/terra-flat.png",
+      "symbol": "TERRA-FLAT",
+      "platform": "none",
+      "name": "TERRA-FLAT",
+      "cover": "xxx"
+    },
+    {
+      "contractAddress": "xxx",
+      "avatar": "/static/mock-images/avatars/terra-shiba.png",
+      "symbol": "TERRA-SHIBA",
+      "platform": "none",
+      "name": "TERRA-SHIBA",
+      "cover": "xxx"
+    },
+    {
+      "contractAddress": "xxx",
+      "avatar": "/static/mock-images/avatars/terra.jpg",
+      "symbol": "TERRA",
+      "platform": "none",
+      "name": "TERRA",
+      "cover": "xxx"
+    },
+    {
+      "contractAddress": "xxx",
+      "avatar": "/static/mock-images/avatars/terra.png",
+      "symbol": "TERRA",
+      "platform": "none",
+      "name": "TERRA",
+      "cover": "xxx"
+    },
+    {
+      "contractAddress": "xxx",
+      "avatar": "/static/mock-images/avatars/terraswap.png",
+      "symbol": "TERRASWAP",
+      "platform": "none",
+      "name": "TERRASWAP",
+      "cover": "xxx"
+    },
+    {
+      "contractAddress": "xxx",
+      "avatar": "/static/mock-images/avatars/terraworld.png",
+      "symbol": "TERRAWORLD",
+      "platform": "none",
+      "name": "TERRAWORLD",
+      "cover": "xxx"
+    },
+    {
+      "contractAddress": "xxx",
+      "avatar": "/static/mock-images/avatars/tidal.png",
+      "symbol": "TIDAL",
+      "platform": "none",
+      "name": "TIDAL",
+      "cover": "xxx"
+    },
+    {
+      "contractAddress": "xxx",
+      "avatar": "/static/mock-images/avatars/tko.png",
+      "symbol": "TKO",
+      "platform": "none",
+      "name": "TKO",
+      "cover": "xxx"
+    },
+    {
+      "contractAddress": "xxx",
+      "avatar": "/static/mock-images/avatars/tky.png",
+      "symbol": "TKY",
+      "platform": "none",
+      "name": "TKY",
+      "cover": "xxx"
+    },
+    {
+      "contractAddress": "xxx",
+      "avatar": "/static/mock-images/avatars/tlm.png",
+      "symbol": "TLM",
+      "platform": "none",
+      "name": "TLM",
+      "cover": "xxx"
+    },
+    {
+      "contractAddress": "xxx",
+      "avatar": "/static/mock-images/avatars/tlos.png",
+      "symbol": "TLOS",
+      "platform": "none",
+      "name": "TLOS",
+      "cover": "xxx"
+    },
+    {
+      "contractAddress": "xxx",
+      "avatar": "/static/mock-images/avatars/tomo.png",
+      "symbol": "TOMO",
+      "platform": "none",
+      "name": "TOMO",
+      "cover": "xxx"
+    },
+    {
+      "contractAddress": "xxx",
+      "avatar": "/static/mock-images/avatars/torn.png",
+      "symbol": "TORN",
+      "platform": "none",
+      "name": "TORN",
+      "cover": "xxx"
+    },
+    {
+      "contractAddress": "xxx",
+      "avatar": "/static/mock-images/avatars/tower.png",
+      "symbol": "TOWER",
+      "platform": "none",
+      "name": "TOWER",
+      "cover": "xxx"
+    },
+    {
+      "contractAddress": "xxx",
+      "avatar": "/static/mock-images/avatars/trade.png",
+      "symbol": "TRADE",
+      "platform": "none",
+      "name": "TRADE",
+      "cover": "xxx"
+    },
+    {
+      "contractAddress": "xxx",
+      "avatar": "/static/mock-images/avatars/tradingview.png",
+      "symbol": "TRADINGVIEW",
+      "platform": "none",
+      "name": "TRADINGVIEW",
+      "cover": "xxx"
+    },
+    {
+      "contractAddress": "xxx",
+      "avatar": "/static/mock-images/avatars/trb.png",
+      "symbol": "TRB",
+      "platform": "none",
+      "name": "TRB",
+      "cover": "xxx"
+    },
+    {
+      "contractAddress": "xxx",
+      "avatar": "/static/mock-images/avatars/tree.png",
+      "symbol": "TREE",
+      "platform": "none",
+      "name": "TREE",
+      "cover": "xxx"
+    },
+    {
+      "contractAddress": "xxx",
+      "avatar": "/static/mock-images/avatars/trend.png",
+      "symbol": "TREND",
+      "platform": "none",
+      "name": "TREND",
+      "cover": "xxx"
+    },
+    {
+      "contractAddress": "xxx",
+      "avatar": "/static/mock-images/avatars/trias.png",
+      "symbol": "TRIAS",
+      "platform": "none",
+      "name": "TRIAS",
+      "cover": "xxx"
+    },
+    {
+      "contractAddress": "xxx",
+      "avatar": "/static/mock-images/avatars/tribe.png",
+      "symbol": "TRIBE",
+      "platform": "none",
+      "name": "TRIBE",
+      "cover": "xxx"
+    },
+    {
+      "contractAddress": "xxx",
+      "avatar": "/static/mock-images/avatars/trtl.png",
+      "symbol": "TRTL",
+      "platform": "none",
+      "name": "TRTL",
+      "cover": "xxx"
+    },
+    {
+      "contractAddress": "xxx",
+      "avatar": "/static/mock-images/avatars/tru.png",
+      "symbol": "TRU",
+      "platform": "none",
+      "name": "TRU",
+      "cover": "xxx"
+    },
+    {
+      "contractAddress": "xxx",
+      "avatar": "/static/mock-images/avatars/trx.png",
+      "symbol": "TRX",
+      "platform": "none",
+      "name": "TRX",
+      "cover": "xxx"
+    },
+    {
+      "contractAddress": "xxx",
+      "avatar": "/static/mock-images/avatars/tt.png",
+      "symbol": "TT",
+      "platform": "none",
+      "name": "TT",
+      "cover": "xxx"
+    },
+    {
+      "contractAddress": "xxx",
+      "avatar": "/static/mock-images/avatars/tulip.png",
+      "symbol": "TULIP",
+      "platform": "none",
+      "name": "TULIP",
+      "cover": "xxx"
+    },
+    {
+      "contractAddress": "xxx",
+      "avatar": "/static/mock-images/avatars/tvk.png",
+      "symbol": "TVK",
+      "platform": "none",
+      "name": "TVK",
+      "cover": "xxx"
+    },
+    {
+      "contractAddress": "xxx",
+      "avatar": "/static/mock-images/avatars/twt.png",
+      "symbol": "TWT",
+      "platform": "none",
+      "name": "TWT",
+      "cover": "xxx"
+    },
+    {
+      "contractAddress": "xxx",
+      "avatar": "/static/mock-images/avatars/ubxt.png",
+      "symbol": "UBXT",
+      "platform": "none",
+      "name": "UBXT",
+      "cover": "xxx"
+    },
+    {
+      "contractAddress": "xxx",
+      "avatar": "/static/mock-images/avatars/umami.jpeg",
+      "symbol": "UMAMI",
+      "platform": "none",
+      "name": "UMAMI",
+      "cover": "xxx"
+    },
+    {
+      "contractAddress": "xxx",
+      "avatar": "/static/mock-images/avatars/umb.png",
+      "symbol": "UMB",
+      "platform": "none",
+      "name": "UMB",
+      "cover": "xxx"
+    },
+    {
+      "contractAddress": "xxx",
+      "avatar": "/static/mock-images/avatars/unfi.png",
+      "symbol": "UNFI",
+      "platform": "none",
+      "name": "UNFI",
+      "cover": "xxx"
+    },
+    {
+      "contractAddress": "xxx",
+      "avatar": "/static/mock-images/avatars/uno.png",
+      "symbol": "UNO",
+      "platform": "none",
+      "name": "UNO",
+      "cover": "xxx"
+    },
+    {
+      "contractAddress": "xxx",
+      "avatar": "/static/mock-images/avatars/usdn.png",
+      "symbol": "USDN",
+      "platform": "none",
+      "name": "USDN",
+      "cover": "xxx"
+    },
+    {
+      "contractAddress": "xxx",
+      "avatar": "/static/mock-images/avatars/usdp.png",
+      "symbol": "USDP",
+      "platform": "none",
+      "name": "USDP",
+      "cover": "xxx"
+    },
+    {
+      "contractAddress": "xxx",
+      "avatar": "/static/mock-images/avatars/usdt.jpg",
+      "symbol": "USDT",
+      "platform": "none",
+      "name": "USDT",
+      "cover": "xxx"
+    },
+    {
+      "contractAddress": "xxx",
+      "avatar": "/static/mock-images/avatars/usdt.png",
+      "symbol": "USDT",
+      "platform": "none",
+      "name": "USDT",
+      "cover": "xxx"
+    },
+    {
+      "contractAddress": "xxx",
+      "avatar": "/static/mock-images/avatars/ust.png",
+      "symbol": "UST",
+      "platform": "none",
+      "name": "UST",
+      "cover": "xxx"
+    },
+    {
+      "contractAddress": "xxx",
+      "avatar": "/static/mock-images/avatars/vai.png",
+      "symbol": "VAI",
+      "platform": "none",
+      "name": "VAI",
+      "cover": "xxx"
+    },
+    {
+      "contractAddress": "xxx",
+      "avatar": "/static/mock-images/avatars/valkyrie.png",
+      "symbol": "VALKYRIE",
+      "platform": "none",
+      "name": "VALKYRIE",
+      "cover": "xxx"
+    },
+    {
+      "contractAddress": "xxx",
+      "avatar": "/static/mock-images/avatars/veed.png",
+      "symbol": "VEED",
+      "platform": "none",
+      "name": "VEED",
+      "cover": "xxx"
+    },
+    {
+      "contractAddress": "xxx",
+      "avatar": "/static/mock-images/avatars/vega.png",
+      "symbol": "VEGA",
+      "platform": "none",
+      "name": "VEGA",
+      "cover": "xxx"
+    },
+    {
+      "contractAddress": "xxx",
+      "avatar": "/static/mock-images/avatars/vet.png",
+      "symbol": "VET",
+      "platform": "none",
+      "name": "VET",
+      "cover": "xxx"
+    },
+    {
+      "contractAddress": "xxx",
+      "avatar": "/static/mock-images/avatars/vlx.png",
+      "symbol": "VLX",
+      "platform": "none",
+      "name": "VLX",
+      "cover": "xxx"
+    },
+    {
+      "contractAddress": "xxx",
+      "avatar": "/static/mock-images/avatars/vol.png",
+      "symbol": "VOL",
+      "platform": "none",
+      "name": "VOL",
+      "cover": "xxx"
+    },
+    {
+      "contractAddress": "xxx",
+      "avatar": "/static/mock-images/avatars/vortexdao.jpeg",
+      "symbol": "VORTEXDAO",
+      "platform": "none",
+      "name": "VORTEXDAO",
+      "cover": "xxx"
+    },
+    {
+      "contractAddress": "xxx",
+      "avatar": "/static/mock-images/avatars/vsys.png",
+      "symbol": "VSYS",
+      "platform": "none",
+      "name": "VSYS",
+      "cover": "xxx"
+    },
+    {
+      "contractAddress": "xxx",
+      "avatar": "/static/mock-images/avatars/vtho.png",
+      "symbol": "VTHO",
+      "platform": "none",
+      "name": "VTHO",
+      "cover": "xxx"
+    },
+    {
+      "contractAddress": "xxx",
+      "avatar": "/static/mock-images/avatars/wan.png",
+      "symbol": "WAN",
+      "platform": "none",
+      "name": "WAN",
+      "cover": "xxx"
+    },
+    {
+      "contractAddress": "xxx",
+      "avatar": "/static/mock-images/avatars/wars.png",
+      "symbol": "WARS",
+      "platform": "none",
+      "name": "WARS",
+      "cover": "xxx"
+    },
+    {
+      "contractAddress": "xxx",
+      "avatar": "/static/mock-images/avatars/waxp.png",
+      "symbol": "WAXP",
+      "platform": "none",
+      "name": "WAXP",
+      "cover": "xxx"
+    },
+    {
+      "contractAddress": "xxx",
+      "avatar": "/static/mock-images/avatars/whale.png",
+      "symbol": "WHALE",
+      "platform": "none",
+      "name": "WHALE",
+      "cover": "xxx"
+    },
+    {
+      "contractAddress": "xxx",
+      "avatar": "/static/mock-images/avatars/wild.png",
+      "symbol": "WILD",
+      "platform": "none",
+      "name": "WILD",
+      "cover": "xxx"
+    },
+    {
+      "contractAddress": "xxx",
+      "avatar": "/static/mock-images/avatars/win.png",
+      "symbol": "WIN",
+      "platform": "none",
+      "name": "WIN",
+      "cover": "xxx"
+    },
+    {
+      "contractAddress": "xxx",
+      "avatar": "/static/mock-images/avatars/wis.png",
+      "symbol": "WIS",
+      "platform": "none",
+      "name": "WIS",
+      "cover": "xxx"
+    },
+    {
+      "contractAddress": "xxx",
+      "avatar": "/static/mock-images/avatars/wncg.png",
+      "symbol": "WNCG",
+      "platform": "none",
+      "name": "WNCG",
+      "cover": "xxx"
+    },
+    {
+      "contractAddress": "xxx",
+      "avatar": "/static/mock-images/avatars/wnxm.png",
+      "symbol": "WNXM",
+      "platform": "none",
+      "name": "WNXM",
+      "cover": "xxx"
+    },
+    {
+      "contractAddress": "xxx",
+      "avatar": "/static/mock-images/avatars/woo.png",
+      "symbol": "WOO",
+      "platform": "none",
+      "name": "WOO",
+      "cover": "xxx"
+    },
+    {
+      "contractAddress": "xxx",
+      "avatar": "/static/mock-images/avatars/wrx.png",
+      "symbol": "WRX",
+      "platform": "none",
+      "name": "WRX",
+      "cover": "xxx"
+    },
+    {
+      "contractAddress": "xxx",
+      "avatar": "/static/mock-images/avatars/wsienna.png",
+      "symbol": "WSIENNA",
+      "platform": "none",
+      "name": "WSIENNA",
+      "cover": "xxx"
+    },
+    {
+      "contractAddress": "xxx",
+      "avatar": "/static/mock-images/avatars/wtc.png",
+      "symbol": "WTC",
+      "platform": "none",
+      "name": "WTC",
+      "cover": "xxx"
+    },
+    {
+      "contractAddress": "xxx",
+      "avatar": "/static/mock-images/avatars/wxt.png",
+      "symbol": "WXT",
+      "platform": "none",
+      "name": "WXT",
+      "cover": "xxx"
+    },
+    {
+      "contractAddress": "xxx",
+      "avatar": "/static/mock-images/avatars/xava.png",
+      "symbol": "XAVA",
+      "platform": "none",
+      "name": "XAVA",
+      "cover": "xxx"
+    },
+    {
+      "contractAddress": "xxx",
+      "avatar": "/static/mock-images/avatars/xcur.png",
+      "symbol": "XCUR",
+      "platform": "none",
+      "name": "XCUR",
+      "cover": "xxx"
+    },
+    {
+      "contractAddress": "xxx",
+      "avatar": "/static/mock-images/avatars/xed.png",
+      "symbol": "XED",
+      "platform": "none",
+      "name": "XED",
+      "cover": "xxx"
+    },
+    {
+      "contractAddress": "xxx",
+      "avatar": "/static/mock-images/avatars/xem.png",
+      "symbol": "XEM",
+      "platform": "none",
+      "name": "XEM",
+      "cover": "xxx"
+    },
+    {
+      "contractAddress": "xxx",
+      "avatar": "/static/mock-images/avatars/xhv.png",
+      "symbol": "XHV",
+      "platform": "none",
+      "name": "XHV",
+      "cover": "xxx"
+    },
+    {
+      "contractAddress": "xxx",
+      "avatar": "/static/mock-images/avatars/xlm.png",
+      "symbol": "XLM",
+      "platform": "none",
+      "name": "XLM",
+      "cover": "xxx"
+    },
+    {
+      "contractAddress": "xxx",
+      "avatar": "/static/mock-images/avatars/xmr.png",
+      "symbol": "XMR",
+      "platform": "none",
+      "name": "XMR",
+      "cover": "xxx"
+    },
+    {
+      "contractAddress": "xxx",
+      "avatar": "/static/mock-images/avatars/xpr.png",
+      "symbol": "XPR",
+      "platform": "none",
+      "name": "XPR",
+      "cover": "xxx"
+    },
+    {
+      "contractAddress": "xxx",
+      "avatar": "/static/mock-images/avatars/xrp.png",
+      "symbol": "XRP",
+      "platform": "none",
+      "name": "XRP",
+      "cover": "xxx"
+    },
+    {
+      "contractAddress": "xxx",
+      "avatar": "/static/mock-images/avatars/xtm.png",
+      "symbol": "XTM",
+      "platform": "none",
+      "name": "XTM",
+      "cover": "xxx"
+    },
+    {
+      "contractAddress": "xxx",
+      "avatar": "/static/mock-images/avatars/xtz.png",
+      "symbol": "XTZ",
+      "platform": "none",
+      "name": "XTZ",
+      "cover": "xxx"
+    },
+    {
+      "contractAddress": "xxx",
+      "avatar": "/static/mock-images/avatars/xvg.png",
+      "symbol": "XVG",
+      "platform": "none",
+      "name": "XVG",
+      "cover": "xxx"
+    },
+    {
+      "contractAddress": "xxx",
+      "avatar": "/static/mock-images/avatars/xvs.png",
+      "symbol": "XVS",
+      "platform": "none",
+      "name": "XVS",
+      "cover": "xxx"
+    },
+    {
+      "contractAddress": "xxx",
+      "avatar": "/static/mock-images/avatars/xym.png",
+      "symbol": "XYM",
+      "platform": "none",
+      "name": "XYM",
+      "cover": "xxx"
+    },
+    {
+      "contractAddress": "xxx",
+      "avatar": "/static/mock-images/avatars/ygg.png",
+      "symbol": "YGG",
+      "platform": "none",
+      "name": "YGG",
+      "cover": "xxx"
+    },
+    {
+      "contractAddress": "xxx",
+      "avatar": "/static/mock-images/avatars/yld.png",
+      "symbol": "YLD",
+      "platform": "none",
+      "name": "YLD",
+      "cover": "xxx"
+    },
+    {
+      "contractAddress": "xxx",
+      "avatar": "/static/mock-images/avatars/yop.png",
+      "symbol": "YOP",
+      "platform": "none",
+      "name": "YOP",
+      "cover": "xxx"
+    },
+    {
+      "contractAddress": "xxx",
+      "avatar": "/static/mock-images/avatars/zcash.png",
+      "symbol": "ZCASH",
+      "platform": "none",
+      "name": "ZCASH",
+      "cover": "xxx"
+    },
+    {
+      "contractAddress": "xxx",
+      "avatar": "/static/mock-images/avatars/zcx.png",
+      "symbol": "ZCX",
+      "platform": "none",
+      "name": "ZCX",
+      "cover": "xxx"
+    },
+    {
+      "contractAddress": "xxx",
+      "avatar": "/static/mock-images/avatars/zec.png",
+      "symbol": "ZEC",
+      "platform": "none",
+      "name": "ZEC",
+      "cover": "xxx"
+    },
+    {
+      "contractAddress": "xxx",
+      "avatar": "/static/mock-images/avatars/zee.png",
+      "symbol": "ZEE",
+      "platform": "none",
+      "name": "ZEE",
+      "cover": "xxx"
+    },
+    {
+      "contractAddress": "xxx",
+      "avatar": "/static/mock-images/avatars/zen.png",
+      "symbol": "ZEN",
+      "platform": "none",
+      "name": "ZEN",
+      "cover": "xxx"
+    },
+    {
+      "contractAddress": "xxx",
+      "avatar": "/static/mock-images/avatars/zil.png",
+      "symbol": "ZIL",
+      "platform": "none",
+      "name": "ZIL",
+      "cover": "xxx"
+    },
+    {
+      "contractAddress": "xxx",
+      "avatar": "/static/mock-images/avatars/zkt.png",
+      "symbol": "ZKT",
+      "platform": "none",
+      "name": "ZKT",
+      "cover": "xxx"
+    },
+    {
+      "contractAddress": "xxx",
+      "avatar": "/static/mock-images/avatars/zort.png",
+      "symbol": "ZORT",
+      "platform": "none",
+      "name": "ZORT",
+      "cover": "xxx"
+    }
+  ]

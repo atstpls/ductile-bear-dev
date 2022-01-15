@@ -1,0 +1,52 @@
+@@include('./partial/head.html', {
+	"title": "Login", 
+	"bodyAttr": "class='pace-top'",
+	"css": [
+]})
+	<!-- BEGIN #app -->
+	<div id="app" class="app app-full-height app-without-header">
+
+		@@include('./partial/public-header.html')
+
+		<!-- BEGIN login -->
+		<div class="login">
+			<!-- BEGIN login-content -->
+			<div class="login-content">
+				<form action="index.html" method="POST" name="login_form">
+					<h1 class="text-center">Sign In</h1>
+					<div class="text-white text-opacity-50 text-center mb-4">
+						Authenticate
+					</div>
+					<div class="mb-3">
+						<label class="form-label">Email Address <span class="text-danger">*</span></label>
+						<input type="text" class="form-control form-control-lg bg-white bg-opacity-5" value="" placeholder="" />
+					</div>
+					<div class="mb-3">
+						<div class="d-flex">
+							<label class="form-label">Password <span class="text-danger">*</span></label>
+							<a href="#" class="ms-auto text-white text-decoration-none text-opacity-50">Forgot password?</a>
+						</div>
+						<input type="password" class="form-control form-control-lg bg-white bg-opacity-5" value="" placeholder="" />
+					</div>
+					<div class="mb-3">
+						<div class="form-check">
+							<input class="form-check-input" type="checkbox" value="" id="customCheck1" />
+							<label class="form-check-label" for="customCheck1">Remember me</label>
+						</div>
+					</div>
+					<button type="submit" class="btn btn-outline-primary btn-lg d-block w-100 fw-500 mb-3">Sign In</button>
+					<div class="text-center text-white text-opacity-50">
+						Don't have an account yet? <a class="text-primary" href="page_register.html">Register</a>.
+					</div>
+				</form>
+			</div>
+			<!-- END login-content -->
+		</div>
+		<!-- END login -->
+		
+		@@include('./partial/scroll-top-btn.html')
+	</div>
+	<!-- END #app -->
+	
+@@include('./partial/script.html', {"script": [
+]})

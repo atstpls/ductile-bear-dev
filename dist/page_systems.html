@@ -1,0 +1,1102 @@
+<!DOCTYPE html>
+<html class="bg-cover-2" lang="en">
+<head>
+	<meta charset="utf-8" />
+	<title>DUCTILE BEAR DEVELOPMENTS | Scrum Board</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<meta name="description" content="" />
+	<meta name="author" content="" />
+	
+	<!-- ================== BEGIN core-css ================== -->
+	<link href="assets/css/vendor.min.css" rel="stylesheet" />
+	<link href="assets/css/app.min.css" rel="stylesheet" />
+	<!-- ================== END core-css ================== -->
+	
+	<!-- ================== BEGIN page-css ================== -->
+	<link href="assets/plugins/tag-it/css/jquery.tagit.css" rel="stylesheet" />
+	<!-- ================== END page-css ================== -->
+
+</head>
+<body>
+	<!-- BEGIN #app -->
+	<div id="app" class="app">
+		<!-- BEGIN #header -->
+		<div id="header" class="app-header">
+			<!-- BEGIN desktop-toggler -->
+			<div class="desktop-toggler">
+				<button type="button" class="menu-item dropdown dropdown-mobile-full" data-toggle-class="app-sidebar-collapsed" data-dismiss-class="app-sidebar-toggled" data-toggle-target=".app">
+					<span class="bar"></span>
+					<span class="bar"></span>
+					<span class="bar"></span>
+				</button>
+			</div>
+			<!-- BEGIN desktop-toggler -->
+			
+			<!-- BEGIN mobile-toggler -->
+			<div class="mobile-toggler">
+				<button type="button" class="menu-toggler" data-toggle-class="app-sidebar-mobile-toggled" data-toggle-target=".app">
+					<span class="bar"></span>
+					<span class="bar"></span>
+					<span class="bar"></span>
+				</button>
+			</div>
+			<!-- END mobile-toggler -->
+			
+			<!-- BEGIN brand -->
+			<div class="brand">
+				<a href="/index.html" class="brand-logo">
+					<img alt="" height="32" width="108" src="assets/img/cover/ductilebeardevelopment.png">
+				</a>
+			</div>
+			<!-- END brand -->
+			
+			<!-- BEGIN menu -->
+			<div class="menu">
+				<div class="menu-item dropdown">
+					<a href="#" data-toggle-class="app-header-menu-search-toggled" data-toggle-target=".app" class="menu-link">
+						<div class="menu-icon"><i class="bi bi-search nav-icon"></i></div>
+				</a>
+				</div>
+				<div class="menu-item dropdown dropdown-mobile-full">
+					<a href="#" data-bs-toggle="dropdown" data-bs-display="static" class="menu-link">
+						<div class="menu-icon"><i class="bi bi-grid-3x3-gap nav-icon"></i></div>
+					</a>
+					<div class="dropdown-menu fade dropdown-menu-end w-300px text-center p-0 mt-1">
+						<div class="row row-grid gx-0">
+							<div class="col-4">
+								<a href="#" class="dropdown-item text-decoration-none p-3 bg-none">
+									<div class="position-relative">
+										<i class="bi bi-circle-fill position-absolute text-theme top-0 mt-n2 me-n2 fs-6px d-block text-center w-100"></i>
+										<i class="bi bi-envelope h2 opacity-5 d-block my-1"></i>
+									</div>
+									<div class="fw-500 fs-10px text-white">INBOX</div>
+								</a>
+							</div>
+							<div class="col-4">
+								<a href="#" class="dropdown-item text-decoration-none p-3 bg-none">
+									<div><i class="bi bi-hdd-network h2 opacity-5 d-block my-1"></i></div>
+									<div class="fw-500 fs-10px text-white">DISK DRIVE</div>
+								</a>
+							</div>
+							<div class="col-4">
+								<a href="#" class="dropdown-item text-decoration-none p-3 bg-none">
+									<div><i class="bi bi-calendar4 h2 opacity-5 d-block my-1"></i></div>
+									<div class="fw-500 fs-10px text-white">CALENDAR</div>
+								</a>
+							</div>
+						</div>
+						<div class="row row-grid gx-0">
+							<div class="col-4">
+								<a href="#" class="dropdown-item text-decoration-none p-3 bg-none">
+									<div><i class="bi bi-terminal h2 opacity-5 d-block my-1"></i></div>
+									<div class="fw-500 fs-10px text-white">TERMINAL</div>
+								</a>
+							</div>
+							<div class="col-4">
+								<a href="#" class="dropdown-item text-decoration-none p-3 bg-none">
+									<div class="position-relative">
+										<i class="bi bi-circle-fill position-absolute text-theme top-0 mt-n2 me-n2 fs-6px d-block text-center w-100"></i>
+										<i class="bi bi-sliders h2 opacity-5 d-block my-1"></i>
+									</div>
+									<div class="fw-500 fs-10px text-white">SETTINGS</div>
+								</a>
+							</div>
+							<div class="col-4">
+								<a href="#" class="dropdown-item text-decoration-none p-3 bg-none">
+									<div><i class="bi bi-collection-play h2 opacity-5 d-block my-1"></i></div>
+									<div class="fw-500 fs-10px text-white">LIBRARY</div>
+								</a>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="menu-item dropdown dropdown-mobile-full">
+					<a href="#" data-bs-toggle="dropdown" data-bs-display="static" class="menu-link">
+						<div class="menu-icon"><i class="bi bi-bell nav-icon"></i></div>
+						<div class="menu-badge bg-theme"></div>
+					</a>
+					<div class="dropdown-menu dropdown-menu-end mt-1 w-300px fs-11px pt-1">
+						<h6 class="dropdown-header fs-10px mb-1">NOTIFICATIONS</h6>
+						<div class="dropdown-divider mt-1"></div>
+						<a href="#" class="d-flex align-items-center py-10px dropdown-item text-wrap">
+							<div class="fs-20px">
+								<i class="bi bi-bag text-theme"></i>
+							</div>
+							<div class="flex-1 flex-wrap ps-3">
+								<div class="mb-1 text-white">NEW ORDER RECEIVED ($1,299)</div>
+								<div class="small">JUST NOW</div>
+							</div>
+							<div class="ps-2 fs-16px">
+								<i class="bi bi-chevron-right"></i>
+							</div>
+						</a>
+						<a href="#" class="d-flex align-items-center py-10px dropdown-item text-wrap">
+							<div class="fs-20px w-20px">
+								<i class="bi bi-person-circle text-theme"></i>
+							</div>
+							<div class="flex-1 flex-wrap ps-3">
+								<div class="mb-1 text-white">3 NEW ACCOUNT CREATED</div>
+								<div class="small">2 MINUTES AGO</div>
+							</div>
+							<div class="ps-2 fs-16px">
+								<i class="bi bi-chevron-right"></i>
+							</div>
+						</a>
+						<a href="#" class="d-flex align-items-center py-10px dropdown-item text-wrap">
+							<div class="fs-20px w-20px">
+								<i class="bi bi-gear text-theme"></i>
+							</div>
+							<div class="flex-1 flex-wrap ps-3">
+								<div class="mb-1 text-white">SETUP COMPLETED</div>
+								<div class="small">3 MINUTES AGO</div>
+							</div>
+							<div class="ps-2 fs-16px">
+								<i class="bi bi-chevron-right"></i>
+							</div>
+						</a>
+						<a href="#" class="d-flex align-items-center py-10px dropdown-item text-wrap">
+							<div class="fs-20px w-20px">
+								<i class="bi bi-grid text-theme"></i>
+							</div>
+							<div class="flex-1 flex-wrap ps-3">
+								<div class="mb-1 text-white">WIDGET INSTALLATION DONE</div>
+								<div class="small">5 MINUTES AGO</div>
+							</div>
+							<div class="ps-2 fs-16px">
+								<i class="bi bi-chevron-right"></i>
+							</div>
+						</a>
+						<a href="#" class="d-flex align-items-center py-10px dropdown-item text-wrap">
+							<div class="fs-20px w-20px">
+								<i class="bi bi-credit-card text-theme"></i>
+							</div>
+							<div class="flex-1 flex-wrap ps-3">
+								<div class="mb-1 text-white">PAYMENT METHOD ENABLED</div>
+								<div class="small">10 MINUTES AGO</div>
+							</div>
+							<div class="ps-2 fs-16px">
+								<i class="bi bi-chevron-right"></i>
+							</div>
+						</a>
+						<hr class="bg-white-transparent-5 mb-0 mt-2" />
+						<div class="py-10px mb-n2 text-center">
+							<a href="#" class="text-decoration-none fw-bold">SEE ALL</a>
+						</div>
+					</div>
+				</div>
+				<div class="menu-item dropdown dropdown-mobile-full">
+					<a href="#" data-bs-toggle="dropdown" data-bs-display="static" class="menu-link">
+						<div class="menu-img online">
+							<img src="assets/img/user/profile.jpg" alt="Profile" height="60" />
+						</div>
+						<div class="menu-text d-sm-block d-none">username@account.com</div>
+					</a>
+					<div class="dropdown-menu dropdown-menu-end me-lg-3 fs-11px mt-1">
+						<a class="dropdown-item d-flex align-items-center" href="#">PROFILE <i class="bi bi-person-circle ms-auto text-theme fs-16px my-n1"></i></a>
+						<a class="dropdown-item d-flex align-items-center" href="#">INBOX <i class="bi bi-envelope ms-auto text-theme fs-16px my-n1"></i></a>
+						<a class="dropdown-item d-flex align-items-center" href="#">CALENDAR <i class="bi bi-calendar ms-auto text-theme fs-16px my-n1"></i></a>
+						<a class="dropdown-item d-flex align-items-center" href="#">SETTINGS <i class="bi bi-gear ms-auto text-theme fs-16px my-n1"></i></a>
+						<div class="dropdown-divider"></div>
+						<a class="dropdown-item d-flex align-items-center" href="#">LOGOUT <i class="bi bi-toggle-off ms-auto text-theme fs-16px my-n1"></i></a>
+					</div>
+				</div>
+			</div>
+			<!-- END menu -->
+			
+			<!-- BEGIN menu-search -->
+			<form class="menu-search" method="POST" name="header_search_form">
+				<div class="menu-search-container">
+					<div class="menu-search-icon"><i class="bi bi-search"></i></div>
+					<div class="menu-search-input">
+						<input type="text" class="form-control form-control-lg" placeholder="Search menu..." />
+					</div>
+					<div class="menu-search-icon">
+						<a href="#" data-toggle-class="app-header-menu-search-toggled" data-toggle-target=".app"><i class="bi bi-x-lg"></i></a>
+					</div>
+				</div>
+			</form>
+			<!-- END menu-search -->
+		</div>
+		<!-- END #header -->
+		
+				<!-- BEGIN #sidebar -->
+		<div id="sidebar" class="app-sidebar">
+			<!-- BEGIN scrollbar -->
+			<div class="app-sidebar-content" data-scrollbar="true" data-height="100%">
+				<!-- BEGIN menu -->
+				<div class="menu">
+					<!-- <div class="p-3 px-4 mt-auto">
+						<a href="/welcome.html" class="btn d-block btn-outline-theme">
+							<i class="fa fa-code-branch me-2 ms-n2 opacity-5"></i> Public Site
+						</a>
+					</div> -->
+
+					<!-- Operations -->
+					<div class="menu-header">OPERATIONS</div>
+
+					<div class="menu-item">
+						<a href="tasks.html" class="menu-link">
+							<span class="menu-icon"><i class="far fa-list-alt"></i></span>
+							<span class="menu-text">Tasks</span>
+						</a>
+					</div>
+					<div class="menu-item has-sub">
+						<a href="#" class="menu-link">
+							<span class="menu-icon"><i class="fab fa-bitcoin"></i></span>
+							<span class="menu-text">Assets</span> 
+							<span class="menu-caret"><b class="caret"></b></span>
+						</a>
+						<div class="menu-submenu">
+							<div class="menu-item">
+								<a href="wallets.html" class="menu-link">
+									<span class="menu-text">Wallets</span>
+								</a>
+							</div>
+							<div class="menu-item">
+								<a href="staking.html" class="menu-link">
+									<span class="menu-text">Staking</span>
+								</a>
+							</div>
+						</div>
+					</div>
+					<div class="menu-item has-sub">
+						<a href="#" class="menu-link">
+							<span class="menu-icon"><i class="fab fa-ethereum"></i></span>
+							<span class="menu-text">Chains</span> 
+							<span class="menu-caret"><b class="caret"></b></span>
+						</a>
+						<div class="menu-submenu">
+							<div class="menu-item">
+								<a href="ui_bootstrap.html" class="menu-link">
+									<span class="menu-text">Terra</span>
+								</a>
+							</div>
+							<div class="menu-item">
+								<a href="ui_buttons.html" class="menu-link">
+									<span class="menu-text">Solana</span>
+								</a>
+							</div>
+							<div class="menu-item">
+								<a href="ui_card.html" class="menu-link">
+									<span class="menu-text">Avalanche</span>
+								</a>
+							</div>
+							<div class="menu-item">
+								<a href="ui_icons.html" class="menu-link">
+									<span class="menu-text">Fantom</span>
+								</a>
+							</div>
+							<div class="menu-item">
+								<a href="ui_modal_notification.html" class="menu-link">
+									<span class="menu-text">MultiVAC</span>
+								</a>
+							</div>
+							<div class="menu-item">
+								<a href="ui_typography.html" class="menu-link">
+									<span class="menu-text">Cosmos</span>
+								</a>
+							</div>
+							<div class="menu-item">
+								<a href="ui_tabs_accordions.html" class="menu-link">
+									<span class="menu-text">UBX</span>
+								</a>
+							</div>
+						</div>
+					</div>
+
+					<div class="menu-item has-sub">
+						<a href="#" class="menu-link">
+							<span class="menu-icon"><i class="bi bi-bar-chart"></i></span>
+							<span class="menu-text">3Commas</span> 
+							<span class="menu-caret"><b class="caret"></b></span>
+						</a>
+						<div class="menu-submenu">
+							<div class="menu-item">
+								<a href="deals.html" class="menu-link">
+									<span class="menu-text">Deals</span>
+								</a>
+							</div>
+							<div class="menu-item">
+								<a href="all_deals.html" class="menu-link">
+									<span class="menu-text">All Deals</span>
+								</a>
+							</div>
+							<div class="menu-item">
+								<a href="bots.html" class="menu-link">
+									<span class="menu-text">Bots</span>
+								</a>
+							</div>
+							<div class="menu-item">
+								<a href="arks.html" class="menu-link">
+									<span class="menu-text">Arks</span>
+								</a>
+							</div>
+							<div class="menu-item">
+								<a href="removeScriptTypeAttributes.html" class="menu-link">
+									<span class="menu-text">Roster</span>
+								</a>
+							</div>												
+							<div class="menu-item">
+								<a href="animals.html" class="menu-link">
+									<span class="menu-text">Animals</span>
+								</a>
+							</div>
+						</div>
+					</div>
+					<div class="menu-item has-sub">
+						<a href="#" class="menu-link">
+							<span class="menu-icon"><i class="far fa-hdd"></i></span>
+							<span class="menu-text">Public Site</span> 
+							<span class="menu-caret"><b class="caret"></b></span>
+						</a>
+						<div class="menu-submenu">
+							<div class="menu-item">
+								<a href="page_welcome.html" class="menu-link">
+									<span class="menu-text">Welcome</span>
+								</a>
+							</div>
+							<div class="menu-item">
+								<a href="page_blog.html" class="menu-link">
+									<span class="menu-text">Blog</span>
+								</a>
+							</div>
+							<div class="menu-item">
+								<a href="page_about.html" class="menu-link">
+									<span class="menu-text">About</span>
+								</a>
+							</div>
+							<div class="menu-item">
+								<a href="page_login.html" class="menu-link">
+									<span class="menu-text">Login</span>
+								</a>
+							</div>
+							<div class="menu-item">
+								<a href="page_register.html" class="menu-link">
+									<span class="menu-text">Register</span>
+								</a>
+							</div>
+						</div>		
+					</div>			
+					<div class="menu-item has-sub">
+						<a href="#" class="menu-link">
+							<span class="menu-icon"><i class="bi bi-people"></i></span>
+							<span class="menu-text">Clients</span>
+							<span class="menu-caret"><b class="caret"></b></span>
+						</a>
+						<div class="menu-submenu">
+							<div class="menu-item">
+								<a href="table_elements.html" class="menu-link">
+									<span class="menu-text">Customers</span>
+								</a>
+							</div>
+							<div class="menu-item">
+								<a href="table_plugins.html" class="menu-link">
+									<span class="menu-text">Invoices</span>
+								</a>
+							</div>
+							<div class="menu-item">
+								<a href="table_plugins.html" class="menu-link">
+									<span class="menu-text">Pricing</span>
+								</a>
+							</div>
+						</div>
+					</div>
+					
+					<div class="menu-item has-sub">
+						<a href="#" class="menu-link">
+							<span class="menu-icon"><i class="fab fa-connectdevelop"></i></span>
+							<span class="menu-text">Strategy</span>
+							<span class="menu-caret"><b class="caret"></b></span>
+						</a>
+						<div class="menu-submenu">
+							<div class="menu-item">
+								<a href="systems.html" class="menu-link">
+									<span class="menu-text">Systems</span>
+								</a>
+							</div>
+							<div class="menu-item">
+								<a href="ideas.html" class="menu-link">
+									<span class="menu-text">Ideas</span>
+								</a>
+							</div>
+							<div class="menu-item">
+								<a href="glossary.html" class="menu-link">
+									<span class="menu-text">Glossary</span>
+								</a>
+							</div>
+							<div class="menu-item">
+								<a href="chart_js.html" class="menu-link">
+									<span class="menu-text">Playbooks</span>
+								</a>
+							</div>
+							<div class="menu-item">
+								<a href="chart_apex.html" class="menu-link">
+									<span class="menu-text">Signals</span>
+								</a>
+							</div>
+
+							<div class="menu-item">
+								<a href="sprints.html" class="menu-link">
+									<span class="menu-text">Sprints</span>
+								</a>
+							</div>
+						</div>
+					</div>
+					<div class="menu-item has-sub">
+						<a href="#" class="menu-link">
+							<span class="menu-icon"><i class="bi bi-gear"></i></span>
+							<span class="menu-text">Settings</span>
+							<span class="menu-caret"><b class="caret"></b></span>
+						</a>
+						<div class="menu-submenu">
+
+							<div class="menu-item">
+								<a href="profile.html" class="menu-link">
+									<span class="menu-text">Profile</span>
+								</a>
+							</div>
+							<div class="menu-item">
+								<a href="calendar.html" class="menu-link">
+									<span class="menu-text">Calendar</span>
+								</a>
+							</div>
+							<div class="menu-item">
+								<a href="settings.html" class="menu-link">
+									<span class="menu-text">Settings</span>
+								</a>
+							</div>
+						</div>
+					</div>
+
+
+					<!-- OLD ITEMS -->
+					<div class="menu-header">OLD ITEMS</div>
+					<div class="menu-item has-sub">
+						<a href="#" class="menu-link">
+							<span class="menu-icon"><i class="bi bi-cpu"></i></span>
+							<span class="menu-text">Elements</span> 
+							<span class="menu-caret"><b class="caret"></b></span>
+						</a>
+						<div class="menu-submenu">
+							<div class="menu-item">
+								<a href="ui_bootstrap.html" class="menu-link">
+									<span class="menu-text">Bootstrap</span>
+								</a>
+							</div>
+							<div class="menu-item">
+								<a href="ui_buttons.html" class="menu-link">
+									<span class="menu-text">Buttons</span>
+								</a>
+							</div>
+							<div class="menu-item">
+								<a href="ui_card.html" class="menu-link">
+									<span class="menu-text">Card</span>
+								</a>
+							</div>
+							<div class="menu-item">
+								<a href="ui_icons.html" class="menu-link">
+									<span class="menu-text">Icons</span>
+								</a>
+							</div>
+							<div class="menu-item">
+								<a href="ui_modal_notification.html" class="menu-link">
+									<span class="menu-text">Modal & Notification</span>
+								</a>
+							</div>
+							<div class="menu-item">
+								<a href="ui_typography.html" class="menu-link">
+									<span class="menu-text">Typography</span>
+								</a>
+							</div>
+							<div class="menu-item">
+								<a href="ui_tabs_accordions.html" class="menu-link">
+									<span class="menu-text">Tabs & Accordions</span>
+								</a>
+							</div>
+						</div>
+					</div>
+					<div class="menu-item has-sub">
+						<a href="#" class="menu-link">
+							<span class="menu-icon"><i class="bi bi-layout-sidebar"></i></span>
+							<span class="menu-text">Layout</span>
+							<span class="menu-caret"><b class="caret"></b></span>
+						</a>
+						<div class="menu-submenu">
+							<div class="menu-item">
+								<a href="layout_starter.html" class="menu-link">
+									<span class="menu-text">Starter Page</span>
+								</a>
+							</div>
+							<div class="menu-item">
+								<a href="layout_fixed_footer.html" class="menu-link">
+									<span class="menu-text">Fixed Footer</span>
+								</a>
+							</div>
+							<div class="menu-item">
+								<a href="layout_full_height.html" class="menu-link">
+									<span class="menu-text">Full Height</span>
+								</a>
+							</div>
+							<div class="menu-item">
+								<a href="layout_full_width.html" class="menu-link">
+									<span class="menu-text">Full Width</span>
+								</a>
+							</div>
+							<div class="menu-item">
+								<a href="layout_boxed_layout.html" class="menu-link">
+									<span class="menu-text">Boxed Layout</span>
+								</a>
+							</div>
+							<div class="menu-item">
+								<a href="layout_collapsed_sidebar.html" class="menu-link">
+									<span class="menu-text">Collapsed Sidebar</span>
+								</a>
+							</div>
+						</div>
+					</div>
+					<div class="menu-item has-sub active">
+						<a href="#" class="menu-link">
+							<span class="menu-icon"><i class="bi bi-collection"></i></span>
+							<span class="menu-text">Pages</span>
+							<span class="menu-caret"><b class="caret"></b></span>
+						</a>
+						<div class="menu-submenu">
+
+							<div class="menu-item">
+								<a href="page_products.html" class="menu-link">
+									<span class="menu-text">Products</span>
+								</a>
+							</div>
+							<div class="menu-item">
+								<a href="page_orders.html" class="menu-link">
+									<span class="menu-text">Orders</span>
+								</a>
+							</div>
+							<div class="menu-item">
+								<a href="page_gallery.html" class="menu-link">
+									<span class="menu-text">Gallery</span>
+								</a>
+							</div>
+							<div class="menu-item">
+								<a href="page_search_results.html" class="menu-link">
+									<span class="menu-text">Search Results</span>
+								</a>
+							</div>
+							<div class="menu-item">
+								<a href="page_coming_soon.html" class="menu-link">
+									<span class="menu-text">Coming Soon Page</span>
+								</a>
+							</div>
+							<div class="menu-item">
+								<a href="page_404_error.html" class="menu-link">
+									<span class="menu-text">404 Error Page</span>
+								</a>
+							</div>
+							<div class="menu-item">
+								<a href="page_login.html" class="menu-link">
+									<span class="menu-text">Login</span>
+								</a>
+							</div>
+							<div class="menu-item">
+								<a href="page_register.html" class="menu-link">
+									<span class="menu-text">Register</span>
+								</a>
+							</div>
+						</div>
+					</div>
+
+					<div class="menu-item has-sub">
+						<a href="#" class="menu-link">
+							<span class="menu-icon"><i class="bi bi-pen"></i></span>
+							<span class="menu-text">Forms</span> 
+							<span class="menu-caret"><b class="caret"></b></span>
+						</a>
+						<div class="menu-submenu">
+							<div class="menu-item">
+								<a href="form_elements.html" class="menu-link">
+									<span class="menu-text">Form Elements</span>
+								</a>
+							</div>
+							<div class="menu-item">
+								<a href="form_plugins.html" class="menu-link">
+									<span class="menu-text">Form Plugins</span>
+								</a>
+							</div>
+							<div class="menu-item">
+								<a href="form_wizards.html" class="menu-link">
+									<span class="menu-text">Wizards</span>
+								</a>
+							</div>
+						</div>
+					</div>
+					<div class="menu-item has-sub">
+						<a href="#" class="menu-link">
+							<span class="menu-icon"><i class="bi bi-grid-3x3"></i></span>
+							<span class="menu-text">Tables</span>
+							<span class="menu-caret"><b class="caret"></b></span>
+						</a>
+						<div class="menu-submenu">
+							<div class="menu-item">
+								<a href="table_elements.html" class="menu-link">
+									<span class="menu-text">Table Elements</span>
+								</a>
+							</div>
+							<div class="menu-item">
+								<a href="table_plugins.html" class="menu-link">
+									<span class="menu-text">Table Plugins</span>
+								</a>
+							</div>
+						</div>
+					</div>
+					<div class="menu-item has-sub">
+						<a href="#" class="menu-link">
+							<span class="menu-icon"><i class="bi bi-pie-chart"></i></span>
+							<span class="menu-text">Charts</span>
+							<span class="menu-caret"><b class="caret"></b></span>
+						</a>
+						<div class="menu-submenu">
+							<div class="menu-item">
+								<a href="chart_js.html" class="menu-link">
+									<span class="menu-text">Chart.js</span>
+								</a>
+							</div>
+							<div class="menu-item">
+								<a href="chart_apex.html" class="menu-link">
+									<span class="menu-text">Apexcharts.js</span>
+								</a>
+							</div>
+							<div class="menu-item">
+								<a href="index.html" class="menu-link">
+									<span class="menu-text">Dashboard</span>
+								</a>
+							</div>
+							<div class="menu-item">
+								<a href="analytics.html" class="menu-link">
+									<span class="menu-text">Analytics</span>
+								</a>
+							</div>
+						</div>
+					</div>
+					<div class="menu-item has-sub">
+						<a href="#" class="menu-link">
+							<span class="menu-icon">
+								<i class="bi bi-envelope"></i>
+							</span>
+							<span class="menu-text">Email</span>
+							<span class="menu-caret"><b class="caret"></b></span>
+						</a>
+						<div class="menu-submenu">
+							<div class="menu-item">
+								<a href="email_inbox.html" class="menu-link">
+									<span class="menu-text">Inbox</span>
+								</a>
+							</div>
+							<div class="menu-item">
+								<a href="email_compose.html" class="menu-link">
+									<span class="menu-text">Compose</span>
+								</a>
+							</div>
+							<div class="menu-item">
+								<a href="email_detail.html" class="menu-link">
+									<span class="menu-text">Detail</span>
+								</a>
+							</div>
+						</div>
+					</div>
+
+					<div class="menu-item has-sub">
+						<a href="#" class="menu-link">
+							<span class="menu-text">Miscellaneous</span>
+							<span class="menu-caret"><b class="caret"></b></span>
+						</a>
+						<div class="menu-submenu">
+
+							<div class="menu-item">
+								<a href="map.html" class="menu-link">
+									<span class="menu-text">Map</span>
+								</a>
+							</div>
+							<div class="menu-item">
+								<a href="profile.html" class="menu-link">
+									<span class="menu-text">Profile</span>
+								</a>
+							</div>
+							<div class="menu-item">
+								<a href="calendar.html" class="menu-link">
+									<span class="menu-text">Calendar</span>
+								</a>
+							</div>
+							<div class="menu-item">
+								<a href="settings.html" class="menu-link">
+									<span class="menu-text">Settings</span>
+								</a>
+							</div>
+							<div class="menu-item">
+								<a href="helper.html" class="menu-link">
+									<span class="menu-text">Helper</span>
+								</a>
+							</div>	
+						</div>
+					
+					</div>
+				</div>
+				<!-- END menu -->
+				<div class="p-3 px-4 mt-auto">
+					<a href="../../documentation/index.html" class="btn d-block btn-outline-theme">
+						<i class="fa fa-code-branch me-2 ms-n2 opacity-5"></i> Documentation
+					</a>
+				</div>
+			</div>
+			<!-- END scrollbar -->
+		</div>
+		<!-- END #sidebar -->
+			
+		<!-- BEGIN mobile-sidebar-backdrop -->
+		<button class="app-sidebar-mobile-backdrop" data-toggle-target=".app" data-toggle-class="app-sidebar-mobile-toggled"></button>
+		<!-- END mobile-sidebar-backdrop -->
+		
+		<!-- BEGIN #content -->
+		<div id="content" class="app-content">
+			<div class="d-flex align-items-center mb-md-3 mb-2">
+				<div class="flex-fill">
+					<ul class="breadcrumb">
+						<li class="breadcrumb-item"><a href="#">DASHBOARD</a></li>
+						<li class="breadcrumb-item active">SYSTEMS</li>
+					</ul>
+			
+					<h1 class="page-header mb-0">
+						Systems
+					</h1>
+				</div>
+				<div class="ms-auto">
+					<a href="#modalAddTask" data-bs-toggle="modal" class="btn btn-outline-theme"><i class="fa fa-plus-circle me-1"></i> Add Task</a>
+				</div>
+			</div>
+			
+			<div class="mb-md-4 mb-3 d-md-flex">
+				<div class="dropdown-toggle">
+					<a href="#" data-bs-toggle="dropdown" class="text-white text-opacity-75 text-decoration-none"><i class="far fa-folder fa-fw fa-lg text-theme me-1"></i> project/hud</a>
+					<div class="dropdown-menu">
+						<a href="#" class="dropdown-item"><i class="far fa-folder fa-fw fa-lg text-theme me-1"></i> project/mobile-app-dev</a>
+						<a href="#" class="dropdown-item"><i class="far fa-folder fa-fw fa-lg text-theme me-1"></i> project/bootstrap-5</a>
+						<a href="#" class="dropdown-item"><i class="far fa-folder fa-fw fa-lg text-theme me-1"></i> project/mvc-version</a>
+						<a href="#" class="dropdown-item"><i class="far fa-folder fa-fw fa-lg text-theme me-1"></i> project/ruby-version</a>
+					</div>
+				</div>
+				<div class="ms-md-4 mt-md-0 mt-2"><i class="fa fa-code-branch fa-fw fa-lg me-1 text-theme"></i> 1,392 pull request</div>
+				<div class="ms-md-4 mt-md-0 mt-2"><i class="fa fa-users-cog fa-fw fa-lg me-1 text-theme"></i> 52 participant</div>
+				<div class="ms-md-4 mt-md-0 mt-2"><i class="far fa-clock fa-fw fa-lg me-1 text-theme"></i> 14 day(s)</div>
+			</div>
+			
+			<!-- BEGIN row -->
+			<div class="row">
+				<!-- BEGIN col-4 -->
+				<div class="col-xl-6 col-lg-9">
+					<!-- BEGIN card -->
+					<div class="card mb-3">
+						<!-- BEGIN card-header -->
+						<div class="card-header d-flex align-items-center bg-white bg-opacity-15">
+							<span class="flex-grow-1 fw-400">To Do (5)</span>
+							<a href="#" class="text-white text-opacity-50 text-decoration-none me-3"><i class="fa fa-fw fa-redo"></i></a>
+							<a href="#" class="text-white text-opacity-50 text-decoration-none"><i class="fa fa-fw fa-trash"></i></a>
+						</div>
+						<!-- END card-header -->
+						<!-- BEGIN list-group -->
+						<div class="list-group list-group-flush">
+							<!-- BEGIN list-group-item -->
+							<div class="list-group-item d-flex px-3">
+								<div class="me-3 pt-1">
+									<i class="far fa-question-circle text-white text-opacity-50 fa-fw fa-lg"></i> 
+								</div>
+								<div class="flex-fill">
+									<div class="fw-400">Enable open search</div>
+									<div class="small text-white text-opacity-50 mb-2">#29949 opened yesterday by Terry</div>
+									<div>
+										<span class="badge border border-gray-300 text-white text-opacity-50">docs</span>
+										<span class="badge border border-theme text-theme">feature</span>
+									</div>
+									<hr class="my-3" />
+									<div class="d-flex align-items-center mb-2">
+										<div class="fw-400 me-2">
+											Task (2/3)
+										</div>
+										<div>
+											<a href="#" class="text-white text-opacity-50" data-bs-toggle="collapse" data-bs-target="#todoBoard">
+												<i class="fa fa-plus-circle"></i>
+											</a>
+										</div>
+										<div class="progress progress-xs w-100px me-2 ms-auto" style="height: 6px;">
+											<div class="progress-bar progress-bar-striped bg-theme" style="width: 66%;"></div>
+										</div>
+										<div class="fs-12px">66%</div>
+									</div>
+									<div class="form-group mb-0 small">
+										<div class="collapse show" id="todoBoard">
+											<div class="form-check">
+												<input type="checkbox" class="form-check-input" id="customCheck1" checked />
+												<label class="form-check-label" for="customCheck1">create ui for autocomplete</label>
+											</div>
+											<div class="form-check">
+												<input type="checkbox" class="form-check-input" id="customCheck2" checked />
+												<label class="form-check-label" for="customCheck2">integrate jquery autocomplete with ui</label>
+											</div>
+											<div class="form-check">
+												<input type="checkbox" class="form-check-input" id="customCheck3" />
+												<label class="form-check-label" for="customCheck3">backend search return as json data</label>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<!-- END list-group-item -->
+							<!-- BEGIN list-group-item -->
+							<a href="#" class="list-group-item list-group-item-action d-flex ps-3">
+								<div class="me-3 pt-1">
+									<i class="far fa-question-circle text-white text-opacity-50 fa-fw fa-lg"></i> 
+								</div>
+								<div class="flex-fill">
+									<div class="fw-400">Investigate adding markdownlint</div>
+									<div class="small text-white text-opacity-50 mb-2">#29919 opened 9 days ago by xMediaKron</div>
+									<div class="mb-1">
+										<span class="badge border border-gray-300 text-white text-opacity-50">build</span>
+										<span class="badge border border-indigo text-indigo">v5</span>
+									</div>
+								</div>
+							</a>
+							<!-- END list-group-item -->
+							<!-- BEGIN list-group-item -->
+							<a href="#" class="list-group-item list-group-item-action d-flex ps-3">
+								<div class="me-3 pt-1">
+									<i class="far fa-question-circle text-white text-opacity-50 fa-fw fa-lg"></i> 
+								</div>
+								<div class="flex-fill">
+									<div class="fw-400">Add a "Submit a Resource" form</div>
+									<div class="small text-white text-opacity-50 mb-2">#29916 opened 9 days ago by Wasbbok</div>
+									<div class="mb-1 d-flex align-items-center">
+										<div class="me-2"><span class="badge border border-theme text-theme">enhancement</span></div>
+										<div class="widget-user-list">
+											<div class="widget-user-list-item w-30px h-30px"><div class="widget-user-list-link w-30px h-30px"><img src="assets/img/user/user-1.jpg" alt="" /></div></div>
+											<div class="widget-user-list-item w-30px h-30px ms-n2"><div class="widget-user-list-link w-30px h-30px"><img src="assets/img/user/user-2.jpg" alt="" /></div></div>
+											<div class="widget-user-list-item w-30px h-30px ms-n2"><div class="widget-user-list-link w-30px h-30px"><img src="assets/img/user/user-3.jpg" alt="" /></div></div>
+											<div class="widget-user-list-item w-30px h-30px ms-n2"><div class="widget-user-list-link w-30px h-30px"><img src="assets/img/user/user-4.jpg" alt="" /></div></div>
+											<div class="widget-user-list-item w-30px h-30px ms-n2"><div class="widget-user-list-link w-30px h-30px"><img src="assets/img/user/user-5.jpg" alt="" /></div></div>
+											<div class="widget-user-list-item w-30px h-30px ms-n2"><div class="widget-user-list-link w-30px h-30px bg-gray-200 text-gray-500 fs-12px fw-400">+2</div></div>
+										</div>
+									</div>
+								</div>
+							</a>
+							<!-- END list-group-item -->
+							<!-- BEGIN list-group-item -->
+							<a href="#" class="list-group-item list-group-item-action d-flex ps-3">
+								<div class="me-3 pt-1">
+									<i class="far fa-question-circle text-white text-opacity-50 fa-fw fa-lg"></i> 
+								</div>
+								<div class="flex-fill">
+									<div class="fw-400">Custom control border color missing on focus</div>
+									<div class="small text-white text-opacity-50 mb-2">#29796 opened 29 days ago by mdo</div>
+									<div class="mb-1">
+										<span class="badge border border-pink text-pink">docs</span>
+									</div>
+								</div>
+							</a>
+							<!-- END list-group-item -->
+							<!-- BEGIN list-group-item -->
+							<a href="#" class="list-group-item list-group-item-action d-flex ps-3">
+								<div class="me-3 pt-1">
+									<i class="far fa-question-circle text-white text-opacity-50 fa-fw fa-lg"></i> 
+								</div>
+								<div class="flex-fill">
+									<div class="fw-400">New design for corporate page</div>
+									<div class="mb-2 small text-white text-opacity-50">#29919 opened 19 days ago by sean</div>
+									<div class="mb-1">
+										<span class="badge border border-gray-300 text-white text-opacity-50">design</span>
+										<span class="badge border border-theme text-theme">v5</span>
+									</div>
+								</div>
+							</a>
+							<!-- END list-group-item -->
+						</div>
+						<!-- END list-group -->
+						<!-- BEGIN card-arrow -->
+						<div class="card-arrow">
+							<div class="card-arrow-top-left"></div>
+							<div class="card-arrow-top-right"></div>
+							<div class="card-arrow-bottom-left"></div>
+							<div class="card-arrow-bottom-right"></div>
+						</div>
+						<!-- END card-arrow -->
+					</div>
+					<!-- END card -->
+				</div>
+				<!-- END col-4 -->
+				<!-- BEGIN col-4 -->
+				<div class="col-xl-6 col-lg-9">
+					<!-- BEGIN card -->
+					<div class="card mb-3">
+						<!-- BEGIN card-header -->
+						<div class="card-header d-flex align-items-center bg-white bg-opacity-15">
+							<span class="flex-grow-1 fw-400">In Progress (2)</span>
+							<a href="#" class="text-white text-opacity-50 text-decoration-none me-3"><i class="fa fa-fw fa-redo"></i></a>
+							<a href="#" class="text-white text-opacity-50 text-decoration-none"><i class="fa fa-fw fa-trash"></i></a>
+						</div>
+						<!-- END card-header -->
+						<!-- BEGIN list-group -->
+						<div class="list-group list-group-flush">
+							<!-- BEGIN list-group-item -->
+							<div class="list-group-item d-flex px-3">
+								<div class="me-3 pt-1">
+									<i class="fa fa-tools text-white text-opacity-50 fa-fw fa-lg"></i> 
+								</div>
+								<div class="flex-fill">
+									<div class="fw-400 lh-20">HTML5 flexbox old browser compatibility</div>
+									<div class="small text-white text-opacity-50 mb-2">#29982 handled by Sean</div>
+									<div class="mb-1">
+										<span class="badge border border-indigo text-indigo">enhancement</span>
+									</div>
+									<hr class="mt-15px mb-15px" />
+									<div class="d-flex align-items-center mb-2">
+										<div class="fw-400 me-2">
+											Task (1/2)
+										</div>
+										<div>
+											<a href="#" class="text-white text-opacity-50" data-bs-toggle="collapse" data-bs-target="#inProgressBoard">
+												<i class="fa fa-plus-circle"></i>
+											</a>
+										</div>
+										<div class="progress progress-xs w-100px me-2 ms-auto" style="height: 6px;">
+											<div class="progress-bar progress-bar-striped bg-warning" style="width: 50%;"></div>
+										</div>
+										<div class="fs-12px">50%</div>
+									</div>
+									<div class="form-group mb-1">
+										<div class="collapse show" id="inProgressBoard">
+											<div class="form-check mb-2px">
+												<input type="checkbox" class="form-check-input" id="customCheck4" checked />
+												<label class="form-check-label small" for="customCheck4">check all browser compatibility for HTML5 flexbox</label>
+											</div>
+											<div class="form-check mb-2px">
+												<input type="checkbox" class="form-check-input" id="customCheck5" />
+												<label class="form-check-label small" for="customCheck5">fallback integration by using other display property</label>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<!-- END list-group-item -->
+							<!-- BEGIN list-group-item -->
+							<div class="list-group-item d-flex px-3">
+								<div class="me-3 pt-1">
+									<i class="fa fa-bug text-danger fa-fw fa-lg"></i> 
+								</div>
+								<div class="flex-fill">
+									<div class="fw-400">Mobile app autoclose on iOS</div>
+									<div class="text-white text-opacity-50 mb-2">#29953 handled by Ken</div>
+									<div class="mb-1">
+										<span class="badge border border-gray-300 text-white text-opacity-50">issue</span>
+										<span class="badge border border-danger text-danger">bug</span>
+									</div>
+									<hr class="mt-15px mb-15px" />
+									<div class="d-flex align-items-center mb-2">
+										<div class="fw-400 me-2">
+											Task (0/1)
+										</div>
+										<div>
+											<a href="#" class="text-white text-opacity-50" data-bs-toggle="collapse" data-bs-target="#inProgress2Board">
+												<i class="fa fa-plus-circle"></i>
+											</a>
+										</div>
+										<div class="progress progress-xs w-100px me-2 ms-auto" style="height: 6px;">
+											<div class="progress-bar progress-bar-striped bg-danger" style="width: 5%;"></div>
+										</div>
+										<div class="fs-12px">0%</div>
+									</div>
+									<div class="form-group mb-1">
+										<div class="collapse show" id="inProgress2Board">
+											<div class="form-check mb-2px">
+												<input type="checkbox" class="form-check-input" id="customCheck6" />
+												<label class="form-check-label small" for="customCheck6">debug and fix mobile auto close while using GPS issue</label>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<!-- END list-group-item -->
+						</div>
+						<!-- END list-group -->
+						<!-- BEGIN card-arrow -->
+						<div class="card-arrow">
+							<div class="card-arrow-top-left"></div>
+							<div class="card-arrow-top-right"></div>
+							<div class="card-arrow-bottom-left"></div>
+							<div class="card-arrow-bottom-right"></div>
+						</div>
+						<!-- END card-arrow -->
+					</div>
+					<!-- END card -->
+				</div>
+				<!-- END col-4 -->
+				</div>
+			</div>
+			<!-- END row -->
+			
+			<!-- BEGIN modal -->
+			<div class="modal fade" id="modalAddTask">
+				<div class="modal-dialog">
+					<div class="modal-content">
+						<div class="modal-header">
+							<h5 class="modal-title">Add Task</h5>
+							<button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+						</div>
+						<div class="modal-body">
+							<div class="mb-3">
+								<label class="form-label">Title</label>
+								<input type="text" class="form-control" placeholder="e.g Feature enhancement" />
+							</div>
+							<div class="mb-3">
+								<label class="form-label">Status</label>
+								<select class="form-select">
+									<option value="">To Do</option>
+									<option value="">In Progress</option>
+									<option value="">Done</option>
+								</select>
+							</div>
+							<div class="mb-3">
+								<label class="form-label">Tags</label>
+								<ul id="jquery-tagit" class="tagit form-control">
+									<li>enhancement</li>
+								</ul>
+							</div>
+							<div class="form-group">
+								<label>Description</label>
+								<textarea class="form-control" rows="10"></textarea>
+							</div>
+						</div>
+						<div class="modal-footer">
+							<a href="#" class="btn btn-outline-default" data-bs-dismiss="modal">Cancel</a>
+							<button type="button" class="btn btn-outline-theme">Create</button>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- END modal -->
+		</div>
+		<!-- END #content -->
+		
+		<!-- BEGIN btn-scroll-top -->
+		<a href="#" data-toggle="scroll-to-top" class="btn-scroll-top fade"><i class="fa fa-arrow-up"></i></a>
+		<!-- END btn-scroll-top -->
+	</div>
+	<!-- END #app -->
+	
+	<!-- ================== BEGIN core-js ================== -->
+	<script src="assets/js/vendor.min.js"></script>
+	<script src="assets/js/app.min.js"></script>
+	<!-- ================== END core-js ================== -->
+	
+	<!-- ================== BEGIN page-js ================== -->
+	<script src="assets/plugins/jquery-migrate/dist/jquery-migrate.min.js"></script>
+	<script src="assets/plugins/tag-it/js/tag-it.min.js"></script>
+	<script src="assets/js/demo/page-scrum-board.demo.js"></script>
+	<!-- ================== END page-js ================== -->
+</body>
+</html>

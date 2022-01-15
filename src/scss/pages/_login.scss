@@ -1,0 +1,20 @@
+.login {
+	min-height: 100vh;
+	padding: $spacer * 3 $spacer;
+	display: flex;
+	align-items: center;
+	background-image: url('/assets/img/cover/brown-bear-dark.jpg');
+	// background-repeat: no-repeat;
+	background-size: cover;
+
+	@include media-breakpoint-down(md) {
+		padding: $spacer;
+	}
+	
+	& .login-content {
+		max-width: rem(360px);
+		margin: 0 auto;
+		position: relative;
+		flex: 1;
+	}
+}

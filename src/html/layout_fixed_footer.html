@@ -1,0 +1,56 @@
+@@include('./partial/head.html', {
+	"title": "Fixed Footer", 
+	"css": [
+]})
+	<!-- BEGIN #app -->
+	<div id="app" class="app app-footer-fixed">
+		@@include('./partial/header.html')
+		
+		@@include('./partial/sidebar.html', {"layoutClass": "active", "fixedFooterClass": "active"})
+		
+		<!-- BEGIN #content -->
+		<div id="content" class="app-content">
+			<ul class="breadcrumb">
+				<li class="breadcrumb-item"><a href="#">LAYOUT</a></li>
+				<li class="breadcrumb-item active">FIXED FOOTER</li>
+			</ul>
+			
+			<h1 class="page-header">
+				Fixed Footer <small>page header description goes here...</small>
+			</h1>
+			
+			<hr class="mb-4" />
+			
+			<p>
+				Add the <code>.app-fixed-footer</code> css class to <code>.app</code> container for fixed footer page setting.
+			</p>
+			
+			<div class="card">
+				<div class="hljs-container border-0">
+					<pre><code class="xml">&lt;div id="app" class="app app-footer-fixed"&gt;
+  ...
+  &lt;div id="footer" class="app-footer"&gt;
+    &copy; 2022 seanTheme All Right Reserved
+  &lt;/div&gt;
+&lt;/div&gt;</code></pre>
+				</div>
+				<div class="card-arrow">
+					<div class="card-arrow-top-left"></div>
+					<div class="card-arrow-top-right"></div>
+					<div class="card-arrow-bottom-left"></div>
+					<div class="card-arrow-bottom-right"></div>
+				</div>
+			</div>
+		</div>
+		<!-- END #content -->
+		
+		@@include('./partial/footer.html')
+		
+		@@include('./partial/scroll-top-btn.html')
+	</div>
+	<!-- END #app -->
+	
+@@include('./partial/script.html', {"script": [
+	"assets/plugins/highlight.js/highlight.min.js",
+	"assets/js/demo/highlightjs.demo.js"
+]})

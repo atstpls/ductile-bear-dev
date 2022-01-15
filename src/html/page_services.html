@@ -1,0 +1,75 @@
+@@include('./partial/head.html', {
+	"title": "Blog", 
+	"bodyAttr": "class='pace-top'",
+	"css": [
+]})
+	<!-- BEGIN #app -->
+	<div id="app" class="blog app">
+		@@include('./partial/public-header.html')
+				
+		<!-- BEGIN #content -->
+		<div id="content" >
+			<!-- BEGIN container -->
+			<div class="container">
+				<!-- BEGIN row -->
+				<div class="row justify-content-center">
+					<!-- BEGIN col-10 -->
+					<div class="col-xl-10">
+						<!-- BEGIN row -->
+						<div class="row">
+							<!-- BEGIN col-9 -->
+							<div class="col-xl-9">
+								<br></br>
+								<h1 class="page-header">
+									Services
+									<!-- <small>page header description goes here...</small> -->
+								</h1>
+								<hr class="mb-4" />
+								
+								
+								<!-- BEGIN #contentWidget -->
+								<div id="trainingWidget" class="mb-5">
+									<h4>Training</h4>
+									<p>
+										Courses that provide general knowledge, skills, and game plans for surviving the winter 
+									</p>
+								</div>
+								<!-- END #contentWidget -->
+								
+
+								<!-- BEGIN #identityWidget -->
+								<div id="consultingWidget" class="mb-5">
+									<h4>Consulting</h4>
+									<p>
+										Ideas and insights on specific projects and timelines
+									</p>
+								</div>
+								<!-- END #identityWidget -->
+								
+								<!-- BEGIN #moneyWidget -->
+								<div id="moneyWidget" class="mb-5">
+									<h4>Investments</h4>
+									<p>
+										Management of financial assets to ensure optimal profit and performance
+									</p>
+								</div>
+							</div>
+							<!-- END col-3 -->
+						</div>
+						<!-- END row -->
+					</div>
+					<!-- END col-10 -->
+				</div>
+				<!-- END row -->
+			</div>
+			<!-- END container -->
+		</div>
+		<!-- END #content -->
+		
+		@@include('./partial/scroll-top-btn.html')
+	</div>
+	<!-- END #app -->
+	
+@@include('./partial/script.html', {"script": [
+
+]})

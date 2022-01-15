@@ -1,0 +1,355 @@
+@@include('./partial/head.html', {
+	"title": "Gallery", 
+	"htmlAttribute": "itemscope itemtype=\"http://schema.org/WebPage\"",
+	"css": [
+		"assets/plugins/photoswipe/dist/photoswipe.css",
+		"assets/plugins/photoswipe/dist/default-skin/default-skin.css"
+]})
+	<!-- BEGIN #app -->
+	<div id="app" class="app app-content-full-height app-sidebar-collapsed">
+		
+		@@include('./partial/header.html')
+		
+		@@include('./partial/sidebar.html', {"pagesClass": "active", "galleryClass": "active"})
+		
+		<!-- BEGIN #content -->
+		<div id="content" class="app-content p-0">
+			<!-- BEGIN d-flex -->
+			<div class="d-block d-md-flex align-items-stretch h-100">
+				<!-- BEGIN gallery-menu-container -->
+				<div class="gallery-menu-container">
+					<!-- BEGIN scrollbar -->
+					<div data-scrollbar="true" data-height="100%" data-skip-mobile="true">
+						<!-- BEGIN gallery-menu -->
+						<div class="gallery-menu">
+							<div class="p-3 d-flex align-items-center">
+								<a href="javascript:window.history.back();" class="btn btn-outline-default text-nowrap btn-sm px-3 rounded-pill"><i class="fa fa-arrow-left me-1 ms-n1"></i> Back</a>
+							</div>
+							<div class="gallery-menu-header">Main</div>
+							<div class="gallery-menu-item"><a href="#" class="gallery-menu-link active"><i class="fa fa-fw fa-image me-1"></i> Photos</a></div>
+							<div class="gallery-menu-item"><a href="#" class="gallery-menu-link"><i class="fa fa-fw fa-heart me-1"></i> Memories</a></div>
+							<div class="gallery-menu-header">Shared</div>
+							<div class="gallery-menu-item"><a href="#" class="gallery-menu-link"><i class="fa fa-fw fa-cloud me-1"></i> Activity</a></div>
+							<div class="gallery-menu-header">Albums</div>
+							<div class="gallery-menu-item"><a href="#" class="gallery-menu-link"><i class="fa fa-fw fa-camera me-1"></i> All Photos</a></div>
+							<div class="gallery-menu-item"><a href="#" class="gallery-menu-link"><i class="fa fa-fw fa-user me-1"></i> People</a></div>
+							<div class="gallery-menu-item"><a href="#" class="gallery-menu-link"><i class="fa fa-fw fa-map-pin me-1"></i> Places</a></div>
+							<div class="gallery-menu-item"><a href="#" class="gallery-menu-link"><i class="fa fa-fw fa-camera-retro me-1"></i> Selfies</a></div>
+							<div class="gallery-menu-item"><a href="#" class="gallery-menu-link"><i class="fa fa-fw fa-video me-1"></i> Panaromas</a></div>
+							<div class="gallery-menu-item"><a href="#" class="gallery-menu-link"><i class="fa fa-fw fa-star me-1"></i> Depth Effect</a></div>
+							<div class="gallery-menu-item"><a href="#" class="gallery-menu-link"><i class="fa fa-fw fa-mobile me-1"></i> Screenshots</a></div>
+						</div>
+						<!-- END gallery-menu -->
+					</div>
+					<!-- end scrollbar -->
+				</div>
+				<!-- END gallery-menu-container -->
+				<!-- BEGIN gallery-content-container -->
+				<div class="gallery-content-container">
+					<!-- BEGIN scrollbar -->
+					<div data-scrollbar="true" data-height="100%">
+						<!-- BEGIN gallery-content -->
+						<div class="gallery-content">
+							<!-- BEGIN gallery -->
+							<div class="gallery">
+								<!-- BEGIN gallery-header -->
+								<div class="d-flex align-items-center mb-3">
+									<!-- BEGIN gallery-title -->
+									<div class="gallery-title mb-0">
+										<a href="#">
+										Terra <i class="fa fa-chevron-right"></i> 
+										<!-- <small>May 11, 2022</small> -->
+										</a>
+									</div>
+									<!-- END gallery-title -->
+									
+									<!-- BEGIN btn-group -->
+									<div class="ms-auto btn-group">
+										<a href="#" class="btn btn-outline-default btn-sm"><i class="fa fa-play"></i></a>
+										<a href="#" class="btn btn-outline-default btn-sm"><i class="fa fa-plus"></i></a>
+										<a href="#" class="btn btn-outline-default btn-sm"><i class="fa fa-upload"></i></a>
+									</div>
+									<!-- END btn-group -->
+								</div>
+								<!-- END gallery-header -->
+								
+								<!-- BEGIN gallery-image -->
+								<div class="gallery-image">
+									<ul class="gallery-image-list">
+										<li><a href="assets/img/gallery/terra/terra/terra_value.jfif" itemprop="contentUrl" data-size="2400x1400"><img src="assets/img/gallery/terra/terra/terra_value.jfif" itemprop="thumbnail" alt="" class="img-portrait" /></a></li>
+										<li><a href="assets/img/gallery/terra/terra/terra_yield.png" itemprop="contentUrl" data-size="752x442"><img src="assets/img/gallery/terra/terra/terra_yield.png" itemprop="thumbnail" alt="" class="img-portrait" /></a></li>
+										<li><a href="assets/img/gallery/terra/terra/terra_defi_apps.jfif" itemprop="contentUrl" data-size="2400x1400"><img src="assets/img/gallery/terra/terra/terra_defi_apps.jfif" itemprop="thumbnail" alt="" class="img-portrait" /></a></li>
+										<li><a href="assets/img/gallery/terra/terra/terra_eco.jfif" itemprop="contentUrl" data-size="2400x1400"><img src="assets/img/gallery/terra/terra/terra_eco.jfif" itemprop="thumbnail" alt="" class="img-portrait" /></a></li>
+										<li><a href="assets/img/gallery/terra/terra/terra_eco.png" itemprop="contentUrl" data-size="2400x1400"><img src="assets/img/gallery/terra/terra/terra_eco.png" itemprop="thumbnail" alt="" class="img-portrait" /></a></li>
+										<li><a href="assets/img/gallery/terra/terra/terra_nft.jfif" itemprop="contentUrl" data-size="2400x1400"><img src="assets/img/gallery/terra/terra/terra_nft.jfif" itemprop="thumbnail" alt="" class="img-portrait" /></a></li>
+										<li><a href="assets/img/gallery/terra/terra/terra_sol.jpg" itemprop="contentUrl" data-size="2400x1400"><img src="assets/img/gallery/terra/terra/terra_sol.jpg" itemprop="thumbnail" alt="" class="img-portrait" /></a></li>
+										<li><a href="assets/img/gallery/terra/terra/terra_stake.jpg" itemprop="contentUrl" data-size="2400x1400"><img src="assets/img/gallery/terra/terra/terra_stake.jpg" itemprop="thumbnail" alt="" class="img-portrait" /></a></li>
+									</ul>
+								</div>
+								<!-- END gallery-image -->
+							</div>
+							<!-- END gallery -->
+							<!-- BEGIN gallery -->
+							<div class="gallery">
+								<!-- BEGIN gallery-header -->
+								<div class="d-flex align-items-center mb-3">
+									<!-- BEGIN gallery-title -->
+									<div class="gallery-title mb-0">
+										<a href="#">
+										Astroport <i class="fa fa-chevron-right"></i> 
+										<!-- <small>May 8, 2022</small> -->
+										</a>
+									</div>
+									<!-- END gallery-title -->
+									
+									<!-- BEGIN btn-group -->
+									<div class="ms-auto btn-group">
+										<a href="#" class="btn btn-outline-default btn-sm"><i class="fa fa-play"></i></a>
+										<a href="#" class="btn btn-outline-default btn-sm"><i class="fa fa-plus"></i></a>
+										<a href="#" class="btn btn-outline-default btn-sm"><i class="fa fa-upload"></i></a>
+									</div>
+									<!-- END btn-group -->
+								</div>
+								<!-- END gallery-header -->
+								
+								<!-- BEGIN gallery-image -->
+								<div class="gallery-image">
+									<ul class="gallery-image-list">
+										<li><a href="assets/img/gallery/terra/astroport/astroport.jfif" itemprop="contentUrl" data-size="2400x1400"><img src="assets/img/gallery/terra/astroport/astroport.jfif" itemprop="thumbnail" alt="Collection #145 Image 1" /></a></li>
+										<li><a href="assets/img/gallery/terra/astroport/astroport.jpg" itemprop="contentUrl" data-size="2400x1400"><img src="assets/img/gallery/terra/astroport/astroport.jpg" itemprop="thumbnail" alt="Collection #145 Image 2" /></a></li>
+									</ul>
+								</div>
+								<!-- END gallery-image -->
+							</div>
+							<!-- END gallery -->
+							<!-- BEGIN gallery -->
+							<div class="gallery">
+								<!-- BEGIN gallery-header -->
+								<div class="d-flex align-items-center mb-3">
+									<!-- BEGIN gallery-title -->
+									<div class="gallery-title mb-0">
+										<a href="#">
+										Kujira <i class="fa fa-chevron-right"></i> 
+										<small>May 4, 2022</small>
+										</a>
+									</div>
+									<!-- END gallery-title -->
+									
+									<!-- BEGIN btn-group -->
+									<div class="ms-auto btn-group">
+										<a href="#" class="btn btn-outline-default btn-sm"><i class="fa fa-play"></i></a>
+										<a href="#" class="btn btn-outline-default btn-sm"><i class="fa fa-plus"></i></a>
+										<a href="#" class="btn btn-outline-default btn-sm"><i class="fa fa-upload"></i></a>
+									</div>
+									<!-- END btn-group -->
+								</div>
+								<!-- END gallery-header -->
+								
+								<!-- BEGIN gallery-image -->
+								<div class="gallery-image">
+									<ul class="gallery-image-list">
+										<li><a href="assets/img/gallery/terra/kujira/kujira.jpg" itemprop="contentUrl" data-size="2400x1400"><img src="assets/img/gallery/terra/kujira/kujira.jpg" itemprop="thumbnail" alt="Collection #145 Image 1" /></a></li>
+									</ul>
+								</div>
+								<!-- END gallery-image -->
+							</div>
+							<!-- END gallery -->
+
+
+
+						<!-- BEGIN gallery -->
+							<div class="gallery">
+								<!-- BEGIN gallery-header -->
+								<div class="d-flex align-items-center mb-3">
+									<!-- BEGIN gallery-title -->
+									<div class="gallery-title mb-0">
+										<a href="#">
+										Whale <i class="fa fa-chevron-right"></i> 
+										<!-- <small>May 8, 2022</small> -->
+										</a>
+									</div>
+									<!-- END gallery-title -->
+									
+									<!-- BEGIN btn-group -->
+									<div class="ms-auto btn-group">
+										<a href="#" class="btn btn-outline-default btn-sm"><i class="fa fa-play"></i></a>
+										<a href="#" class="btn btn-outline-default btn-sm"><i class="fa fa-plus"></i></a>
+										<a href="#" class="btn btn-outline-default btn-sm"><i class="fa fa-upload"></i></a>
+									</div>
+									<!-- END btn-group -->
+								</div>
+								<!-- END gallery-header -->
+								
+								<!-- BEGIN gallery-image -->
+								<div class="gallery-image">
+									<ul class="gallery-image-list">
+										<li><a href="assets/img/gallery/terra/whale/whitewhale.jfif" itemprop="contentUrl" data-size="2400x1400"><img src="assets/img/gallery/terra/whale/whitewhale.jfif" itemprop="thumbnail" alt="Collection #145 Image 1" /></a></li>
+									</ul>
+								</div>
+								<!-- END gallery-image -->
+							</div>
+							<!-- END gallery -->
+							<!-- BEGIN gallery -->
+							<div class="gallery">
+								<!-- BEGIN gallery-header -->
+								<div class="d-flex align-items-center mb-3">
+									<!-- BEGIN gallery-title -->
+									<div class="gallery-title mb-0">
+										<a href="#">
+										Mars <i class="fa fa-chevron-right"></i> 
+										<small>May 4, 2022</small>
+										</a>
+									</div>
+									<!-- END gallery-title -->
+									
+									<!-- BEGIN btn-group -->
+									<div class="ms-auto btn-group">
+										<a href="#" class="btn btn-outline-default btn-sm"><i class="fa fa-play"></i></a>
+										<a href="#" class="btn btn-outline-default btn-sm"><i class="fa fa-plus"></i></a>
+										<a href="#" class="btn btn-outline-default btn-sm"><i class="fa fa-upload"></i></a>
+									</div>
+									<!-- END btn-group -->
+								</div>
+								<!-- END gallery-header -->
+								
+								<!-- BEGIN gallery-image -->
+								<div class="gallery-image">
+									<ul class="gallery-image-list">
+										<li><a href="assets/img/gallery/terra/mars/mars.jfif" itemprop="contentUrl" data-size="2400x1400"><img src="assets/img/gallery/terra/mars/mars.jfif" itemprop="thumbnail" alt="Collection #145 Image 1" /></a></li>
+										<li><a href="assets/img/gallery/terra/mars/mars_anchor.jfif" itemprop="contentUrl" data-size="2400x1400"><img src="assets/img/gallery/terra/mars/mars_anchor.jfif" itemprop="thumbnail" alt="Collection #145 Image 1" /></a></li>
+									</ul>
+								</div>
+								<!-- END gallery-image -->
+							</div>
+							<!-- END gallery -->
+							
+							
+
+
+
+							<!-- BEGIN gallery -->
+							<div class="gallery">
+								<!-- BEGIN gallery-header -->
+								<div class="d-flex align-items-center mb-3">
+									<!-- BEGIN gallery-title -->
+									<div class="gallery-title mb-0">
+										<a href="#">
+										Anchor <i class="fa fa-chevron-right"></i> 
+										<!-- <small>May 3, 2022</small> -->
+										</a>
+									</div>
+									<!-- END gallery-title -->
+									
+									<!-- BEGIN btn-group -->
+									<div class="ms-auto btn-group">
+										<a href="#" class="btn btn-outline-default btn-sm"><i class="fa fa-play"></i></a>
+										<a href="#" class="btn btn-outline-default btn-sm"><i class="fa fa-plus"></i></a>
+										<a href="#" class="btn btn-outline-default btn-sm"><i class="fa fa-upload"></i></a>
+									</div>
+									<!-- END btn-group -->
+								</div>
+								<!-- END gallery-header -->
+								
+								<!-- BEGIN gallery-image -->
+								<div class="gallery-image">
+									<ul class="gallery-image-list">
+										<li><a href="assets/img/gallery/terra/anchor/anchor_beth.jpg" itemprop="contentUrl" data-size="2400x1400"><img src="assets/img/gallery/terra/anchor/anchor_beth.jpg" itemprop="thumbnail" alt="Collection #145 Image 1" /></a></li>
+										<li><a href="assets/img/gallery/terra/anchor/anchor_flow.jfif" itemprop="contentUrl" data-size="2400x1400"><img src="assets/img/gallery/terra/anchor/anchor_flow.jfif" itemprop="thumbnail" alt="Collection #145 Image 1" /></a></li>
+										<li><a href="assets/img/gallery/terra/anchor/anchor_mars_anchor.jfif" itemprop="contentUrl" data-size="2400x1400"><img src="assets/img/gallery/terra/anchor/mars_anchor.jfif" itemprop="thumbnail" alt="Collection #145 Image 2" /></a></li>
+									</ul>
+								</div>
+								<!-- END gallery-image -->
+							</div>
+							<!-- END gallery -->
+							<!-- BEGIN gallery -->
+							<div class="gallery">
+								<!-- BEGIN gallery-header -->
+								<div class="d-flex align-items-center mb-3">
+									<!-- BEGIN gallery-title -->
+									<div class="gallery-title mb-0">
+										<a href="#">
+											Levana <i class="fa fa-chevron-right"></i> 
+											<!-- <small>May 1, 2022</small> -->
+										</a>
+									</div>
+									<!-- END gallery-title -->
+									
+									<!-- BEGIN btn-group -->
+									<div class="ms-auto btn-group">
+										<a href="#" class="btn btn-outline-default btn-sm"><i class="fa fa-play"></i></a>
+										<a href="#" class="btn btn-outline-default btn-sm"><i class="fa fa-plus"></i></a>
+										<a href="#" class="btn btn-outline-default btn-sm"><i class="fa fa-upload"></i></a>
+									</div>
+									<!-- END btn-group -->
+								</div>
+								<!-- END gallery-header -->
+								
+								<!-- BEGIN gallery-image -->
+								<div class="gallery-image">
+									<ul class="gallery-image-list">
+										<li><a href="assets/img/gallery/terra/levana/levana.jfif" itemprop="contentUrl" data-size="2400x1400"><img src="assets/img/gallery/terra/levana/levana.jfif" itemprop="thumbnail" alt="Collection #145 Image 1" /></a></li>
+										<li><a href="assets/img/gallery/terra/levana/levana_breakdown.png" itemprop="contentUrl" data-size="2400x1400"><img src="assets/img/gallery/terra/levana/levana_breakdown.png" itemprop="thumbnail" alt="Collection #145 Image 2" /></a></li>
+										<li><a href="assets/img/gallery/terra/levana/levana_eggs.jfif" itemprop="contentUrl" data-size="2400x1400"><img src="assets/img/gallery/terra/levana/levana_eggs.jfif" itemprop="thumbnail" alt="Collection #145 Image 1" /></a></li>
+										<li><a href="assets/img/gallery/terra/levana/levana_meteors.jfif" itemprop="contentUrl" data-size="2400x1400"><img src="assets/img/gallery/terra/levana/levana_meteors.jfif" itemprop="thumbnail" alt="Collection #145 Image 2" /></a></li>
+									</ul>
+								</div>
+								<!-- END gallery-image -->
+							</div>
+							<!-- END gallery -->
+						</div>
+						<!-- END gallery-content -->
+					</div>
+					<!-- END scrollbar -->
+				</div>
+				<!-- END gallery-content-container -->
+			</div>
+			<!-- END d-flex -->
+		</div>
+		<!-- END #content -->
+		
+		@@include('./partial/scroll-top-btn.html')
+	</div>
+	<!-- END #app -->
+	
+	<!-- BEGIN photoswipe -->
+	<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+		<div class="pswp__bg"></div>
+		<div class="pswp__scroll-wrap">
+			<div class="pswp__container">
+				<div class="pswp__item"></div>
+				<div class="pswp__item"></div>
+				<div class="pswp__item"></div>
+			</div>
+			<div class="pswp__ui pswp__ui--hidden">
+				<div class="pswp__top-bar">
+					<div class="pswp__counter"></div>
+					<button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+					<button class="pswp__button pswp__button--share" title="Share"></button>
+					<button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+					<button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+					<div class="pswp__preloader">
+						<div class="pswp__preloader__icn">
+						  <div class="pswp__preloader__cut">
+							<div class="pswp__preloader__donut"></div>
+						  </div>
+						</div>
+					</div>
+				</div>
+				<div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+					<div class="pswp__share-tooltip"></div> 
+				</div>
+				<button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)"></button>
+				<button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)"></button>
+				<div class="pswp__caption">
+					<div class="pswp__caption__center"></div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- END photoswipe -->
+	
+@@include('./partial/script.html', {"script": [
+	"assets/plugins/photoswipe/dist/photoswipe-ui-default.min.js",
+	"assets/plugins/photoswipe/dist/photoswipe.min.js",
+	"assets/js/demo/page-gallery.demo.js"
+]})

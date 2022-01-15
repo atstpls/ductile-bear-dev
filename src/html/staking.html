@@ -1,0 +1,304 @@
+@@include('./partial/head.html', {"title": "Staking", "css": [
+	'assets/plugins/jvectormap-next/jquery-jvectormap.css'
+]})
+	<!-- BEGIN #app -->
+	<div id="app" class="app">
+		@@include('./partial/header.html')
+		
+		@@include('./partial/sidebar.html', {"homeClass": "active"})
+		
+		<!-- BEGIN #content -->
+		<div id="content" class="app-content">
+			<!-- BEGIN row -->
+			<div class="row">
+
+				<div class="col-xl-12">
+					<!-- BEGIN card -->
+					<div class="card mb-3">
+						<!-- BEGIN card-body -->
+						<div class="card-body">
+							<!-- BEGIN title -->
+							<!-- <div class="d-flex fw-bold small mb-3">
+								<span class="flex-grow-1">STAKING</span>
+								<a href="#" data-toggle="card-expand" class="text-white text-opacity-50 text-decoration-none"><i class="bi bi-fullscreen"></i></a>
+							</div> -->
+							<!-- END title -->
+							<!-- BEGIN table -->
+							<div class="table-responsive">
+								<table class="table table-striped table-borderless mb-2px large text-nowrap" style="font-size: 14px">
+									<thead style="margin-bottom: 12px">
+										<tr class="text-white text-opacity-75">
+											<th class="w-50 text-primary ">TOKEN</th>
+											<th class="w-50 text-primary ">QTY</th>
+											<th class="w-50 text-primary ">USD</th>
+											<th class="w-50 text-primary ">TOTAL</th>
+											<th class="w-50 text-primary">% APR</th>
+											<th class="w-50 text-primary ">1W (QTY)</th>
+											<th class="w-50 text-primary ">1W (USD)</th>
+											<th class="w-50 text-primary ">1M (QTY)</th>											
+											<th class="w-50 text-primary ">1M (USD)</th>
+											<th class="w-50 text-primary ">1Y (QTY)</th>
+											<th class="w-50 text-primary ">1Y (USD)</th>											
+										</tr>
+									</thead>
+									<tbody>
+										<tr>
+											<td>
+												<img src="assets/img/avatars/cro.png" alt="" height=24 width=24/>
+												<span  style="margin-left: 8px">CRO</span>
+											</td>
+											<td>212,363</td>
+											<td>$ 0.45 	</td>
+											<td>$ 95,835.23</td>
+											<td> 12% </td>
+											<td>491 </td>
+											<td><span class="text-success fw-bold">  $ 221.15</span></td>										
+											<td>1964</td>
+											<td><span class="text-success fw-bold">  $ 884.60</span></td>										
+											<td>25,532</td>
+											<td><span class="text-success fw-bold"> $ 11,499.80</span></td>																			
+										</tr>
+										<tr>
+											<td>
+												<img src="assets/img/avatars/ust.png" alt="" height=24 width=24/>
+												<span  style="margin-left: 8px">UST</span>
+											</td>
+											<td>42,527</td>
+											<td>
+												$ 1.00
+											</td>
+											<td>$ 42,527 </td>
+											<td> 20 % </td>									
+											<td>160.11</td>
+											<td><span class="text-success fw-bold"> $ 160.11</span></td>										
+											<td>640.44 </td>									
+											<td><span class="text-success fw-bold"> $ 640.44</span></td>										
+											<td>8,325</td>									
+											<td> <span class="text-success fw-bold">$ 8,325.72</span></td>										</tr>
+										<tr>
+											<td>
+												<img src="assets/img/avatars/ubx.png" alt="" height=24 width=24/>
+												<span  style="margin-left: 8px">UBX</span>
+											</td>
+											<td>23,787,696</td>
+											<td>
+												$ 0.000370
+											</td>
+											<td>$ 8,801.45</td>
+											<td> 16-20% </td>									
+											<td> 280,729</td>									
+											<td><span class="text-success fw-bold"> $ 103.86</span></td>										
+											<td> 1,122,916</td>									
+											<td><span class="text-success fw-bold"> $ 415.44</span></td>										
+											<td> 14,597,908</td>									
+											<td><span class="text-success fw-bold"> $ 5,400.72</span></td>										</tr>
+										<tr>
+											<td>
+												<img src="assets/img/avatars/cro.png" alt="" height=24 width=24/>
+												<span  style="margin-left: 8px">CRO</span>
+											</td>
+											<td>32,769</td>
+											<td>
+												$ 0.45
+											</td>
+											<td>$ 15,070.36</td>
+											<td> 10% </td>									
+											<td> 64</td>									
+											<td><span class="text-success fw-bold">  $ 28.80</span></td>										
+											<td> 256</td>									
+											<td><span class="text-success fw-bold"> $ 115.20</span></td>										
+											<td> 3,328</td>									
+											<td><span class="text-success fw-bold"> $ 1,497</span></td>										</tr>
+
+										<tr>
+											<td>
+												<img src="assets/img/avatars/starl.jpg" alt="" height=24 width=24/>
+												<span  style="margin-left: 8px">STARL</span>
+											</td>
+											<td>53,133,880.88</td>
+											<td>
+												$ 0.0000269
+											</td>
+											<td>$ 1,418.34</td>
+											<td> 0% </td>
+											<td> 0</td>									
+											<td><span class="text-success fw-bold"> $ 0</span></td>										
+											<td> 0</td>									
+											<td><span class="text-success fw-bold"> $ 0</span></td>										
+											<td> 0</td>									
+											<td><span class="text-success fw-bold"> $ 0</span></td>													</tr>
+										<tr>
+											<td>
+												<img src="assets/img/avatars/rune.png" alt="" height=24 width=24/>
+												<span  style="margin-left: 8px">RUNE</span>
+											</td>
+											<td>0</td>
+											<td>
+												$ 6.38
+											</td>
+											<td>$ 0</td>
+											<td> 0% </td>
+											<td> 0</td>									
+											<td><span class="text-success fw-bold"> $ 0</span></td>										
+											<td> 0</td>									
+											<td><span class="text-success fw-bold"> $ 0</span></td>										
+											<td> 0</td>									
+											<td><span class="text-success fw-bold"> $ 0</span></td>												</tr>
+										<tr>
+											<td>
+												<img src="assets/img/avatars/vra.png" alt="" height=24 width=24/>
+												<span  style="margin-left: 8px">VRA</span>
+											</td>
+											<td>0</td>
+											<td>
+												$ 0.3125
+											</td>
+											<td>$ 0 </td>
+											<td> 0 % </td>
+											<td> 0</td>									
+											<td><span class="text-success fw-bold"> $ 0</span></td>										
+											<td> 0</td>									
+											<td><span class="text-success fw-bold"> $ 0</span></td>										
+											<td> 0</td>									
+											<td><span class="text-success fw-bold"> $ 0</span></td>													</tr>
+										<tr>
+											<td>
+												<img src="assets/img/avatars/luna.png" alt="" height=24 width=24/>
+												<span  style="margin-left: 8px">LUNA</span>
+											</td>
+											<td>0</td>
+											<td>
+												$ 80.09
+											</td>
+											<td>$ 0 </td>
+											<td> 0 % </td>
+											<td> 0</td>									
+											<td><span class="text-success fw-bold"> $ 0</span></td>										
+											<td> 0</td>									
+											<td><span class="text-success fw-bold"> $ 0</span></td>										
+											<td> 0</td>									
+											<td><span class="text-success fw-bold"> $ 0</span></td>												</tr>
+										<tr>
+											<td>
+												<img src="assets/img/avatars/suter.png" alt="" height=24 width=24/>
+												<span  style="margin-left: 8px">SUTER</span>
+											</td>
+											<td>0</td>
+											<td>
+												$ 0.00451
+											</td>
+											<td>$ 0 </td>
+											<td> 0 % </td>
+											<td> 0</td>									
+											<td><span class="text-success fw-bold"> $ 0</span></td>										
+											<td> 0</td>									
+											<td><span class="text-success fw-bold"> $ 0</span></td>										
+											<td> 0</td>									
+											<td><span class="text-success fw-bold"> $ 0</span></td>													</tr>
+										<tr>
+											<td>
+												<img src="assets/img/avatars/sol.png" alt="" height=24 width=24/>
+												<span  style="margin-left: 8px">SOL</span>
+											</td>
+											<td>0</td>
+											<td>
+												$ 146.40
+											</td>
+											<td>$ 0 </td>
+											<td> 0 % </td>
+											<td> 0</td>									
+											<td><span class="text-success fw-bold"> $ 0</span></td>										
+											<td> 0</td>									
+											<td><span class="text-success fw-bold"> $ 0</span></td>										
+											<td> 0</td>									
+											<td><span class="text-success fw-bold"> $ 0</span></td>										
+										</tr>
+										<tr>
+											<td>
+												<img src="assets/img/avatars/ftm.png" alt="" height=24 width=24/>
+												<span  style="margin-left: 8px">FTM</span>
+											</td>
+											<td>0</td>
+											<td>
+												$ 146.40
+											</td>
+											<td>$ 0 </td>
+											<td> 0 % </td>
+											<td> 0</td>									
+											<td><span class="text-success fw-bold"> $ 0</span></td>										
+											<td> 0</td>									
+											<td><span class="text-success fw-bold"> $ 0</span></td>										
+											<td> 0</td>									
+											<td><span class="text-success fw-bold"> $ 0</span></td>										
+										</tr>
+										<tr>
+											<td>
+												<img src="assets/img/avatars/loop.png" alt="" height=24 width=24/>
+												<span  style="margin-left: 8px">LOOP</span>
+											</td>
+											<td>0</td>
+											<td>
+												$ 146.40
+											</td>
+											<td>$ 0 </td>
+											<td> 0 % </td>
+											<td> 0</td>									
+											<td><span class="text-success fw-bold"> $ 0</span></td>										
+											<td> 0</td>									
+											<td><span class="text-success fw-bold"> $ 0</span></td>										
+											<td> 0</td>									
+											<td><span class="text-success fw-bold"> $ 0</span></td>										
+										</tr>
+										<tr>
+											<td>
+												<img src="assets/img/avatars/avax.png" alt="" height=24 width=24/>
+												<span  style="margin-left: 8px">AVAX</span>
+											</td>
+											<td>0</td>
+											<td>
+												$ 146.40
+											</td>
+											<td>$ 0 </td>
+											<td> 0 % </td>
+											<td> 0</td>									
+											<td><span class="text-success fw-bold"> $ 0</span></td>										
+											<td> 0</td>									
+											<td><span class="text-success fw-bold"> $ 0</span></td>										
+											<td> 0</td>									
+											<td><span class="text-success fw-bold"> $ 0</span></td>										
+										</tr>									</tbody>
+								</table>
+							</div>
+							<!-- END table -->
+						</div>
+						<!-- END card-body -->
+						
+						<!-- BEGIN card-arrow -->
+						<div class="card-arrow">
+							<div class="card-arrow-top-left"></div>
+							<div class="card-arrow-top-right"></div>
+							<div class="card-arrow-bottom-left"></div>
+							<div class="card-arrow-bottom-right"></div>
+						</div>
+						<!-- END card-arrow -->
+					</div>
+					<!-- END card -->
+				</div>
+				<!-- END col-6 -->				
+			</div>
+			<!-- END row -->
+		</div>
+		<!-- END #content -->
+		@@include('./partial/scroll-top-btn.html')
+	</div>
+	<!-- END #app -->
+	
+@@include('./partial/script.html', {"script": [
+	'assets/plugins/jvectormap-next/jquery-jvectormap.min.js',
+	'assets/plugins/jvectormap-next/jquery-jvectormap-world-mill.js',
+	'assets/js/demo/dashboard.demo.js', 
+	'assets/js/stakingScript.js',
+	"assets/plugins/apexcharts/dist/apexcharts.min.js",
+	"assets/js/demo/chart-apex.demo.js"
+
+]})
