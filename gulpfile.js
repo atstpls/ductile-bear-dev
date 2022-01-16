@@ -192,9 +192,9 @@ gulp.task('watch', function () {
 
 gulp.task('webserver', function() {
 	connect.server({
-		name: 'HUD ADMIN',
+		name: 'DUCTILE BEAR DEVELOPMENT',
 		root: ['./dist/'],
-		port: 443,
+		port: 8000,
 		livereload: true,
 		fallback: 'index.html'
 	});

@@ -12,7 +12,7 @@
   },
   "author": "SeanTheme",
   "license": "ISC",
-  "devDependencies": {
+  "dependencies": {
     "gulp": "^4.0.2",
     "gulp-clean-css": "^4.3.0",
     "gulp-concat": "^2.6.1",
@@ -24,9 +24,7 @@
     "gulp-livereload": "^4.0.2",
     "gulp-sass": "^5.0.0",
     "gulp-sourcemaps": "^3.0.0",
-    "gulp-uglify": "^3.0.2"
-  },
-  "dependencies": {
+    "gulp-uglify": "^3.0.2",
     "@fortawesome/fontawesome-free": "^6.0.0-beta3",
     "@fullcalendar/bootstrap": "^5.10.1",
     "@fullcalendar/core": "^5.10.1",
